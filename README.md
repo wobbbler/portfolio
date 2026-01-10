@@ -1,7 +1,6 @@
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![K8s](https://img.shields.io/badge/K8s-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
@@ -22,8 +21,7 @@ This is my portfolio showcasing Spring Boot projects, my technology stack, and i
 - Spring Security
 - Spring Data JPA/H2
 - MS SQL Server
-- Docker
-/k8s...
+- Docker/Docker Compose
 - Git
 - Maven
   
@@ -31,18 +29,16 @@ This is my portfolio showcasing Spring Boot projects, my technology stack, and i
 - REST API
 - JWT Authentication
 - Unit & Integration Testing
-  └──> JUnit, Mockito, Spring Boot Test, Testcontainers
+  └──> JUnit, Mockito, Spring Boot Test, Testcontainer
 - API Documentation
   └──> Swagger/OpenAPI
-- Docker Compose
-- CI/CD pipelines basics -> GitHub Actions...
+- CI/CD pipelines basics -> GitHub Actions
 - Database Migrations
   └──> Flyway/Liquibase
-- Caching: Redis ...
-- Kafka ...
-☁️ Cloud
-- AWS ...
-  └──> Elastic Beanstalk, ECS/EKS, RDS, S3, API Gateway, ALB/NLB, SNS/SQS
+- Caching: Redis
+- Kafka
+- AWS
+  └──> S3, RDS, EC2, IAM 
 ```
 
 ## 📁 Repository Structure
