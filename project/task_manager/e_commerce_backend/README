@@ -1,0 +1,13 @@
+    Goal: Demonstrate working with Redis and Kafka.
+
+    Functionality:
+
+        Product catalog, shopping cart, orders.
+
+        Redis for caching (e.g., top-selling products).
+
+        Kafka for events (order creation → notification).
+
+    Technologies: Spring Boot, Redis, Kafka, Docker.
+
+    What it demonstrates: Asynchronous processing, caching, service integration.

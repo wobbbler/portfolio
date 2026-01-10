@@ -1,0 +1,15 @@
+    Goal: Demonstrate full development cycle: REST API, authentication, documentation, CI/CD.
+
+    Functionality:
+
+        Registration/login with JWT.
+
+        CRUD for projects and tasks.
+
+        User roles (admin, user).
+
+        Swagger/OpenAPI documentation.
+
+    Technologies: Spring Boot, Spring Security, JPA + MS SQL, Docker Compose, Testcontainers.
+
+    What it demonstrates: Ability to build secure REST APIs and test them comprehensively.
