@@ -2,7 +2,7 @@
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-```markdown
+
 # 👨‍💻 Java Backend Developer Portfolio
 
 Hi! I'm Nikita, 15y.o., a Java backend developer. This repository contains my projects and code samples.
@@ -33,6 +33,7 @@ This is my portfolio showcasing Spring Boot projects, my technology stack, and i
 - Database Migrations (Flyway/Liquibase)
 
 ## 📁 Repository Structure
+```
 portfolio/
 └── project/
     ├── project1
@@ -40,9 +41,8 @@ portfolio/
     └── project3
 ```
 
-```
 ## 🔧 How to Run Projects
-```
+
 ``` bash
 docker-compose up
 ```
