@@ -46,6 +46,7 @@ This is my portfolio showcasing Spring Boot projects, my technology stack, and i
 ```
 
 ## 📁 Repository Structure
+in future make repo for other project witch descr. ...
 ```
 portfolio/
 └── project/
