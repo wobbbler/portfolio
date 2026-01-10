@@ -49,9 +49,10 @@ This is my portfolio showcasing Spring Boot projects, my technology stack, and i
 ```
 portfolio/
 └── project/
-    ├── project1
-    ├── project2
-    └── project3
+    ├── analystics_service
+    ├── e_commerece_backend
+    ├── microservice
+    └── task_manager
 ```
 
 ## 🔧 How to Run Projects
