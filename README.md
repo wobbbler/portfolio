@@ -13,7 +13,6 @@
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white)
-COLORRRRRRRRRRRRRRRRRR
 ---
 # 👨‍💻 **Hi! I'm Nikita J. | wobbbler9@gmail.com | [@wobbbler](https://t.me/wobbbler)**
 **Hi! I'm a Java developer**
