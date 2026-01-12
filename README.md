@@ -6,11 +6,14 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)   
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGVsbGlwc2UgY3g9IjMyIiBjeT0iMTIiIHJ4PSIyMCIgcnk9IjgiIGZpbGw9IndoaXRlIi8+PHBhdGggZD0iTTEyIDEydjMyYzAgNC40IDkgOCAyMCA4czIwLTMuNiAyMC04VjEyIiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg==) 
+![H2 Database](https://img.shields.io/badge/H2-003366?style=for-the-badge&logo=h2&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white) 
 ![Spring Framework](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white) 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) 
+![Spring Boot Test](https://img.shields.io/badge/Spring%20Boot%20Test-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white) 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) 
+![Testcontainers](https://img.shields.io/badge/Testcontainers-0E83CD?style=for-the-badge&logo=testcontainers&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) 
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white) 
@@ -24,8 +27,6 @@
 
 Hi! I'm a Java developer
 my expipiance над чем я работал
-
-aws s3 amazon rds iam
 
 many bulitpoint что я делал там и зачем как помогает  как оно работает для чего сколько запросов пользователей оно выдерживает
 что тебя выделяет итд посмотри от лица рекрута как у мишустина ПРО СТЕК НЕ ЗАБЫВАТЬ ВСЁ ДОЛЖНО БЫТЬ ГАРМОНИЧНО  что как зачем
