@@ -9,10 +9,7 @@
 - SQL
 - Spring Security / JWT
 - API Gateway (Spring Cloud Gateway)
-- Spring Cloud Config
-- CI/CD: GitHub Actions, GitLab CI, Jenkins.
-- Monitoring & Logging: Prometheus, Grafana, ELK (Elastic + Logstash + Kibana).
-- Testing: JUnit, Testcontainers, Mockito.
+- Testing: JUnit, Testcontainers, Mockito. пропустить можно 
 - Documentation: Swagger/OpenAPI.
 ---
 **👨‍💻Hi! I'm Nikita J. | wobbbler9@gmail.com | [@wobbbler](https://t.me/wobbbler)**
