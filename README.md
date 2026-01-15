@@ -5,7 +5,16 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) 
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white) 
-это не весь стэк посмотри чо надо
+Java Hibernate Spring Boot Docker Kubernetes Redis Kafka
+
+- SQL/MS SQL Server
+- Spring Security / JWT — аутентификация и авторизация.
+- API Gateway (Spring Cloud Gateway) — маршрутизация запросов.
+- Spring Cloud Config — централизованная конфигурация.
+- CI/CD: GitHub Actions, GitLab CI, Jenkins.
+- Monitoring & Logging: Prometheus, Grafana, ELK (Elastic + Logstash + Kibana).
+- Testing: JUnit, Testcontainers, Mockito.
+- Documentation: Swagger/OpenAPI.
 ---
 **👨‍💻Hi! I'm Nikita J. | wobbbler9@gmail.com | [@wobbbler](https://t.me/wobbbler)**
 
