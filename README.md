@@ -5,7 +5,6 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) 
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white) 
-Java Hibernate Spring Boot Docker Kubernetes Redis Kafka
 
 - SQL/MS SQL Server
 - Spring Security / JWT — аутентификация и авторизация.
