@@ -9,6 +9,7 @@ java, hibernate, spring boot, spring security (jwt), docker, redis, kafka, mssql
 - API Gateway (Spring Cloud Gateway)
 - Documentation: Swagger/OpenAPI.
 - ELK stack 
+testing Junit mockito testcontainers spring boot test
 ---
 **👨‍💻Hi! I'm Nikita J. | wobbbler9@gmail.com | [@wobbbler](https://t.me/wobbbler)**
 
