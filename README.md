@@ -6,9 +6,11 @@
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white) 
 java, maven. 
-hibernate, sql.
+hibernate, sql, s3.
 docker, redis, kafka. 
-spring boot, spring security (jwt), Spring Cloud Gateway, spring cloud config.
+spring boot, spring security (jwt)
+
+ 
 Junit, mockito, testcontainers, spring boot test.
 
 ---
