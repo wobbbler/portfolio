@@ -7,7 +7,7 @@
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white) 
 
 1. Язык и сборка:
-   - Java 17/21
+   - Java 21
    - Maven
 
 2. Основной фреймворк:
@@ -18,84 +18,88 @@
    - PostgreSQL
    - Redis
    - Hibernate/JPA
-   - Flyway/Liquibase
+   - Flyway/Liquibas что-тьо одно
+   - Backup стратегия какая?
 
 4. Безопасность:
    - Spring Security 6.x
    - JWT
    - BCrypt для хеширования
-   - Let's Encrypt
+   - Rate limiting (Resilience4j)
+   - Rate limiting (Ingress)
 
 5. Документация:
    - Springdoc OpenAPI 2.x
    - OpenAPI Specification 3.x
   
-6. Service Discovery & Configuration:
-   Kubernetes ConfigMaps + Secrets + Sealed Secrets
+6. Конфигурация и секреты:
+   - 12-Factor App принципы
+   - Environment-based конфигурация
+   - Kubernetes ConfigMaps
+   - Kubernetes Secrets + Sealed Secrets
+   - Environment-based configuration
 
 7. API Gateway:
    - Nginx Ingress Controller
+   - cert-manager + Ingress аннотации
    
 8. Межсервисное взаимодействие:
-   - Rabitmq
+   - RabbitMQ 
    - REST API
-
-10. Отказоустойчивость:
-   - Resilience4j (Circuit Breaker, Retry, Rate Limiter)
+   - Resilience4j (Circuit Breaker, Retry)
   
-11. Контейнеризация:
+9. Контейнеризация:
    - Docker
    - Docker Compose
    - Multi-stage builds
    - .dockerignore
+   - Image optimization best practices
 
-12. Оркестрация:
+10. Оркестрация:
    - Kubernetes
    - Основные объекты K8s
+   - Health checks(livenessProbe, readinessProbe)
+   - Autoscaling
+   - Liveness/Readiness
+   - Resource limits
    
-13. Пакетный менеджер:
+11. Пакетный менеджер:
    - Helm 3.x
    - Структура Helm Chart
    - Values.yaml, template functions
+   - Helm-docs
 
-14. Логирование:
+12. Логирование:
 - Logback/SLF4J + JSON формат
 - Вывод в stdout (K8s-friendly)
-- Elasticsearch + Filebeat
+- Loki + Promtail
 
-15. Метрики и мониторинг:
+13. Метрики и мониторинг:
    - Prometheus
    - Grafana 
    - Spring Boot Actuator
    - Micrometer
+   - Alerting 
 
-16. Система контроля версий:
+14. CI/CD:
    - Git (workflow)
    - GitHub
-
-17. Непрерывная интеграция:
    - GitHub Actions
+   - Rollback стратегии
 
-18. Качество кода:
+15. Качество кода:
    - SonarQube
    - Checkstyle+Google Java Format
    - SpotBugs (нахождение реальных багов
    - JaCoCo (покрытие кода)
+   - OWASP Dependency Check
 
-19. Тестирование (полный стек):
+16. Тестирование (полный стек):
    - JUnit 5
    - Mockito
    - Testcontainers (интеграционные тесты)
    - Spring Boot Test
    - Postman (API тесты)
-
-20. Управление секретами:
-   - Kubernetes Secrets
-   
-21. Конфигурация:
-   - 12-Factor App принципы
-   - Environment-based configuration
-
 
 ---
 **👨‍💻Hi! I'm Nikita J. | wobbbler9@gmail.com | [@wobbbler](https://t.me/wobbbler)**
