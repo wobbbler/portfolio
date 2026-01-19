@@ -5,20 +5,26 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) 
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white) 
-java, maven. 
-hibernate, sql, s3.
-docker, redis, kafka. 
-spring boot, spring security (jwt)
 
- 
-Junit, mockito, testcontainers, spring boot test.
+Java, Maven, Spring Boot, Hibernate, SQL, RDS/Postgres, S3
+Spring Security (JWT), Spring Cloud Config, Spring Cloud Gateway, Spring Cloud Netflix Eureka, Resilience4j (circuit breaker, rate limiting)
+Docker, Docker Compose, Redis, Kafka
+Elasticsearch, Logstash, Kibana, Prometheus, Grafana, Zipkin, Spring Cloud Sleuth
+Git, GitHub Actions, SonarQube
+Swagger/OpenAPI
+JUnit, Mockito, Testcontainers, Spring Boot Test
+HashiCorp Vault, .env + переменные окружения
 
 ---
 **👨‍💻Hi! I'm Nikita J. | wobbbler9@gmail.com | [@wobbbler](https://t.me/wobbbler)**
 
 Hi! I'm a Java developer
 my expipiance над чем я работал
- 
+
+ добавил redis для частых запросов и тж
+- Secrets Management: HashiCorp Vault или хотя бы .env + переменные окружения для безопасного хранения ключей и паролей.
+
+
 many bulitpoint что я делал там и зачем как помогает  как оно работает для чего сколько запросов пользователей оно выдерживает
 что тебя выделяет итд посмотри от лица рекрута как у мишустина, одноглазый змей у него много чего ПРО СТЕК НЕ ЗАБЫВАТЬ ВСЁ ДОЛЖНО БЫТЬ ГАРМОНИЧНО что как зачем
 
