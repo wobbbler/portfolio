@@ -18,15 +18,15 @@
    - PostgreSQL
    - Redis
    - Hibernate/JPA
-   - Flyway/Liquibas
-   - Backup стратегия 
+   - Flyway
+   - Backup стратегия
+   - disaster recovery
 
 4. Безопасность:
    - Spring Security 6.x
    - JWT
    - BCrypt для хеширования
-   - Rate limiting (Resilience4j)
-   - Rate limiting (Ingress)
+   - Rate limiting (Resilience4j на уровне приложения + Ingress на уровне сети)
 
 5. Документация:
    - Springdoc OpenAPI 2.x
@@ -34,7 +34,6 @@
   
 6. Конфигурация и секреты:
    - 12-Factor App принципы
-   - Environment-based конфигурация
    - Kubernetes ConfigMaps
    - Kubernetes Secrets + Sealed Secrets
    - Environment-based configuration
