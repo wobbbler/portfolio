@@ -6,8 +6,8 @@
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white) 
 
-Java, Maven, Spring Boot, Hibernate, SQL, RDS/Postgres, S3
-Spring Security (JWT), Spring Cloud Config, Spring Cloud Gateway, Spring Cloud Netflix Eureka, Resilience4j (circuit breaker, rate limiting)
+Java, Maven, Spring Boot, Hibernate, SQL
+Spring Security (JWT), Spring Cloud Config, Spring Cloud Gateway, Spring Cloud Netflix Eureka+Spring Cloud LoadBalancer, Resilience4j (circuit breaker, rate limiting)
 Docker, Docker Compose, Redis, Kafka
 Elasticsearch, Logstash, Kibana, Prometheus, Grafana, Zipkin, Spring Cloud Sleuth
 Git, GitHub Actions, SonarQube
@@ -25,6 +25,7 @@ my expipiance над чем я работал
 - Secrets Management: HashiCorp Vault или хотя бы .env + переменные окружения для безопасного хранения ключей и паролей.
 
 
+какая технология или решения какую проблему решает
 many bulitpoint что я делал там и зачем как помогает  как оно работает для чего сколько запросов пользователей оно выдерживает
 что тебя выделяет итд посмотри от лица рекрута как у мишустина, одноглазый змей у него много чего ПРО СТЕК НЕ ЗАБЫВАТЬ ВСЁ ДОЛЖНО БЫТЬ ГАРМОНИЧНО что как зачем
 
