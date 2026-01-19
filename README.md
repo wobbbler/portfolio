@@ -6,12 +6,96 @@
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white) 
 
-Java, Maven, Spring Boot, Hibernate, SQL, Spring Security (JWT), Swagger/OpenAPI, JUnit, Mockito, Testcontainers, Spring Boot Test
-Spring Cloud Config, Spring Cloud Gateway, Spring Cloud LoadBalancer, Resilience4j (circuit breaker, rate limiting)
-Docker, Docker Compose, Redis, Kafka
-Elasticsearch, Logstash, Kibana, Prometheus, Grafana
-Git, GitHub Actions, SonarQube
-HashiCorp Vault, .env + переменные окружения
+1. Язык и сборка:
+   - Java 17/21
+   - Maven
+
+2. Основной фреймворк:
+   - Spring Boot 3.x
+   - Spring Framework 6.x
+
+3. Базы данных:
+   - PostgreSQL
+   - Redis
+   - Hibernate/JPA
+   - Flyway/Liquibase
+
+4. Безопасность:
+   - Spring Security 6.x
+   - JWT
+   - BCrypt для хеширования
+   - Let's Encrypt
+
+5. Документация:
+   - Springdoc OpenAPI 2.x
+   - OpenAPI Specification 3.x
+  
+6. Service Discovery & Configuration:
+   Kubernetes ConfigMaps + Secrets
+
+7. API Gateway:
+   - Nginx Ingress Controller
+   
+8. Межсервисное взаимодействие:
+   - Rabitmq
+   - REST API
+
+10. Отказоустойчивость:
+   - Resilience4j (Circuit Breaker, Retry, Rate Limiter)
+  
+11. Контейнеризация:
+   - Docker
+   - Docker Compose
+   - Multi-stage builds
+   - .dockerignore
+
+12. Оркестрация:
+   - Kubernetes
+   - Основные объекты K8s
+   
+13. Пакетный менеджер:
+   - Helm 3.x
+   - Структура Helm Chart
+   - Values.yaml, template functions
+
+14. Логирование:
+- Logback/SLF4J + JSON формат
+- Вывод в stdout (K8s-friendly)
+- Elasticsearch + Filebeat
+
+15. Метрики и мониторинг:
+   - Prometheus
+   - Grafana 
+   - Spring Boot Actuator
+   - Micrometer
+
+16. Система контроля версий:
+   - Git (workflow)
+   - GitHub
+
+17. Непрерывная интеграция:
+   - GitHub Actions
+
+18. Качество кода:
+   - SonarQube
+   - Checkstyle+Google Java Format
+   - SpotBugs (нахождение реальных багов
+   - JaCoCo (покрытие кода)
+
+19. Тестирование (полный стек):
+   - JUnit 5
+   - Mockito
+   - Testcontainers (интеграционные тесты)
+   - Spring Boot Test
+   - Postman (API тесты)
+
+20. Управление секретами:
+   - Kubernetes Secrets
+   
+21. Конфигурация:
+   - 12-Factor App принципы
+   - Environment-based configuration
+
 
 ---
 **👨‍💻Hi! I'm Nikita J. | wobbbler9@gmail.com | [@wobbbler](https://t.me/wobbbler)**
