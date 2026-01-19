@@ -6,13 +6,11 @@
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white) 
 
-Java, Maven, Spring Boot, Hibernate, SQL
-Spring Security (JWT), Spring Cloud Config, Spring Cloud Gateway, Spring Cloud Netflix Eureka+Spring Cloud LoadBalancer, Resilience4j (circuit breaker, rate limiting)
+Java, Maven, Spring Boot, Hibernate, SQL, Spring Security (JWT), Swagger/OpenAPI, JUnit, Mockito, Testcontainers, Spring Boot Test
+Spring Cloud Config, Spring Cloud Gateway, Spring Cloud LoadBalancer, Resilience4j (circuit breaker, rate limiting)
 Docker, Docker Compose, Redis, Kafka
-Elasticsearch, Logstash, Kibana, Prometheus, Grafana, Zipkin, Spring Cloud Sleuth
+Elasticsearch, Logstash, Kibana, Prometheus, Grafana
 Git, GitHub Actions, SonarQube
-Swagger/OpenAPI
-JUnit, Mockito, Testcontainers, Spring Boot Test
 HashiCorp Vault, .env + переменные окружения
 
 ---
