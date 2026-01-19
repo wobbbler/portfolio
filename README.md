@@ -31,7 +31,7 @@
    - OpenAPI Specification 3.x
   
 6. Service Discovery & Configuration:
-   Kubernetes ConfigMaps + Secrets
+   Kubernetes ConfigMaps + Secrets + Sealed Secrets
 
 7. API Gateway:
    - Nginx Ingress Controller
