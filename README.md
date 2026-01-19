@@ -18,8 +18,8 @@
    - PostgreSQL
    - Redis
    - Hibernate/JPA
-   - Flyway/Liquibas что-тьо одно
-   - Backup стратегия какая?
+   - Flyway/Liquibas
+   - Backup стратегия 
 
 4. Безопасность:
    - Spring Security 6.x
