@@ -22,6 +22,8 @@ many bulitpoint что я делал там и зачем как помогае�
    - Rate limiting (Resilience4j на уровне приложения + Ingress на уровне сети) ------------> настраивал безопасность то и то знаком с хешированием работал с jwt
 тоесть показать стек не через слова а через то что ты с ними делал
      
+каждую технологию распиши какие проблемы решал там N+1 у хибернате и т.д. для других 
+
 1. Язык и сборка:
    - Java
    - Maven
@@ -42,7 +44,7 @@ many bulitpoint что я делал там и зачем как помогае�
 
 5. Безопасность:
    - Spring Security
-   - JWT, OAuth2
+   - JWT
    - BCrypt для хеширования
    - Rate limiting (Resilience4j for app)
    - Spring Cloud Gateway с простым rate limiting для защиты от DDoS
@@ -59,17 +61,15 @@ many bulitpoint что я делал там и зачем как помогае�
    - Spring Boot Test
    - Postman
    - WireMock
-
-8. Качество кода:
-   - Pre-commit hooks (автоматически перед коммитом): Spotless
-   - На каждый PR: SonarCloud (анализ кода + метрики), OWASP check (уязвимости)
-   - Еженедельно: Полный OWASP scan
-
+   - integration vs slice tests
+mock vs stub
 
 9. Межсервисное взаимодействие:
    - RabbitMQ
    - REST API
    - Resilience4j (Circuit Breaker, Retry)
+важно понимать retries + idempotency
+DLQ хотя бы концептуально
 
 10. Контейнеризация:
    - Docker
@@ -80,10 +80,10 @@ many bulitpoint что я делал там и зачем как помогае�
   
 11. Конфигурация и секреты:
    - 12-Factor App принципы
-   - .env файлы + .gitignore || Spring Cloud Config + git-crypt or HashiCorp Vault + for dynamic secrets(if need) 
+   - .env файлы + .gitignore || Spring Cloud Config + git-crypt
    - Spring Profiles
 
-12. API Gateway:
+12. API Gateway: ???
    - Spring Cloud Gateway \ Circuit Breaker \ LoadBalancer \ Micrometer Tracing
  
 13. Логирование:
@@ -96,14 +96,6 @@ many bulitpoint что я делал там и зачем как помогае�
    - Grafana 
    - Spring Boot Actuator
    - Micrometer
-
-15. CI/CD:
-   - Git (workflow)
-   - GitHub
-   - GitHub Actions
-   - Rollback стратегии
-
-
 
 так как это не 
 ```
