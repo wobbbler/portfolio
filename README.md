@@ -14,95 +14,81 @@ many bulitpoint что я делал там и зачем как помогае�
 
 
 1. Язык и сборка:
-   - Java 21
+   - Java
    - Maven
 
 2. Основной фреймворк:
-   - Spring Boot 3.x
-   - Spring Framework 6.x
+   - Spring Boot 
+   - Spring Framework
 
-3. Базы данных:
+3. dev tools
+   - MapStruct
+   - lombok
+
+4. Базы данных:
    - PostgreSQL
    - Redis
    - Hibernate/JPA
    - Flyway
-   - Backup стратегия
-   - disaster recovery
 
-4. Безопасность:
-   - Spring Security 6.x
+5. Безопасность:
+   - Spring Security
    - JWT, OAuth2
    - BCrypt для хеширования
-   - Rate limiting (Resilience4j на уровне приложения + Ingress на уровне сети)
+   - Rate limiting (Resilience4j for app)
+   - Rate limit (Ingress for network)
 
-5. Документация:
-   - Springdoc OpenAPI 2.x
-   - OpenAPI Specification 3.x
+6. Документация:
+   - Springdoc OpenAPI
+   - OpenAPI Specification
    - SwaggerUI
 
-6. Тестирование (полный стек):
+7. Тестирование:
    - JUnit 5
    - Mockito
-   - Testcontainers (интеграционные тесты)
+   - Testcontainers
    - Spring Boot Test
-   - Postman (API тесты)
+   - Postman
+   - WireMock
 
-7. Качество кода:
+8. Качество кода:
    - SonarQube
-   - Checkstyle+Google Java Format
-   - SpotBugs (нахождение реальных багов
-   - JaCoCo (покрытие кода)
+   - Checkstyle + Google Java Format
+   - SpotBugs 
    - OWASP Dependency Check
 
-8. Межсервисное взаимодействие:
-   - RabbitMQ 
+9. Межсервисное взаимодействие:
+   - RabbitMQ or Kafka ???
    - REST API
    - Resilience4j (Circuit Breaker, Retry)
 
-9. Контейнеризация:
+10. Контейнеризация:
    - Docker
    - Docker Compose
    - Multi-stage builds
    - .dockerignore
    - Image optimization best practices
   
-10. Конфигурация и секреты:
+11. Конфигурация и секреты:
    - 12-Factor App принципы
-   - Kubernetes ConfigMaps
-   - Kubernetes Secrets + Sealed Secrets
-   - Environment-based configuration
-
-11. Оркестрация:
-   - Kubernetes
-   - Основные объекты K8s
-   - Health checks(livenessProbe, readinessProbe)
-   - Autoscaling
-   - Liveness/Readiness
-   - Resource limits
+   - .env файлы + .gitignore || Spring Cloud Config + git-crypt or HashiCorp Vault + for dynamic secrets(if need) 
+   - Spring Profiles
 
 12. API Gateway:
-   - Nginx Ingress Controller
-   - cert-manager + Ingress аннотации
-   
-13. Пакетный менеджер:
-   - Helm 3.x
-   - Структура Helm Chart
-   - Values.yaml, template functions
-   - Helm-docs
-
-14. Логирование:
+   - Spring Cloud Gateway \ Circuit Breaker \ LoadBalancer 
+ 
+13. Логирование:
    - Logback/SLF4J + JSON формат
-   - Вывод в stdout (K8s-friendly)
+   - Вывод в stdout
    - Loki + Promtail + Alertmanager
 
-15. Метрики и мониторинг:
+14. Метрики и мониторинг:
    - Prometheus
    - Grafana 
    - Spring Boot Actuator
    - Micrometer
-   - Alerting 
 
-16. CI/CD:
+15. CI/CD:
    - Git (workflow)
    - GitHub
    - GitHub Actions
