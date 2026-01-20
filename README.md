@@ -20,7 +20,7 @@ many bulitpoint что я делал там и зачем как помогае�
    - JWT
    - BCrypt для хеширования
    - Rate limiting (Resilience4j на уровне приложения + Ingress на уровне сети) ------------> настраивал безопасность то и то знаком с хешированием работал с jwt
-
+тоесть показать стек не через слова а через то что ты с ними делал
      
 1. Язык и сборка:
    - Java
@@ -36,16 +36,16 @@ many bulitpoint что я делал там и зачем как помогае�
 
 4. Базы данных:
    - PostgreSQL
-   - Redis
+   - Redis \ Redis caching
    - Hibernate/JPA
-   - Flyway
+   - Flyway идемпотентными 
 
 5. Безопасность:
    - Spring Security
    - JWT, OAuth2
    - BCrypt для хеширования
    - Rate limiting (Resilience4j for app)
-   - Rate limit (Ingress for network)
+   - Spring Cloud Gateway с простым rate limiting для защиты от DDoS
 
 6. Документация:
    - Springdoc OpenAPI
@@ -61,13 +61,13 @@ many bulitpoint что я делал там и зачем как помогае�
    - WireMock
 
 8. Качество кода:
-   - SonarQube
-   - Checkstyle + Google Java Format
-   - SpotBugs 
-   - OWASP Dependency Check
+   - Pre-commit hooks (автоматически перед коммитом): Spotless
+   - На каждый PR: SonarCloud (анализ кода + метрики), OWASP check (уязвимости)
+   - Еженедельно: Полный OWASP scan
+
 
 9. Межсервисное взаимодействие:
-   - RabbitMQ or Kafka ???
+   - RabbitMQ
    - REST API
    - Resilience4j (Circuit Breaker, Retry)
 
@@ -84,7 +84,7 @@ many bulitpoint что я делал там и зачем как помогае�
    - Spring Profiles
 
 12. API Gateway:
-   - Spring Cloud Gateway \ Circuit Breaker \ LoadBalancer 
+   - Spring Cloud Gateway \ Circuit Breaker \ LoadBalancer \ Micrometer Tracing
  
 13. Логирование:
    - Logback/SLF4J + JSON формат
