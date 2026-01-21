@@ -38,7 +38,7 @@ many bulitpoint что я делал там и зачем как помогае�
 
 4. Базы данных:
    - PostgreSQL
-   - Redis \ Redis caching
+   - Redis caching
    - Hibernate/JPA
    - Flyway идемпотентнымы
    - SQL-оптимизация (EXPLAIN, индексы)
@@ -47,14 +47,15 @@ many bulitpoint что я делал там и зачем как помогае�
    - Spring Security
    - JWT
    - BCrypt для хеширования
-   - Rate limiting (Resilience4j for app)
-   - Spring Cloud Gateway с простым rate limiting для защиты от DDoS
+     
+   - Rate limiting (Resilience4j for для внутренних защит)
+   - Spring Cloud Gateway с простым rate limiting для защиты от DDoS(для внешнего трафика)
 
 6. Документация:
-   - Springdoc OpenAPI
+   - Springdoc OpenAPI - как контракт
+   - SwaggerUI - как viewer
    - OpenAPI Specification
-   - SwaggerUI
-
+     
 7. Тестирование:
    - JUnit 5
    - Mockito
@@ -66,11 +67,11 @@ many bulitpoint что я делал там и зачем как помогае�
 mock vs stub
 
 9. Межсервисное взаимодействие:
-   - RabbitMQ
+   - RabbitMQ: важно понимать retries + idempotency, DLQ хотя бы концептуально
    - REST API
-   - Resilience4j (Circuit Breaker, Retry)
-важно понимать retries + idempotency
-DLQ хотя бы концептуально
+
+   - Версионирование API
+   - Resilience4j (Circuit Breaker, Retry+idempotency)
 
 10. Контейнеризация:
    - Docker
@@ -85,7 +86,8 @@ DLQ хотя бы концептуально
    - Spring Profiles
 
 12. API Gateway: ???
-   - Spring Cloud Gateway \ Circuit Breaker \ LoadBalancer \ Micrometer Tracing
+   - Spring Cloud Gateway \ Circuit Breaker \ LoadBalancer \ Micrometer Tracing+ Grafana tempo
+   - (edge security, routing, rate limit, observability entry point)
  
 13. Логирование:
    - Logback/SLF4J + JSON формат
@@ -97,6 +99,12 @@ DLQ хотя бы концептуально
    - Grafana 
    - Spring Boot Actuator
    - Micrometer
+
+15. CI/CD:
+    - git
+    - github actions
+    - pipeline
+    - secrets managment
 
 так как это не 
 ```
