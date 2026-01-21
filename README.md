@@ -34,7 +34,7 @@ Language & Build
 
 не забудь про поведнчиское/soft skill
 
-стэк
+
 Language & Build
 - Java
 - Maven
@@ -61,7 +61,7 @@ API & Documentation
 - REST API
 - OpenAPI Specification (Springdoc, Swagger UI, contract-first)
 
-Testing
+Testing ??? 
 - JUnit 5
 - Mockito
 - Spring Boot Test
@@ -84,13 +84,14 @@ Configuration & Secrets
 - Spring Profiles
 - .env + .gitignore / Spring Cloud Config + git-crypt
 
-API Gateway & Observability
+API Gateway & Observability ??? 
 - Spring Cloud Gateway (system entrypoint)
 - Spring Cloud LoadBalancer (client-side)
 - Micrometer Tracing, Grafana Tempo
 
-Logging & Monitoring
+Logging & Monitoring ??? 
 - SLF4J / Logback (JSON logs, stdout)
+  
 - Loki + Promtail + Alertmanager
 - Prometheus, Grafana
 - Spring Boot Actuator, Micrometer
