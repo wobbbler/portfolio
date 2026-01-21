@@ -40,7 +40,8 @@ many bulitpoint что я делал там и зачем как помогае�
    - PostgreSQL
    - Redis \ Redis caching
    - Hibernate/JPA
-   - Flyway идемпотентными 
+   - Flyway идемпотентнымы
+   - SQL-оптимизация (EXPLAIN, индексы)
 
 5. Безопасность:
    - Spring Security
