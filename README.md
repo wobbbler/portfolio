@@ -34,8 +34,9 @@ Language & Build
 
 не забудь про поведнчиское/soft skill
 
+стэк
 Language & Build
-- Java (17+)
+- Java
 - Maven
 
 Frameworks
