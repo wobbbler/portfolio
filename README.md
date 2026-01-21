@@ -20,6 +20,13 @@ many bulitpoint что я делал там и зачем как помогае�
    - JWT
    - BCrypt для хеширования
    - Rate limiting (Resilience4j на уровне приложения + Ingress на уровне сети) ------------> настраивал безопасность то и то знаком с хешированием работал с jwt
+
+     подумать как оформить можно и так
+
+Language & Build
+
+ - Java (17+) -> знаю делал и тд
+ - Maven
 тоесть показать стек не через слова а через то что ты с ними делал
      
 каждую технологию распиши какие проблемы решал там N+1 у хибернате и т.д. для других 
@@ -27,90 +34,74 @@ many bulitpoint что я делал там и зачем как помогае�
 
 не забудь про поведнчиское/soft skill
 
-1. Язык и сборка:
-   - Java
-   - Maven
+Language & Build
+- Java (17+)
+- Maven
 
-2. Основной фреймворк:
-   - Spring Boot 
-   - Spring Framework
+Frameworks
+- Spring Boot / Spring Framework
 
-3. dev tools
-   - MapStruct
-   - lombok
+Development Tools
+- MapStruct
+- Lombok (understanding of generated code)
 
-4. Базы данных:
-   - PostgreSQL
-   - Redis caching
-   - Hibernate/JPA
-   - Flyway идемпотентнымы
-   - SQL-оптимизация (EXPLAIN, индексы)
+Databases & Persistence
+- PostgreSQL, Hibernate / JPA
+- Flyway (idempotent migrations)
+- Redis (caching)
+- SQL optimization (EXPLAIN, indexes, transactions, isolation levels)
 
-5. Безопасность:
-   - Spring Security
-   - JWT
-   - BCrypt для хеширования
-     
-   - Rate limiting (Resilience4j for для внутренних защит)
-   - Spring Cloud Gateway с простым rate limiting для защиты от DDoS(для внешнего трафика)
+Security
+- Spring Security
+- JWT (stateless authentication)
+- BCrypt (password hashing)
 
-6. Документация:
-   - Springdoc OpenAPI - как контракт
-   - SwaggerUI - как viewer
-   - OpenAPI Specification
-     
-7. Тестирование:
-   - JUnit 5
-   - Mockito
-   - Testcontainers
-   - Spring Boot Test
-   - Postman
-   - WireMock
-   - integration vs slice tests
-mock vs stub
+API & Documentation
+- REST API
+- OpenAPI Specification (Springdoc, Swagger UI, contract-first)
 
-9. Межсервисное взаимодействие:
-   - RabbitMQ: важно понимать retries + idempotency, DLQ хотя бы концептуально
-   - REST API
+Testing
+- JUnit 5
+- Mockito
+- Spring Boot Test
+- Testcontainers
+- WireMock
+- Integration vs Slice tests
+- Mock vs Stub
 
-   - Версионирование API
-   - Resilience4j (Circuit Breaker, Retry+idempotency)
+Inter-service Communication & Reliability
+- RabbitMQ (retries, idempotency, DLQ — conceptually)
+- Resilience4j (Circuit Breaker, Retry, idempotency)
+- API versioning
 
-10. Контейнеризация:
-   - Docker
-   - Docker Compose
-   - Multi-stage builds
-   - .dockerignore
-   - Image optimization best practices
-  
-11. Конфигурация и секреты:
-   - 12-Factor App принципы
-   - .env файлы + .gitignore || Spring Cloud Config + git-crypt
-   - Spring Profiles
+Containerization
+- Docker, Docker Compose
+- Multi-stage builds, .dockerignore, image optimization
 
-12. API Gateway: ???
-   - Spring Cloud Gateway \ Circuit Breaker \ LoadBalancer \ Micrometer Tracing+ Grafana tempo
-   - (edge security, routing, rate limit, observability entry point)
- 
-13. Логирование:
-   - Logback/SLF4J + JSON формат
-   - Вывод в stdout
-   - Loki + Promtail + Alertmanager
+Configuration & Secrets
+- 12-Factor App principles
+- Spring Profiles
+- .env + .gitignore / Spring Cloud Config + git-crypt
 
-14. Метрики и мониторинг:
-   - Prometheus
-   - Grafana 
-   - Spring Boot Actuator
-   - Micrometer
+API Gateway & Observability
+- Spring Cloud Gateway (system entrypoint)
+- Spring Cloud LoadBalancer (client-side)
+- Micrometer Tracing, Grafana Tempo
 
-15. CI/CD:
-    - git
-    - github actions
-    - pipeline
-    - secrets managment
+Logging & Monitoring
+- SLF4J / Logback (JSON logs, stdout)
+- Loki + Promtail + Alertmanager
+- Prometheus, Grafana
+- Spring Boot Actuator, Micrometer
+
+CI/CD
+- Git, GitHub Actions (CI/CD pipelines, secrets management)
+
 
 так как это не 
 ```
 code
 ```
 то в obsidian красиво оформи всё свыше
+
+и зделать в точь точь версию только на а4 листке ну типо cv как у  мишустина 
