@@ -85,13 +85,12 @@ API Gateway & Observability:
 
 Logging & Monitoring:
 - SLF4J / Logback (JSON logs, stdout)
-- Spring Boot Actuator, Micrometer
-- Prometheus, Grafana
-- Promtail
+- Micrometer, Spring Boot Actuator
+- Promtail, Prometheus
+- Loki, Grafana
 
 CI/CD:
 - Git, GitHub Actions (CI/CD pipelines, secrets management)
-
 
 так как это не 
 ```
