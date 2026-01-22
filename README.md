@@ -63,10 +63,6 @@ Inter-service Communication:
 - RabbitMQ (retries, idempotency, DLQ — conceptually)
 - API versioning
 
-Containerization:
-- Docker, Docker Hub, Docker Compose
-- Multi-stage builds, .dockerignore, image optimization
-
 Configuration & Secrets:
 - 12-Factor App principles - поетому я умею строить структурированные проекты с оправданными решениями 
 - Spring Profiles
@@ -87,6 +83,10 @@ Observability:
   
 Reliability:
 - Resilience4j (Circuit Breaker, Retry)
+
+Containerization:
+- Docker, Docker Hub, Docker Compose
+- Multi-stage builds, .dockerignore, image optimization
 
 CI/CD:
 - Git, GitHub Actions (CI/CD pipelines, secrets management)
