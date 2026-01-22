@@ -25,11 +25,11 @@ many bulitpoint что я делал там и зачем как помогае�
 одноглазый змей
 
 Language & Build:
-- Java
+- Java 21 (LTS) 
 - Maven
 
 Frameworks:
-- Spring Boot / Spring Framework
+- Spring Boot 3.2.x / Spring Framework 
 
 API & Documentation:
 - REST API
@@ -50,23 +50,17 @@ Security:
 - Spring Security
 - JWT (stateless authentication)
 - BCrypt (password hashing)
-(refresh token rotation
-token revocation
-CORS, CSRF (когда JWT ≠ magic)
-role vs authority
-method security pitfalls)
+  (refresh token rotation, token revocation, CORS, CSRF, (когда JWT ≠ magic), role vs authority, method security pitfalls)
 
 Testing:
 - JUnit 5
 - Mockito
 - Spring Boot Test
 - Testcontainers
-- Integration vs Slice tests
-- Mock vs Stub
+  (Integration vs Slice tests, Mock vs Stub)
 
-Inter-service Communication & Reliability:
+Inter-service Communication:
 - RabbitMQ (retries, idempotency, DLQ — conceptually)
-- Resilience4j (Circuit Breaker, Retry)
 - API versioning
 
 Containerization:
@@ -74,14 +68,9 @@ Containerization:
 - Multi-stage builds, .dockerignore, image optimization
 
 Configuration & Secrets:
-- 12-Factor App principles
+- 12-Factor App principles - поетому я умею строить структурированные проекты с оправданными решениями 
 - Spring Profiles
 - .env + .gitignore / Spring Cloud Config + git-crypt
-
-API Gateway & Observability:
-- Spring Cloud Gateway (system entrypoint)
-- Spring Cloud LoadBalancer (client-side)
-- Micrometer Tracing, Grafana Tempo
 
 Logging & Monitoring:
 - SLF4J / Logback (JSON logs, stdout)
@@ -89,11 +78,17 @@ Logging & Monitoring:
 - Promtail, Prometheus
 - Loki, Grafana
 
+API Gateway & Observability:
+- Spring Cloud Gateway (system entrypoint)
+- Spring Cloud LoadBalancer (client-side)
+- Micrometer Tracing, Grafana Tempo
+
+Reliability:
+- Resilience4j (Circuit Breaker, Retry)
+
 CI/CD:
 - Git, GitHub Actions (CI/CD pipelines, secrets management)
 
 и зделать в точь точь версию только на а4 листке ну типо cv как у  мишустина 
 
 смотри я работал уже с многими технологиями я java dev поэтому я не новичок пиши так чтобы я мог удобно вставить в приложение obsidian ну короче хорошо оформи текст, не переборщи с информацией твоя задача напомнить мне с нуля обо всём что надо знать (шыкарная база) и просто важные штуки термины и т.д. что встретится на роботе. чисто проавдиво без воды, но не переборщи с абстракцией можно с примерами супер простыми что то типо шпаргалки чтобы я понимал как оно всё работает и если что забыл то быстро нашёл
-
--
