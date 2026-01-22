@@ -77,7 +77,7 @@ Configuration & Secrets
 - Spring Profiles
 - .env + .gitignore / Spring Cloud Config + git-crypt
 
-API Gateway & Observability ??? 
+API Gateway & Observability 
 - Spring Cloud Gateway (system entrypoint)
 - Spring Cloud LoadBalancer (client-side)
 - Micrometer Tracing, Grafana Tempo
