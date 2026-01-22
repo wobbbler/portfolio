@@ -45,6 +45,11 @@ Security
 - Spring Security
 - JWT (stateless authentication)
 - BCrypt (password hashing)
+(refresh token rotation
+token revocation
+CORS, CSRF (когда JWT ≠ magic)
+role vs authority
+method security pitfalls)
 
 API & Documentation
 - REST API
@@ -55,13 +60,12 @@ Testing ???
 - Mockito
 - Spring Boot Test
 - Testcontainers
-- WireMock
 - Integration vs Slice tests
 - Mock vs Stub
 
 Inter-service Communication & Reliability
 - RabbitMQ (retries, idempotency, DLQ — conceptually)
-- Resilience4j (Circuit Breaker, Retry, idempotency)
+- Resilience4j (Circuit Breaker, Retry)
 - API versioning
 
 Containerization
@@ -80,8 +84,7 @@ API Gateway & Observability ???
 
 Logging & Monitoring ??? 
 - SLF4J / Logback (JSON logs, stdout)
-  
-- Loki + Promtail + Alertmanager
+- Promtail
 - Prometheus, Grafana
 - Spring Boot Actuator, Micrometer
 
