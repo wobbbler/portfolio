@@ -35,6 +35,7 @@ Development Tools:
 - MapStruct
 - Lombok 
 (understanding of generated code)
+- checkstyle
 
 Databases & Persistence:
 - PostgreSQL, Hibernate / JPA
@@ -91,11 +92,5 @@ Logging & Monitoring:
 
 CI/CD:
 - Git, GitHub Actions (CI/CD pipelines, secrets management)
-
-так как это не 
-```
-code
-```
-то в obsidian красиво оформи всё свыше
 
 и зделать в точь точь версию только на а4 листке ну типо cv как у  мишустина 
