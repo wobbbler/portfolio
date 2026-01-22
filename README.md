@@ -71,7 +71,7 @@ Inter-service Communication & Reliability:
 - API versioning
 
 Containerization:
-- Docker, Docker Compose
+- Docker, Docker Hub, Docker Compose
 - Multi-stage builds, .dockerignore, image optimization
 
 Configuration & Secrets:
