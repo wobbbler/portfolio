@@ -24,25 +24,25 @@ many bulitpoint что я делал там и зачем как помогае�
 влад мишустин
 одноглазый змей
 
-Language & Build
+Language & Build:
 - Java
 - Maven
 
-Frameworks
+Frameworks:
 - Spring Boot / Spring Framework
 
-Development Tools
+Development Tools:
 - MapStruct
 - Lombok 
 (understanding of generated code)
 
-Databases & Persistence
+Databases & Persistence:
 - PostgreSQL, Hibernate / JPA
 - Flyway (idempotent migrations)
 - Redis (caching)
 - SQL optimization (EXPLAIN, indexes, transactions, isolation levels)
 
-Security
+Security:
 - Spring Security
 - JWT (stateless authentication)
 - BCrypt (password hashing)
@@ -52,11 +52,11 @@ CORS, CSRF (когда JWT ≠ magic)
 role vs authority
 method security pitfalls)
 
-API & Documentation
+API & Documentation:
 - REST API
 - OpenAPI Specification (Springdoc, Swagger UI, contract-first)
 
-Testing
+Testing:
 - JUnit 5
 - Mockito
 - Spring Boot Test
@@ -64,32 +64,32 @@ Testing
 - Integration vs Slice tests
 - Mock vs Stub
 
-Inter-service Communication & Reliability
+Inter-service Communication & Reliability:
 - RabbitMQ (retries, idempotency, DLQ — conceptually)
 - Resilience4j (Circuit Breaker, Retry)
 - API versioning
 
-Containerization
+Containerization:
 - Docker, Docker Compose
 - Multi-stage builds, .dockerignore, image optimization
 
-Configuration & Secrets
+Configuration & Secrets:
 - 12-Factor App principles
 - Spring Profiles
 - .env + .gitignore / Spring Cloud Config + git-crypt
 
-API Gateway & Observability 
+API Gateway & Observability:
 - Spring Cloud Gateway (system entrypoint)
 - Spring Cloud LoadBalancer (client-side)
 - Micrometer Tracing, Grafana Tempo
 
-Logging & Monitoring 
+Logging & Monitoring:
 - SLF4J / Logback (JSON logs, stdout)
 - Spring Boot Actuator, Micrometer
 - Prometheus, Grafana
 - Promtail
 
-CI/CD
+CI/CD:
 - Git, GitHub Actions (CI/CD pipelines, secrets management)
 
 
