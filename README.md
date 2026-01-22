@@ -55,7 +55,7 @@ API & Documentation
 - REST API
 - OpenAPI Specification (Springdoc, Swagger UI, contract-first)
 
-Testing ??? 
+Testing
 - JUnit 5
 - Mockito
 - Spring Boot Test
@@ -82,11 +82,11 @@ API Gateway & Observability ???
 - Spring Cloud LoadBalancer (client-side)
 - Micrometer Tracing, Grafana Tempo
 
-Logging & Monitoring ??? 
+Logging & Monitoring 
 - SLF4J / Logback (JSON logs, stdout)
-- Promtail
-- Prometheus, Grafana
 - Spring Boot Actuator, Micrometer
+- Prometheus, Grafana
+- Promtail
 
 CI/CD
 - Git, GitHub Actions (CI/CD pipelines, secrets management)
