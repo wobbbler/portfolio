@@ -33,7 +33,8 @@ Frameworks
 
 Development Tools
 - MapStruct
-- Lombok (understanding of generated code)
+- Lombok 
+(understanding of generated code)
 
 Databases & Persistence
 - PostgreSQL, Hibernate / JPA
