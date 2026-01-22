@@ -68,21 +68,23 @@ Configuration & Secrets:
 - Spring Profiles
 - .env + .gitignore / Spring Cloud Config + git-crypt
 
-Logging:
-- SLF4J / Logback (JSON logs, stdout) -> Promtail -> Loki -> Grafana
-  
 Monitoring: 
-- Micrometer, Spring Boot Actuator -> Prometheus -> Grafana 
+- Spring Boot Actuator, Micrometer
+- -> Prometheus -> Grafana 
 
-API Gateway:
-- Spring Cloud Gateway (system entrypoint)
-- Spring Cloud LoadBalancer (client-side)
+Logging:
+- SLF4J / Logback (JSON logs, stdout)
+- -> Promtail -> Loki -> Grafana
+  
+Reliability:
+- Resilience4j (Circuit Breaker, Retry)
 
 Observability:
 - Micrometer Tracing, Grafana Tempo
   
-Reliability:
-- Resilience4j (Circuit Breaker, Retry)
+API Gateway:
+- Spring Cloud LoadBalancer (client-side)  
+- Spring Cloud Gateway (system entrypoint)
 
 Containerization:
 - Docker, Docker Hub, Docker Compose
