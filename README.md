@@ -31,11 +31,14 @@ Language & Build:
 Frameworks:
 - Spring Boot / Spring Framework
 
+API & Documentation:
+- REST API
+- OpenAPI Specification (Springdoc, Swagger UI, contract-first)
+
 Development Tools:
 - MapStruct
 - Lombok 
 (understanding of generated code)
-- checkstyle
 
 Databases & Persistence:
 - PostgreSQL, Hibernate / JPA
@@ -52,10 +55,6 @@ token revocation
 CORS, CSRF (когда JWT ≠ magic)
 role vs authority
 method security pitfalls)
-
-API & Documentation:
-- REST API
-- OpenAPI Specification (Springdoc, Swagger UI, contract-first)
 
 Testing:
 - JUnit 5
