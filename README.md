@@ -72,11 +72,11 @@ Configuration & Secrets:
 - Spring Profiles
 - .env + .gitignore / Spring Cloud Config + git-crypt
 
-Logging & Monitoring:
-- SLF4J / Logback (JSON logs, stdout)
-- Micrometer, Spring Boot Actuator
-- Promtail, Prometheus
-- Loki, Grafana
+Logging:
+- SLF4J / Logback (JSON logs, stdout) -> Promtail -> Loki -> Grafana
+  
+Monitoring: 
+- Micrometer, Spring Boot Actuator -> Prometheus -> Grafana 
 
 API Gateway & Observability:
 - Spring Cloud Gateway (system entrypoint)
