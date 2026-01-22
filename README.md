@@ -78,11 +78,13 @@ Logging:
 Monitoring: 
 - Micrometer, Spring Boot Actuator -> Prometheus -> Grafana 
 
-API Gateway & Observability:
+API Gateway:
 - Spring Cloud Gateway (system entrypoint)
 - Spring Cloud LoadBalancer (client-side)
-- Micrometer Tracing, Grafana Tempo
 
+Observability:
+- Micrometer Tracing, Grafana Tempo
+  
 Reliability:
 - Resilience4j (Circuit Breaker, Retry)
 
