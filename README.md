@@ -26,55 +26,55 @@ many bulitpoint что я делал там и зачем как помогае�
 
 Language & Build:
 - Java 21 (LTS) 
-- Maven
+- Maven 
 
 Frameworks:
 - Spring Boot 3.2.x / Spring Framework 
 
 API & Documentation:
-- REST API
-- OpenAPI Specification (Springdoc, Swagger UI, contract-first)
+- REST/ful API / 6 principal of REST, HATEOAS 
+- OpenAPI Specification (Springdoc, Swagger UI) 
 
 Development Tools:
-- MapStruct
+- MapStruct 
 - Lombok 
 (understanding of generated code)
 
 Databases & Persistence:
-- PostgreSQL, Hibernate / JPA
-- Flyway (idempotent migrations)
-- Redis (caching)
-- SQL optimization (EXPLAIN, indexes, transactions, isolation levels)
+- PostgreSQL, Hibernate / JPA 
+- SQL optimization (EXPLAIN, indexes, ACID, isolation levels) in code
+- Flyway (idempotent migrations) 
+- Redis (caching) 
 
-Security:
+Security: 
 - Spring Security
 - JWT (stateless authentication)
 - BCrypt (password hashing)
   (refresh token rotation, token revocation, CORS, CSRF, (когда JWT ≠ magic), role vs authority, method security pitfalls)
 
-Testing:
+Testing: 
 - JUnit 5
 - Mockito
 - Spring Boot Test
 - Testcontainers
   (Integration vs Slice tests, Mock vs Stub)
 
-Inter-service Communication:
+Inter-service Communication: 
 - RabbitMQ (retries, idempotency, DLQ — conceptually)
 - API versioning
 
-Configuration & Secrets:
+Configuration & Secrets: 
 - 12-Factor App principles - поетому я умею строить структурированные проекты с оправданными решениями 
 - Spring Profiles
 - .env + .gitignore / Spring Cloud Config + git-crypt
 
+Logging: 
+- SLF4J / Logback (JSON logs, stdout)
+- -> Promtail -> Loki -> Grafana
+
 Monitoring: 
 - Spring Boot Actuator, Micrometer
 - -> Prometheus -> Grafana 
-
-Logging:
-- SLF4J / Logback (JSON logs, stdout)
-- -> Promtail -> Loki -> Grafana
   
 Reliability:
 - Resilience4j (Circuit Breaker, Retry)
@@ -86,11 +86,11 @@ API Gateway:
 - Spring Cloud LoadBalancer (client-side)  
 - Spring Cloud Gateway (system entrypoint)
 
-Containerization:
+Containerization: 
 - Docker, Docker Hub, Docker Compose
 - Multi-stage builds, .dockerignore, image optimization
 
-CI/CD:
+CI/CD: 
 - Git, GitHub Actions (CI/CD pipelines, secrets management)
 
 и зделать в точь точь версию только на а4 листке ну типо cv как у  мишустина 
