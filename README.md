@@ -60,7 +60,7 @@ Testing:
   (Integration vs Slice tests, Mock vs Stub)
 
 Inter-service Communication: 
-- RabbitMQ (retries, idempotency, DLQ — conceptually)
+- kafka (retries, idempotency, DLQ — conceptually)
 - API versioning
 
 Configuration & Secrets: 
