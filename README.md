@@ -38,7 +38,7 @@ API & Documentation:
 Development Tools:
 - MapStruct 
 - Lombok 
-(understanding of generated code)
+  -- (understanding of generated code)
 
 Databases & Persistence:
 - PostgreSQL, Hibernate / JPA 
@@ -57,7 +57,7 @@ Testing:
 - Mockito
 - Spring Boot Test
 - Testcontainers
-  (Integration vs Slice tests, Mock vs Stub)
+  -- (Integration vs Slice tests, Mock vs Stub)
 
 Inter-service Communication: 
 - kafka (retries, idempotency, DLQ — conceptually)
