@@ -44,7 +44,7 @@ Databases & Persistence:
 - PostgreSQL, Hibernate / JPA 
 - SQL optimization (EXPLAIN, indexes, ACID, isolation levels) in code
 - Flyway (idempotent migrations) 
-- Redis (caching, rate limiter, распределёныый лок)
+- Redis (caching, rate limiter, distributed locking)
 
 Security: 
 - Spring Security
