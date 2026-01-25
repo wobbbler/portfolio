@@ -70,11 +70,9 @@ Configuration & Secrets:
 
 Logging: 
 - SLF4J / Logback (JSON logs, stdout)
-- -> Promtail -> Loki -> Grafana
 
 Monitoring: 
 - Spring Boot Actuator, Micrometer
-- -> Prometheus -> Grafana 
   
 Reliability:
 - Resilience4j (Circuit Breaker, Retry)
