@@ -32,7 +32,7 @@ Frameworks:
 - Spring Boot / Spring Framework 
 
 API & Documentation:
-- REST/ful API / 6 principal of REST, HATEOAS 
+- REST/ful API / 6 principal of REST
 - OpenAPI Specification (Springdoc, Swagger UI) 
 
 Development Tools:
@@ -77,11 +77,7 @@ Monitoring:
 Reliability:
 - Resilience4j (Circuit Breaker, Retry)
 
-Observability:
-- Micrometer Tracing, Grafana Tempo
-  
 API Gateway:
-- Spring Cloud LoadBalancer (client-side)  
 - Spring Cloud Gateway (system entrypoint)
 
 Containerization: 
