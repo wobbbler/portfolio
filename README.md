@@ -25,7 +25,7 @@ many bulitpoint что я делал там и зачем как помогае�
 одноглазый змей
 
 Language & Build:
-- Java (LTS)
+- Java (LTS versions)
 - Maven 
 
 Frameworks:
