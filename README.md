@@ -42,9 +42,9 @@ Development Tools:
 
 Databases & Persistence:
 - PostgreSQL, Hibernate / JPA 
-- SQL optimization (EXPLAIN, indexes, ACID, isolation levels) in code
+- SQL optimization (EXPLAIN, indexes, ACID, isolation levels, нормализация, ) потом от сложного к лёгкому отсортируй и другие также
 - Flyway (idempotent migrations) 
-- Redis (caching, rate limiter, distributed locking)
+- Redis (caching, rate limiter, distributed locking, шард)
 
 Security: 
 - Spring Security
