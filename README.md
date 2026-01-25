@@ -25,11 +25,11 @@ many bulitpoint что я делал там и зачем как помогае�
 одноглазый змей
 
 Language & Build:
-- Java 21 (LTS) 
+- Java (LTS)
 - Maven 
 
 Frameworks:
-- Spring Boot 3.2.x / Spring Framework 
+- Spring Boot / Spring Framework 
 
 API & Documentation:
 - REST/ful API / 6 principal of REST, HATEOAS 
