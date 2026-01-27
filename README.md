@@ -52,8 +52,7 @@ Security:
   (refresh token rotation, token revocation, CORS, CSRF, (когда JWT ≠ magic), role vs authority, method security pitfalls)
 
 Testing: 
-- JUnit 5
-- Mockito
+- JUnit 5 / Mockito
 - Spring Boot Test
 - Testcontainers
 - (Integration vs Slice tests, Mock vs Stub)
