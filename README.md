@@ -69,6 +69,16 @@ Configuration & Secrets:
 
 Logging: 
 - SLF4J / Logback (JSON logs, stdout)
+
+Containerization: 
+- Docker, Docker Hub, Docker Compose
+- Multi-stage builds, .dockerignore, image optimization
+
+CI/CD: 
+- Git, GitHub Actions (CI/CD pipelines, secrets management)
+
+тут уже что выучишь
+доп.Logging:
 - Loki + Promtail
 
 Monitoring: 
@@ -84,12 +94,7 @@ Reliability:
 API Gateway:
 - Spring Cloud Gateway (system entrypoint)
 
-Containerization: 
-- Docker, Docker Hub, Docker Compose
-- Multi-stage builds, .dockerignore, image optimization
 
-CI/CD: 
-- Git, GitHub Actions (CI/CD pipelines, secrets management)
 
 и зделать в точь точь версию только на а4 листке ну типо cv как у  мишустина 
 
