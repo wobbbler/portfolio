@@ -69,9 +69,14 @@ Configuration & Secrets:
 
 Logging: 
 - SLF4J / Logback (JSON logs, stdout)
+- Loki + Promtail
 
 Monitoring: 
 - Spring Boot Actuator, Micrometer
+- Prometheus+ Alertmanager 
+
+Tracing:
+- Open Telemetry + Jaeger 
 
 Reliability:
 - Resilience4j (Circuit Breaker, Retry)
