@@ -22,10 +22,15 @@ many bulitpoint что я делал там и зачем как помогае�
 
 влад мишустин
 одноглазый змей
+уголок джависта
+микросервисы яндекс еда(именно блогер)
+и вообще блоегры джава
 
 Language & Build:
 - Java (LTS versions)
 - Maven 
+- паттерны типо. solid kiss и т.д
+- SLF4J / Logback (JSON logs, stdout)
 
 Frameworks:
 - Spring Boot / Spring Framework 
@@ -50,6 +55,7 @@ Security:
 - JWT (stateless authentication)
 - BCrypt (password hashing)
   (refresh token rotation, token revocation, CORS, CSRF, (когда JWT ≠ magic), role vs authority, method security pitfalls)
+- уголок джввиста
 
 Testing: 
 - JUnit 5 / Mockito
@@ -64,35 +70,22 @@ Inter-service Communication:
 Configuration & Secrets: 
 - 12-Factor App principles - поетому я умею строить структурированные проекты с оправданными решениями 
 - Spring Profiles
-- .env + .gitignore / Spring Cloud Config + git-crypt
-
-Logging: 
-- SLF4J / Logback (JSON logs, stdout)
+- .env + .gitignore 
+подумай
 
 Containerization: 
 - Docker, Docker Hub, Docker Compose
 - Multi-stage builds, .dockerignore, image optimization
+- уголок ддависта
 
 CI/CD: 
 - Git, GitHub Actions (CI/CD pipelines, secrets management)
 
-тут уже что выучишь
-доп.Logging:
-- Loki + Promtail
-
-Monitoring: 
-- Spring Boot Actuator, Micrometer
-- Prometheus+ Alertmanager 
-
-Tracing:
-- Open Telemetry + Jaeger 
-
+Logging: 
 Reliability:
-- Resilience4j (Circuit Breaker, Retry)
-
-API Gateway:
-- Spring Cloud Gateway (system entrypoint)
-
+Monitoring: 
+Tracing:
+чекни это
 
 
 и зделать в точь точь версию только на а4 листке ну типо cv как у  мишустина 
