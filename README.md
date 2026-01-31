@@ -72,7 +72,6 @@ Configuration & Secrets:
 - 12-Factor App principles - поетому я умею строить структурированные проекты с оправданными решениями 
 - Spring Profiles
 - .env + .gitignore 
-подумай
 
 Containerization: 
 - Docker, Docker Hub, Docker Compose
