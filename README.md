@@ -1,74 +1,74 @@
-**👨‍💻Hi! I'm Nikita J. | wobbbler9@gmail.com | [@wobbbler](https://t.me/wobbbler)**
 
-my expipiance S.T.A.R 
-many bulitpoint что я делал там и зачем как помогает  как оно работает для чего сколько запросов пользователей оно выдерживает
-что тебя выделяет итд посмотри от лица рекрута как у мишустина, 
-какая технология или решения какую проблему решает
-одноглазый змей у него много чего, ПРО СТЕК НЕ ЗАБЫВАТЬ ВСЁ ДОЛЖНО БЫТЬ ГАРМОНИЧНО что как зачем
+S.T.A.R 
 
-имей пару пет пет проектов, чтобы красиво 
-
-только этот стек который ниже опиши как то что ты делал 
-     подумать как оформить можно и так
-тоесть показать стек не только через ключевые слова а через то что ты с ними делал
+ну там у одноглазого чекни чего не хватает в будущем
 
 влад мишустин
 одноглазый змей
 уголок джависта
 сорокин павел
 
-Language & Build:
-- Java (LTS versions)
-- Maven 
-- паттерны типо. solid kiss и т.д
-- SLF4J / Logback (JSON logs, stdout)
+Hi! I'm Nikita J. | Java Backend Developer | Email: wobbbler9@gmail.com | Telegram: @wobbbler
 
-Frameworks:
-- Spring Boot / Spring Framework 
+About Me:
+I am a Java Backend Developer with experience in building microservices architectures and REST APIs. I follow best development practices, focusing on performance, security, maintainability, and clean code.
 
-API & Documentation:
-- REST/ful API / 6 principal of REST
-- OpenAPI Specification (Springdoc, Swagger UI) 
+Technology Stack:
+Programming Languages and Tools:
+- Java (LTS) + Spring Boot Framework - development of microservices and REST APIs
+- Maven - project build and dependency management
+- Adherence to design principles: SOLID, KISS, DRY...
+- Lombok, MapStruct, Validation - elimination of boilerplate code in DTOs/entities
+- SLF4J/Logback - structured logging (JSON to stdout)
+- Git - version control system
 
-Development Tools:
-- MapStruct 
-- Lombok 
-- (understanding of generated code)
+Databases:
+- PostgreSQL + Hibernate/JPA - working with relational data, solving N+1 problem
+- Query optimization: EXPLAIN, indexing strategies, ACID compliance
+- Designing normalized database schemas
+- Flyway - idempotent migrations
 
-Databases & Persistence:
-- PostgreSQL, Hibernate / JPA 
-- SQL optimization (EXPLAIN, indexes, ACID, isolation levels, нормализация, ) потом от сложного к лёгкому отсортируй и другие также
-- Flyway (idempotent migrations) 
-- Redis (caching, rate limiter, distributed locking, шард)
+NoSQL:
+- Redis - distributed locking, rate limiting, caching
 
-Security: 
-- Spring Security
-- JWT (stateless authentication)
-- BCrypt (password hashing)
-  (refresh token rotation, token revocation, CORS, CSRF, (когда JWT ≠ magic), role vs authority, method security pitfalls)
-- уголок джввиста
+Security:
+- Spring Security + JWT - authentication and authorization
+- Stateless authentication with refresh token rotation
+- Role and authority separation
+- Protection against CSRF/CORS attacks
+- Experience with OAuth 2.0 (Keycloak) - configuration and integration
 
-Testing: 
-- JUnit 5 / Mockito
-- Spring Boot Test
-- Testcontainers
-- (Integration vs Slice tests, Mock vs Stub)
+Testing:
+- JUnit 5, Mockito, Spring Boot Test - unit and integration testing
+- Isolated unit tests, integration tests with @SpringBootTest
+- Testcontainers - testing with real containers
 
-Inter-service Communication: 
-- kafka (retries, idempotency, DLQ — conceptually)
-- API versioning
+Asynchronous Communication:
+- Apache Kafka - building fault-tolerant systems
+- Developing producers and consumers with error handling
+- Retry handling, ensuring idempotency
+- DLQ (Dead Letter Queue) - handling failed messages
 
-Configuration & Secrets: 
-- 12-Factor App principles
-- Spring Profiles
-- .env + .gitignore 
+API:
+- RESTful API - design and development
+- Documentation via OpenAPI (Springdoc)
+- Swagger UI - interactive API documentation
 
-Containerization: 
-- Docker, Docker Hub, Docker Compose
-- Multi-stage builds, .dockerignore, image optimization
-- уголок ддависта
+Monitoring:
+- Prometheus/Grafana - metrics collection and visualization
+- Spring Boot Actuator + Micrometer - application metrics export
 
-CI/CD: 
-- Git, GitHub Actions (CI/CD pipelines, secrets management)
+Infrastructure & DevOps:
+- Docker, Docker Compose - containerization and service orchestration
+- GitHub Actions - CI/CD: build → testing → image creation → deployment
+- Following 12-Factor App principles
+- Spring Profiles and .env - configuration management for different environments
 
-и зделать в точь точь версию только на а4 листке ну типо cv 
+In my GitHub profile, you can see my projects.
+https my-githubprofile
+
+Languages:
+• English — Intermediate —> Technical documentation, written communication
+• Deutsch (German) — Intermediate
+• Russian — Native
+• Ukrainian — Native
