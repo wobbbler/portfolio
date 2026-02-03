@@ -17,7 +17,7 @@ Technology Stack:
 Programming Languages and Tools:
 - Java (LTS) + Spring Boot Framework - development of microservices and REST APIs
 - Maven - project build and dependency management
-- Adherence to design principles: SOLID, KISS, DRY...
+- Adherence to design principles: SOLID, KISS, DRY..., GoF-шаблоны (и антипаттерны).
 - Lombok, MapStruct, Validation - elimination of boilerplate code in DTOs/entities
 - SLF4J/Logback - structured logging (JSON to stdout)
 - Git - version control system
@@ -29,7 +29,7 @@ Databases:
 - Flyway - idempotent migrations
 
 NoSQL:
-- Redis - distributed locking, rate limiting, caching
+- Redis - distributed locking, rate limiting, caching, spring cache
 
 Security:
 - Spring Security + JWT - authentication and authorization
@@ -45,7 +45,7 @@ Testing:
 
 Asynchronous Communication:
 - Apache Kafka - building fault-tolerant systems
-- Developing producers and consumers with error handling
+- микросервисах с Kafka и БД pattern (Outbox, Saga).
 - Retry handling, ensuring idempotency
 - DLQ (Dead Letter Queue) - handling failed messages
 
@@ -60,15 +60,10 @@ Monitoring:
 
 Infrastructure & DevOps:
 - Docker, Docker Compose - containerization and service orchestration
+- использовал (Minikube/k3s для локальной разработки)
 - GitHub Actions - CI/CD: build → testing → image creation → deployment
 - Following 12-Factor App principles
 - Spring Profiles and .env - configuration management for different environments
 
 In my GitHub profile, you can see my projects.
-https my-githubprofile
 
-Languages:
-• English — Intermediate —> Technical documentation, written communication
-• Deutsch (German) — Intermediate
-• Russian — Native
-• Ukrainian — Native
