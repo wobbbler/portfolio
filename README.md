@@ -39,7 +39,7 @@ Programming Languages and Tools:
 - Git — система контроля версий.
 
 Databases:
-- PostgreSQL + Hibernate/JPA — работа с реляционными данными, решение проблемы N+1.
+- PostgreSQL/H2 + Hibernate/JPA — работа с реляционными данными, решение проблемы N+1.
 - Оптимизация запросов: EXPLAIN, стратегии индексирования, соблюдение ACID.
 - Проектирование нормализованных схем БД.
 - Flyway — проведение идемпотентных миграций.
@@ -80,3 +80,8 @@ Infrastructure and DevOps:
 - GitHub Actions — настройка CI/CD: сборка → тестирование → создание образа → деплой.
 - Following 12-Factor App principles.
 - Spring Profiles и .env — управление конфигурацией для разных окружений.
+
+Observability
+Resilience & Fault Tolerance
+API Gateway & Service Mesh
+k8s
