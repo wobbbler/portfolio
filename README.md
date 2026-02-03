@@ -47,7 +47,7 @@ Databases:
 NoSQL:
 - Redis — распределённые блокировки, ограничение частоты запросов (rate limiting), кэширование, Spring Cache.
 
-Security:
+Security: ?
 - Spring Security + JWT — аутентификация и авторизация.
 - Stateless-аутентификация с ротацией refresh-токенов.
 - Разделение ролей (roles) и прав (authorities).
