@@ -8,62 +8,75 @@ S.T.A.R
 уголок джависта
 сорокин павел
 
-Hi! I'm Nikita J. | Java Backend Developer | Email: wobbbler9@gmail.com | Telegram: @wobbbler
+Nikita Y. | Java Backend Developer | wobbbler9@gmail.com | tg: @wobbbler 
 
-About Me:
-I am a Java Backend Developer with experience in building microservices architectures and REST APIs. I follow best development practices, focusing on performance, security, maintainability, and clean code.
+(3 перефирии которые разные и покрывают разные области а вместе всё)
+тут "git hub project" можно увидеть мои проекты
+что реализововал:
+-
+-
+-
+
+тут "git hub project" можно увидеть мои проекты
+что реализововал:
+-
+-
+-
+
+тут "git hub project" можно увидеть мои проекты
+что реализововал:
+-
+-
+-
 
 Technology Stack:
 Programming Languages and Tools:
-- Java (LTS) + Spring Boot Framework - development of microservices and REST APIs
-- Maven - project build and dependency management
-- Adherence to design principles: SOLID, KISS, DRY..., GoF-шаблоны (и антипаттерны).
-- Lombok, MapStruct, Validation - elimination of boilerplate code in DTOs/entities
-- SLF4J/Logback - structured logging (JSON to stdout)
-- Git - version control system
+- Java (LTS) + Spring Boot — разработка микросервисов и REST API.
+- Maven — сборка multimodule проектов и управление зависимостями.
+- Следование принципам проектирования: SOLID, KISS, DRY, шаблонам GoF (и понимание антипаттернов).
+- Lombok, MapStruct, Validation — для сокращения шаблонного кода в сущностях и DTO.
+- SLF4J/Logback — структурированное логирование (JSON в stdout).
+- Git — система контроля версий.
 
 Databases:
-- PostgreSQL + Hibernate/JPA - working with relational data, solving N+1 problem
-- Query optimization: EXPLAIN, indexing strategies, ACID compliance
-- Designing normalized database schemas
-- Flyway - idempotent migrations
+- PostgreSQL + Hibernate/JPA — работа с реляционными данными, решение проблемы N+1.
+- Оптимизация запросов: EXPLAIN, стратегии индексирования, соблюдение ACID.
+- Проектирование нормализованных схем БД.
+- Flyway — проведение идемпотентных миграций.
 
 NoSQL:
-- Redis - distributed locking, rate limiting, caching, spring cache
+- Redis — распределённые блокировки, ограничение частоты запросов (rate limiting), кэширование, Spring Cache.
 
 Security:
-- Spring Security + JWT - authentication and authorization
-- Stateless authentication with refresh token rotation
-- Role and authority separation
-- Protection against CSRF/CORS attacks
-- Experience with OAuth 2.0 (Keycloak) - configuration and integration
+- Spring Security + JWT — аутентификация и авторизация.
+- Stateless-аутентификация с ротацией refresh-токенов.
+- Разделение ролей (roles) и прав (authorities).
+- Защита от CSRF/CORS атак.
+- Опыт работы с OAuth 2.0 (Keycloak) — настройка и интеграция.
 
 Testing:
-- JUnit 5, Mockito, Spring Boot Test - unit and integration testing
-- Isolated unit tests, integration tests with @SpringBootTest
-- Testcontainers - testing with real containers
+- JUnit 5, Mockito, Spring Boot Test — модульное и интеграционное тестирование.
+- Изолированные unit-тесты, интеграционные тесты с @SpringBootTest.
+- Testcontainers — тестирование с использованием реальных контейнеров.
 
-Asynchronous Communication:
-- Apache Kafka - building fault-tolerant systems
-- микросервисах с Kafka и БД pattern (Outbox, Saga).
-- Retry handling, ensuring idempotency
-- DLQ (Dead Letter Queue) - handling failed messages
+Asynchronous Communication and Messaging:
+- Apache Kafka — построение отказоустойчивых систем.
+- Опыт реализации паттернов в микросервисах: Transactional Outbox, Saga.
+- Обработка повторов (retry), обеспечение идемпотентности.
+- DLQ (Dead Letter Queue) — обработка неудачных сообщений.
 
 API:
-- RESTful API - design and development
-- Documentation via OpenAPI (Springdoc)
-- Swagger UI - interactive API documentation
+- RESTful API — проектирование и разработка.
+- Документирование через OpenAPI (Springdoc).
+- Swagger UI — интерактивная документация API.
 
 Monitoring:
-- Prometheus/Grafana - metrics collection and visualization
-- Spring Boot Actuator + Micrometer - application metrics export
+- Prometheus/Grafana — сбор метрик и их визуализация.
+- Spring Boot Actuator + Micrometer — экспорт метрик приложения.
 
-Infrastructure & DevOps:
-- Docker, Docker Compose - containerization and service orchestration
-- использовал (Minikube/k3s для локальной разработки)
-- GitHub Actions - CI/CD: build → testing → image creation → deployment
-- Following 12-Factor App principles
-- Spring Profiles and .env - configuration management for different environments
-
-In my GitHub profile, you can see my projects.
-
+Infrastructure and DevOps:
+- Docker, Docker Compose — контейнеризация и оркестрация сервисов.
+- Опыт использования Minikube/k3s для локальной разработки.
+- GitHub Actions — настройка CI/CD: сборка → тестирование → создание образа → деплой.
+- Following 12-Factor App principles.
+- Spring Profiles и .env — управление конфигурацией для разных окружений.
