@@ -82,6 +82,9 @@ Infrastructure and DevOps:
 - Docker, Docker Compose — контейнеризация и оркестрация сервисов.
 - Following 12-Factor App principles.
 - Spring Profiles и .env — управление конфигурацией для разных окружений.
+- GitHub Actions — настройка CI/CD: сборка → тестирование → создание образа → деплой.
+- k8s
+
 
 Monitoring:
 - Prometheus/Grafana — сбор метрик и их визуализация.
@@ -89,5 +92,3 @@ Monitoring:
 Observability
 Resilience & Fault Tolerance
 API Gateway & Service Mesh
-k8s
-- GitHub Actions — настройка CI/CD: сборка → тестирование → создание образа → деплой.
