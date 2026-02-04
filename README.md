@@ -39,7 +39,7 @@ Nikita Y. | Java Backend Developer | wobbbler9@gmail.com | tg: @wobbbler
 
 Technology Stack:
 Programming Languages and Tools:
-- Java (LTS) + Spring Boot — разработка микросервисов и REST API.
+- Java (LTS) + Spring Boot
 - Maven — сборка multimodule проектов и управление зависимостями.
 - Следование принципам проектирования: SOLID, KISS, DRY, шаблонам GoF (и понимание антипаттернов).
 - Lombok, MapStruct, Validation — для сокращения шаблонного кода в сущностях и DTO.
