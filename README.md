@@ -78,18 +78,16 @@ API:
 - Документирование через OpenAPI (Springdoc).
 - Swagger UI — интерактивная документация API.
 
-Monitoring:
-- Prometheus/Grafana — сбор метрик и их визуализация.
-- Spring Boot Actuator + Micrometer — экспорт метрик приложения.
-
 Infrastructure and DevOps:
 - Docker, Docker Compose — контейнеризация и оркестрация сервисов.
-- Опыт использования Minikube/k3s для локальной разработки.
-- GitHub Actions — настройка CI/CD: сборка → тестирование → создание образа → деплой.
 - Following 12-Factor App principles.
 - Spring Profiles и .env — управление конфигурацией для разных окружений.
 
+Monitoring:
+- Prometheus/Grafana — сбор метрик и их визуализация.
+- Spring Boot Actuator + Micrometer — экспорт метрик приложения.
 Observability
 Resilience & Fault Tolerance
 API Gateway & Service Mesh
 k8s
+- GitHub Actions — настройка CI/CD: сборка → тестирование → создание образа → деплой.
