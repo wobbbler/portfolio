@@ -85,10 +85,11 @@ Infrastructure and DevOps:
 - GitLub - настройка CI/CD
 - k8s
 
-
-Monitoring:
-- Prometheus/Grafana — сбор метрик и их визуализация.
-- Spring Boot Actuator + Micrometer — экспорт метрик приложения.
 Observability
-Resilience & Fault Tolerance
-API Gateway & Service Mesh
+Prometheus: сбор и хранение метрик
+Grafana: визуализация метри
+Micrometer: библиотека для метрик в Java
+Spring Boot Actuator
+Loki
+Resilience4j
+spring Cloud Gateway
