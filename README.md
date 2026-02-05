@@ -1,14 +1,6 @@
-
 S.T.A.R -> достижения подумай как внедрить 
 https://www.youtube.com/watch?v=VwoD3FsJoWo
-
-ну там у одноглазого чекни чего не хватает в будущем
-вилка зп
 это всё ОДНА РЕКЛАМА СЕБЯ КАК ПРОДУКТА а не росказ о себе(можжно даже чекнуть ка правильно рекламировать)
-hard skils
-soft slkils 
-подумать как расписать опыт, проекты, хард скилы, достижения чтобы не повторяться ну и т.д
-
 
 влад мишустин
 одноглазый змей
@@ -16,6 +8,10 @@ soft slkils
 сорокин павел
 
 Nikita Y. | Java Backend Developer | wobbbler9@gmail.com | tg: @wobbbler 
+
+опыт и стек надо соеденить както чтобы не повторятся и проекты короче это всё опыт стек проекты в одни пет проекты. подумай крч
+hard skils
+soft slkils 
 
 Опыт:
 (3 перефирии которые разные и покрывают разные области а вместе всё)
@@ -44,7 +40,7 @@ Programming Languages and Tools:
 - Следование принципам проектирования: SOLID, KISS, DRY, шаблонам GoF (и понимание антипаттернов).
 - Lombok, MapStruct, Validation — для сокращения шаблонного кода в сущностях и DTO.
 - SLF4J/Logback — структурированное логирование (JSON в stdout).
-- Git — система контроля версий.
+- Git
 
 Databases:
 - PostgreSQL/H2 + jdbc/Hibernate/JPA — работа с реляционными данными, решение проблем.
@@ -52,35 +48,32 @@ Databases:
 - Flyway — проведение идемпотентных миграций.
 
 NoSQL:
-- Redis — распределённые блокировки, ограничение частоты запросов (rate limiting), кэширование, Spring Cache.
+- Redis MongoDB Redis Apache Cassandra Neo4j Elasticsearch
 
-Security: ?
+Security:
 - Spring Security + JWT — аутентификация и авторизация.
 - Stateless-аутентификация с ротацией refresh-токенов.
 - Разделение ролей (roles) и прав (authorities).
 - Защита от CSRF/CORS атак.
-- Опыт работы с OAuth 2.0 (Keycloak) — настройка и интеграция.
+- Опыт работы с OAuth 2.0 (Keycloak)
 
 Testing:
-- JUnit 5, Mockito, Spring Boot Test — модульное и интеграционное тестирование.
+- JUnit 5, Mockito, Spring Boot Test
 - Изолированные unit-тесты, интеграционные тесты с @SpringBootTest.
-- Testcontainers — тестирование с использованием реальных контейнеров.
+- Testcontainers
 
 Asynchronous Communication and Messaging:
-- Apache Kafka — построение отказоустойчивых систем.
-- Опыт реализации паттернов в микросервисах: Transactional Outbox, Saga.
-- Обработка повторов (retry), обеспечение идемпотентности.
-- DLQ (Dead Letter Queue) — обработка неудачных сообщений.
+- Apache Kafka
 
 API:
-- RESTful API — проектирование и разработка.
+- RESTful API
 - Документирование через OpenAPI (Springdoc).
-- Swagger UI — интерактивная документация API.
+- Swagger UI
 
 Infrastructure and DevOps:
-- Docker, Docker Compose — контейнеризация и оркестрация сервисов.
+- Docker, Docker Compose
 - Following 12-Factor App principles.
-- Spring Profiles и .env — управление конфигурацией для разных окружений.
+- Spring Profiles и .env
 - GitHub Actions - настройка CI/CD
 - k8s
 
