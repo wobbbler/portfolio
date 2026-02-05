@@ -47,7 +47,7 @@ Programming Languages and Tools:
 - Git — система контроля версий.
 
 Databases:
-- PostgreSQL/H2 + jdbc/Hibernate/JPA — работа с реляционными данными, решение проблем hibernate.
+- PostgreSQL/H2 + jdbc/Hibernate/JPA — работа с реляционными данными, решение проблем.
 - Проектирование нормализованных схем БД.
 - Flyway — проведение идемпотентных миграций.
 
