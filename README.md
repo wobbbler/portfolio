@@ -82,7 +82,7 @@ Infrastructure and DevOps:
 - Docker, Docker Compose — контейнеризация и оркестрация сервисов.
 - Following 12-Factor App principles.
 - Spring Profiles и .env — управление конфигурацией для разных окружений.
-- GitLub - настройка CI/CD
+- GitHub Actions - настройка CI/CD
 - k8s
 
 Observability
