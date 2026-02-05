@@ -48,7 +48,6 @@ Programming Languages and Tools:
 
 Databases:
 - PostgreSQL/H2 + jdbc/Hibernate/JPA — работа с реляционными данными, решение проблем hibernate.
-- Оптимизация запросов: EXPLAIN, стратегии индексирования, соблюдение ACID.
 - Проектирование нормализованных схем БД.
 - Flyway — проведение идемпотентных миграций.
 
