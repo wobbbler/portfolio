@@ -35,53 +35,48 @@ soft slkils
 
 Technology Stack:
 Programming Languages and Tools:
-- Java (LTS) + Spring Boot
+- Java (LTS) + Spring Boot, RESTful API
+- JSON (Jackson/Gson)
 - Maven — сборка multimodule проектов и управление зависимостями.
-- Следование принципам проектирования: SOLID, KISS, DRY, шаблонам GoF (и понимание антипаттернов).
-- Lombok, MapStruct, Validation — для сокращения шаблонного кода в сущностях и DTO.
 - SLF4J/Logback — структурированное логирование (JSON в stdout).
 - Git
 
-Databases:
-- PostgreSQL/H2 + jdbc/Hibernate/JPA — работа с реляционными данными, решение проблем.
-- Проектирование нормализованных схем БД.
-- Flyway — проведение идемпотентных миграций.
+Infrastructure: - Следование принципам проектирования: SOLID, KISS, DRY, шаблонам GoF (и понимание антипаттернов), 12-Factor App и 6 ограничениям REST API
 
-NoSQL:
-- Redis MongoDB Redis Apache Cassandra Neo4j Elasticsearch
+Databases - PostgreSQL/H2 + jdbc/Hibernate/JPA:
+- работа с реляционными данными, решение проблем.
+- Flyway иденпотетные миграции
+- HikariCP
+  
+NoSQL - Redis:
+-Rate Limiting
+-caching
+...
+
+NoSQL - MongoDB:
+- ...
 
 Security:
 - Spring Security + JWT — аутентификация и авторизация.
-- Stateless-аутентификация с ротацией refresh-токенов.
 - Разделение ролей (roles) и прав (authorities).
 - Защита от CSRF/CORS атак.
-- Опыт работы с OAuth 2.0 (Keycloak)
+- OAuth 2.0 (Keycloak)
 
 Testing:
 - JUnit 5, Mockito, Spring Boot Test
 - Изолированные unit-тесты, интеграционные тесты с @SpringBootTest.
 - Testcontainers
 
-Asynchronous Communication and Messaging:
-- Apache Kafka
-
-API:
-- RESTful API
-- Документирование через OpenAPI (Springdoc).
-- Swagger UI
-
-Infrastructure and DevOps:
+Asynchronous Communication and Messaging - Apache Kafka:
+- 
+  
+DevOps:
 - Docker, Docker Compose
-- Following 12-Factor App principles.
 - Spring Profiles и .env
+- Spring cloud
+- spring cloud config
+- api gateway
+- Service Discovery
 - GitHub Actions - настройка CI/CD
 - k8s
-
-Observability
-Prometheus: сбор и хранение метрик
-Grafana: визуализация метри
-Micrometer: библиотека для метрик в Java
-Spring Boot Actuator
-Loki
-Resilience4j
-spring Cloud Gateway
+  
