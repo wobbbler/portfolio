@@ -9,6 +9,7 @@ https://t.ly/Fa94o типо такой ссылки зделай
 всё самое важное сверху самое не важное снизу а то что прям ваще не важно то снизу снизу ну ты понял
 
 https://habr.com/ru/articles/538898/
+https://www.reddit.com/r/java/comments/2ijhae/what_would_your_typical_java_developer_cv_look/?tl=ru
 
 LinkedIn 
 
@@ -60,6 +61,7 @@ Programming Languages and Tools:
 - Maven — сборка multimodule проектов и управление зависимостями.
 - Git
 
+
 документация:
 - SpringDoc OpenAPI, Swagger UI (интерактивная документация REST API)
 - README.md
@@ -90,7 +92,8 @@ Security:
 
 Testing:
 - JUnit 5, Mockito, Spring Boot Test
-- Изолированные unit-тесты, интеграционные тесты с @SpringBootTest.
+- Изолированные unit-тесты, интеграционные тесты с @SpringBootTest
+- WireMock
 - Testcontainers
 - Postman
 
@@ -101,6 +104,9 @@ Message Broker: Apache Kafka:
 - SLF4J + Logback -> Loki --------------------------↓
 - spring boot actuator -> prometheus + alertmanager → Grafana
 - OpenTelemetry → Tempo  ---------------------------↑
+
+- elastic search
+- elk
   
 DevOps:
 - Docker, Docker Compose и .env
