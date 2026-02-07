@@ -105,6 +105,8 @@ Additional Tools:
 - mapstruct
 - validation
 
+достижения:
+
 под конец можно чуть смешать hard skils с soft skils 
 типо: работал с linux/windows terminalom
 XXX задач на codewars/leetcode + ссылкв
