@@ -83,7 +83,7 @@ NoSQL:
  - ...
 
 Security:
-- Spring Security + JWT — аутентификация и авторизация.
+- Spring Security + JWT — идентификация, аутентификация и авторизация.
 - Разделение ролей (roles) и прав (authorities).
 - Защита от CSRF/CORS атак.
 - OAuth 2.0 (Keycloak)
