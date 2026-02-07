@@ -108,7 +108,7 @@ Additional Tools:
 достижения:
 
 под конец можно чуть смешать hard skils с soft skils 
-типо: работал с linux/windows terminalom
+типо: работал с linux/windows terminalom, ssh
 XXX задач на codewars/leetcode + ссылкв
 понимаю технический англ
 язики ангд рус укр
