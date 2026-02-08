@@ -95,7 +95,6 @@ Testing:
 - Изолированные unit-тесты, интеграционные тесты с @SpringBootTest
 - WireMock
 - Testcontainers
-- Postman
 
 Message Broker: Apache Kafka:
 - 
@@ -119,6 +118,8 @@ Additional Tools:
 - lombok
 - mapstruct
 - validation
+- Postman
+
 
 достижения:
 
