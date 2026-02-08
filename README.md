@@ -59,7 +59,7 @@ Technology Stack:
 Programming Languages and Tools:
 - Java (LTS)/ООП + Spring Boot, RESTful API
 - Maven — сборка multimodule проектов и управление зависимостями.
-- Git
+- Git/Git Bash
 
 
 документация:
@@ -100,9 +100,9 @@ Message Broker: Apache Kafka:
 - 
 
 логирование, метрики, трейсинг:
-- SLF4J + Logback -> Loki --------------------------↓
+- SLF4J + Logback -> Loki ---------------------------↓
 - spring boot actuator -> prometheus + alertmanager → Grafana
-- OpenTelemetry → Tempo  ---------------------------↑
+- OpenTelemetry → Tempo  ----------------------------↑
 
 - elastic search
 - elk
@@ -111,7 +111,7 @@ DevOps:
 - Docker, Docker Compose и .env
 - k8s
 - Spring Profiles 
-- api gateway
+- api gateway -> NGINX
 - GitHub Actions(CI/CD)
 
 Additional Tools: 
@@ -122,15 +122,15 @@ Additional Tools:
 
 
 достижения:
-
-
-
 под конец можно чуть смешать hard skils с soft skils 
 типо: работал с linux/windows terminalom, ssh
+TCP/IP
 XXX задач на codewars/leetcode + ссылкв
 blind typin XXXwpm
 понимаю технический англ
 язики ангд рус укр
+bigo
+algo && structured data
 ну или не в конец
 ---
 soft skils
