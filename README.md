@@ -29,7 +29,7 @@ hard skils
 Опыт:
 (3 перефирии которые разные и покрывают разные области а вместе всё)
 
-ссылки красиво вставь
+
 несколько пет проектов с разными технологиями в разных перефириях хорошо оформлены
 типо в одном kafka в другом redis и т.д или сразу
 в одном jdbc в другом hibernate там со спринг jpa
@@ -37,27 +37,16 @@ hard skils
 
 твоя задача показать свои умения и знаниея
 
-тут "git hub project" можно увидеть мои проекты
-что реализововал:
--
--
--
-
-тут "git hub project" можно увидеть мои проекты
-что реализововал:
--
--
--
-
-тут "git hub project" можно увидеть мои проекты
-что реализововал:
+тут "git hub project"(в самом репо детально)
+что реализововал: (в общем, самое главное)
 -
 -
 -
 
 Technology Stack:
 Programming Languages and Tools:
-- Java (LTS)/ООП + Spring Boot, RESTful API
+- Java (LTS)/ООП + Spring Framework, 
+- RESTful API
 - Maven — сборка multimodule проектов и управление зависимостями.
 - Git/Git Bash
 
@@ -71,17 +60,15 @@ Infrastructure:
 - понимание антипаттернов
 - 12-Factor App и 6 ограничениям REST API
 
-Databases - PostgreSQL/H2 + jdbc/Hibernate/JPA:
+Databases:
+- PostgreSQL/H2
+- jdbc/Hibernate/JPA: n+1 caching L1,2
 - работа с реляционными данными, решение проблем.
-- Flyway иденпотетные миграции
+- Flyway:
   
 NoSQL:
  Redis:
- - Rate Limiting
  - caching
- - ...
- 
- MongoDB:
  - ...
 
 Security:
@@ -100,38 +87,39 @@ Message Broker: Apache Kafka:
 - 
 
 логирование, метрики, трейсинг:
-- SLF4J + Logback -> Loki ---------------------------↓
-- spring boot actuator -> prometheus + alertmanager → Grafana
-- OpenTelemetry → Tempo  ----------------------------↑
+---
+Всё связывается через TraceID в Grafana Explore
+---
+- SLF4J/Logback (JSON в stdout -> docker) → Loki → Grafana
+- Spring Boot Actuator → Prometheus (pull) → Grafana
+- OpenTelemetry auto-instrumentation → OTel Collector (one-process) → Tempo → Grafana
 
-- elastic search
-- elk
   
 DevOps:
 - Docker, Docker Compose и .env
 - k8s
-- Spring Profiles 
-- api gateway -> NGINX
-- GitHub Actions(CI/CD)
+- Spring Profiles
+- Spring Cloud
+- NGINX
+- Jenkins(CI/CD)
 
 Additional Tools: 
 - lombok
 - mapstruct
 - validation
 - Postman
+- HikariCP
 
 
 достижения:
-под конец можно чуть смешать hard skils с soft skils 
+можно чуть смешать hard skils с soft skils 
 типо: работал с linux/windows terminalom, ssh
-TCP/IP
 XXX задач на codewars/leetcode + ссылкв
 blind typin XXXwpm
 понимаю технический англ
 язики ангд рус укр
 bigo
 algo && structured data
-ну или не в конец
 ---
 soft skils
 ---
