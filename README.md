@@ -134,7 +134,7 @@ Message Broker: Apache Kafka:
 логирование, метрики, трейсинг:
 ---
 Всё связывается через TraceID в Grafana Explore
-- SLF4J/Logback (JSON в stdout -> docker) → Loki → Grafana
+- SLF4J/Logback (JSON в stdout -> Promtail → Loki → Grafana
 - Spring Boot Actuator → Prometheus (pull) → Grafana
 - OpenTelemetry auto-instrumentation → OTel Collector (one-process) → Tempo → Grafana
 
