@@ -113,7 +113,7 @@ NoSQL:
  - ...
 
 additional caching:
-- caffeine for in memory caching (spring boot @Cacheble теость как поставщик кеша а для основного redis)
+- caffeine for in memory caching (spring boot @Cacheble теость как провайдер кеша а для основного redis)
 
 Security:
 - Spring Security + JWT — идентификация, аутентификация и авторизация.
