@@ -137,6 +137,7 @@ Message Broker: Apache Kafka:
 - SLF4J/Logback - JSON в stdout -> Promtail → Loki → Grafana
 - Spring Boot Actuator + Micrometer → Prometheus → Grafana
 - OpenTelemetry auto-instrumentation → OTel Collector (one-process) → Tempo → Grafana
+- Grafana alerting
 
 DevOps:
 - Docker, Docker Compose и .env
