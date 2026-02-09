@@ -91,7 +91,6 @@ Programming Languages and Tools:
 - Maven — сборка multimodule проектов и управление зависимостями.
 - Git/Git Bash
 
-
 документация:
 - SpringDoc OpenAPI, Swagger UI (интерактивная документация REST API)
 - README.md
@@ -145,7 +144,7 @@ DevOps:
 - Spring Profiles
 - Spring Cloud
 - NGINX
-- Jenkins(CI/CD)
+- GitHub Actions(CI/CD)
 
 Additional Tools: 
 - lombok
@@ -153,7 +152,6 @@ Additional Tools:
 - validation
 - Postman
 - HikariCP
-
 
 достижения:
 можно чуть смешать hard skils с soft skils 
