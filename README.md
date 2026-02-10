@@ -209,6 +209,9 @@ algo && structured data
 
 ---
 soft skils
+
+https://www.youtube.com/watch?v=JKICGa4J-qc
+
 ---
 - scrum
 - робота в команде
