@@ -115,7 +115,7 @@ Infrastructure:
 
 Databases:
 - PostgreSQL/H2
-- jdbc/Hibernate/JPA: n+1 caching L1,2
+- jdbc/Hibernate/JPA: n+1 caching L1,2 и в общем приколы для ккаждогои для джбс хибера и джпа
 - работа с реляционными данными, решение проблем.
 - Flyway:
   
