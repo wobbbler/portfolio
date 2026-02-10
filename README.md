@@ -122,7 +122,7 @@ Technology Stack:
 Programming Languages and Tools:
 - Java (LTS)/ООП + Spring Framework, 
 - RESTful API
-- Maven — сборка multimodule проектов и управление зависимостями.
+- Maven — сборка multimodule проектов и управление зависимостями. && gradle 
 - Git/Git Bash
  
 документация:??? может ещё чо надо посмотри про документацию
@@ -159,6 +159,8 @@ Testing:
 - Изолированные unit-тесты, интеграционные тесты с @SpringBootTest
 - WireMock
 - Testcontainers
+- JaCoCo
+- ArchUnit
 
 Message Broker: Apache Kafka:
 - 
@@ -179,7 +181,7 @@ DevOps:
 - Docker, Docker Compose и .env
 - k8s
 - Spring Profiles
-- Spring Cloud
+- Spring Cloud(service discovery(eureka от netflix), config, api gateway, )
 - NGINX
 - GitHub Actions(CI/CD)
 
