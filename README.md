@@ -105,7 +105,7 @@ Programming Languages and Tools:
 - README.md
 
 Infrastructure: 
-- Следование принципам проектирования: SOLID, KISS, DRY, шаблонам GoF
+- Следование принципам проектирования: SOLID, KISS, DRY..., шаблонам GoF
 - понимание антипаттернов
 - 12-Factor App и 6 ограничениям REST API
 
