@@ -177,11 +177,11 @@ Message Broker: Apache Kafka:
 CI/CD:
 - Spring Profiles
 - Spring Cloud(service discovery(eureka от netflix), config, api gateway, resilience4j)
+- HashiCorp Vault
 - GitHub Actions(CI/CD)
 
 containerzation:
-- Docker/Docker hub, Docker Compose и .env/HashiCorp Value
-- k8s:....
+- Docker/Docker hub, Docker Compose и .env
 
 Additional Tools: 
 - lombok
