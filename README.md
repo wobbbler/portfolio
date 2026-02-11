@@ -122,11 +122,12 @@ Technology Stack:
 Programming Languages and Tools:
 - Java (LTS)/ООП + Spring Framework, 
 - RESTful API
-- Maven — сборка multimodule проектов и управление зависимостями. && gradle 
+- Maven — сборка multimodule проектов и управление зависимостями
 - Git/Git Bash
  
 документация:??? может ещё чо надо посмотри про документацию
 - SpringDoc OpenAPI, Swagger UI (интерактивная документация REST API)
+- ADR
 - README.md
 
 Infrastructure: 
@@ -144,6 +145,7 @@ NoSQL:
  Redis:
  - caching 
  - ...
+MongoDB и пойми разницу междну ним и postgre
 
 additional caching:
 - caffeine for in memory caching (spring boot @Cacheble теость как провайдер кеша а для основного redis)
@@ -157,10 +159,7 @@ Security:
 Testing:
 - JUnit 5, Mockito, Spring Boot Test
 - Изолированные unit-тесты, интеграционные тесты с @SpringBootTest
-- WireMock
 - Testcontainers
-- JaCoCo
-- ArchUnit
 
 Message Broker: Apache Kafka:
 - 
@@ -176,9 +175,11 @@ Message Broker: Apache Kafka:
 
 CI/CD:
 - Spring Profiles
-- Spring Cloud(service discovery(eureka от netflix), config, api gateway, resilience4j)
+- Spring Cloud(service discovery(eureka от netflix), config(vault, Config Server), api gateway, resilience4j, Feign )
 - HashiCorp Vault
 - GitHub Actions(CI/CD)
+- checkstyle
+- k6(js script for Нагрузка)
 
 containerzation:
 - Docker/Docker hub, Docker Compose и .env
@@ -189,7 +190,7 @@ Additional Tools:
 - validation
 - Postman
 - HikariCP
-- checkstyle
+
 
 достижения:
 -
