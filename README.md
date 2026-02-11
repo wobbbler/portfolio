@@ -185,11 +185,7 @@ containerzation:
 - Docker/Docker Hub, Docker Compose + .env
 
 Service Discovery & Configuration:
-- Spring Cloud Netflix: Eureka Server/Client (service registry)
-- Spring Cloud Config Server (Git + Vault backend)
-- Spring Cloud Gateway 
-- Spring Cloud OpenFeign
-- Spring Cloud LoadBalancer
+- Spring Cloud(Netflix-Eureka server, Config Server (Git + Vault backend), Gateway, OpenFeign, LoadBalancer)
 
 Resilience:
 - Spring Cloud Circuit Breaker / Resilience4j
