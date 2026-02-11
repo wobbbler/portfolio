@@ -168,22 +168,20 @@ Message Broker: Apache Kafka:
 -
 
 логирование, метрики, трейсинг:
-трейсинг???
 ---
 Всё связывается через TraceID в Grafana Explore
 - SLF4J/Logback - JSON в stdout -> Promtail → Loki → Grafana
 - Spring Boot Actuator + Micrometer → Prometheus → Grafana
-- OpenTelemetry auto-instrumentation → OTel Collector (one-process) → Tempo → Grafana
-стек запросов, и просто почитай про это бо ???
-- Grafana alerting
+- OpenTelemetry → Tempo → Grafana
 
-DevOps:
-- Docker, Docker Compose и .env
-- k8s
+CI/CD:
 - Spring Profiles
-- Spring Cloud(service discovery(eureka от netflix), config, api gateway, )
-- NGINX
+- Spring Cloud(service discovery(eureka от netflix), config, api gateway, resilience4j)
 - GitHub Actions(CI/CD)
+
+containerzation:
+- Docker/Docker hub, Docker Compose и .env/HashiCorp Value
+- k8s:....
 
 Additional Tools: 
 - lombok
@@ -191,6 +189,7 @@ Additional Tools:
 - validation
 - Postman
 - HikariCP
+- checkstyle
 
 достижения:
 -
