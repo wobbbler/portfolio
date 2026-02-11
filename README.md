@@ -121,39 +121,49 @@ Technology Stack:
 
 Programming Languages and Tools:
 - Java (LTS)/ООП + Spring Framework, 
-- RESTful API
+- RESTful API/gRPC 
 - Maven — сборка multimodule проектов и управление зависимостями
 - Git/Git Bash
  
-документация:??? может ещё чо надо посмотри про документацию
+документация:
 - SpringDoc OpenAPI, Swagger UI (интерактивная документация REST API)
-- ADR
-- README.md
+- JavaDoc
 
 Infrastructure: 
 - Следование принципам проектирования: SOLID, KISS, DRY..., шаблонам GoF
 - понимание антипаттернов
 - 12-Factor App и 6 ограничениям REST API
+- паттерны Saga, Outbox for microservices
 
 Databases:
 - PostgreSQL/H2
-- jdbc/Hibernate/JPA: n+1 caching L1,2 и в общем приколы для ккаждогои для джбс хибера и джпа
-- работа с реляционными данными, решение проблем.
+- jdbc/Hibernate/JPA
+- работа с реляционными данными, решение проблем, оптимизация запросов.
 - Flyway:
   
-NoSQL:
- Redis:
- - caching 
- - ...
-MongoDB и пойми разницу междну ним и postgre
+Redis:
+ - 
+ -
+ - 
 
-additional caching:
-- caffeine for in memory caching (spring boot @Cacheble теость как провайдер кеша а для основного redis)
+MongoDB:
+ -
+ -
+ -
+
+ClickHouse:
+ -
+ -
+ -
+
+caching:
+- caffeine для in-memory кэша одного инстанса
+- Redis для распределенного caching
+- L1, L2 hibernate caching
 
 Security:
 - Spring Security + JWT — идентификация, аутентификация и авторизация.
 - Разделение ролей (roles) и прав (authorities).
-- Защита от CSRF/CORS атак.
 - OAuth 2.0 (Keycloak)
 
 Testing:
@@ -167,22 +177,30 @@ Message Broker: Apache Kafka:
 -
 
 логирование, метрики, трейсинг:
----
-Всё связывается через TraceID в Grafana Explore
 - SLF4J/Logback - JSON в stdout -> Promtail → Loki → Grafana
 - Spring Boot Actuator + Micrometer → Prometheus → Grafana
 - OpenTelemetry → Tempo → Grafana
+  
+containerzation:
+- Docker/Docker Hub, Docker Compose + .env
+
+Service Discovery & Configuration:
+- Spring Cloud Netflix: Eureka Server/Client (service registry)
+- Spring Cloud Config Server (Git + Vault backend)
+- Spring Cloud Gateway 
+- Spring Cloud OpenFeign
+- Spring Cloud LoadBalancer
+
+Resilience:
+- Spring Cloud Circuit Breaker / Resilience4j
 
 CI/CD:
 - Spring Profiles
-- Spring Cloud(service discovery(eureka от netflix), config(vault, Config Server), api gateway, resilience4j, Feign )
+- GitHub Actions
 - HashiCorp Vault
-- GitHub Actions(CI/CD)
-- checkstyle
-- k6(js script for Нагрузка)
 
-containerzation:
-- Docker/Docker hub, Docker Compose и .env
+Нагрузочное тестирование:
+- k6 (JS-сценарии, проверка SLA под нагрузкой)
 
 Additional Tools: 
 - lombok
