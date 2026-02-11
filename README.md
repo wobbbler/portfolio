@@ -195,15 +195,13 @@ CI/CD:
 - HashiCorp Vault
 
 Нагрузочное тестирование:
-- k6 (JS-сценарии, проверка SLA под нагрузкой)
-
+- 
 Additional Tools: 
 - lombok
 - mapstruct
 - validation
-- Postman
+- Postman + k6 (JS-сценарии, проверка SLA под нагрузкой)
 - HikariCP
-
 
 достижения:
 -
