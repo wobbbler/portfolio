@@ -130,7 +130,7 @@ Programming Languages and Tools:
 
 Infrastructure: 
 - Следование принципам проектирования: SOLID, KISS, DRY..., шаблонам GoF
-- понимание антипаттернов
+- Идентификация и избегание антипаттернов
 - 12-Factor App и 6 ограничениям REST API
 - паттерны Saga, Outbox for microservices
 
