@@ -15,12 +15,10 @@
 - Посмотри на YouTube просто всё, бро.
 
 ЧТО СДЕЛАТЬ
-
 - Ещё раз чекни резюмешки других людей, сравни со своим и посмотри, что ещё учить или добавить.
 - https://www.youtube.com/watch?v=VwoD3FsJoWo — видео о том, что резюме и собеседование — это реклама себя как продукта, а не рассказ о себе. (Можно чекнуть, как правильно рекламировать.)
 
 ВАЖНЫЕ ПРИНЦИПЫ
-
 - Правдивость — не обманывай.
 - Релевантность — включай только то, что относится к желаемой должности.
 - Конкретика — вместо «увеличил продажи» пиши «увеличил продажи на 20% за полгода».
@@ -28,12 +26,10 @@
 - Удобочитаемость — чёткая структура, единый шрифт.
 
 ЧТО НЕ НУЖНО В РЕЗЮМЕ
-
 - Фото (только если явно требуется)
 - Личные данные (семейное положение, ИНН и т.п.) — всем всё равно.
 
 СТРУКТУРА И ВОСПРИЯТИЕ
-
 - Резюме должно быть лаконичным, с аккуратным оформлением, без ошибок.
 - Старайся уместить резюме на одну страницу.
 - Всё самое важное — сверху, на видном месте. Восприятие идёт слева направо и сверху вниз; низ уже не читают. Проверь, где находятся горячие точки в резюме.
@@ -41,19 +37,16 @@
 - Резюме должно за 30 секунд показать, что ты — подходящий кандидат.
 
 ТРИ «ПРИВРАТНИКА»
-
 1. HR / рекрутер — им нужны ключевые слова из вакансии. Сделай так, чтобы они сразу поняли: ты подходишь.
 2. Нанимающий менеджер (тимлид) — ему важно убедиться, что у тебя реальный опыт, а не поверхностные знания. Покажи глубину понимания технологий.
 3. Будущие коллеги (собеседующие) — им нужны интересные темы для разговора. Добавь что-то нестандартное (личные проекты, open-source, хобби, связанное с IT).
 
 НАВЫКИ — С ДОКАЗАТЕЛЬСТВАМИ
-
 - Не перечисляй всё подряд.
 - Упор на проекты и роль: важнее описать, над чем работал, какую роль играл и что сделал, а не просто перечислять технологии.
 - Будь готов ответить за всё написанное — на собеседовании спросят про каждый пункт. Пиши только то, в чём уверен.
 
 ПРОЕКТЫ
-
 - Личные проекты — это хорошо, особенно если мало коммерческого опыта или проект действительно интересный и завершённый. Полуготовое лучше не включать.
 - Несколько пет-проектов с разными технологиями, в разных перифериях, хорошо оформлены. Например: в одном Kafka, в другом Redis и т.д., или в одном JDBC, в другом Hibernate / Spring JPA.
 - Не надо куча. Подумай, сколько нужно и с каким стеком. 3–4 штуки прям хороших, которые вместе делают суперскую картину, с покрытием всех периферий, выдерживают кучу народа и т.д. — как у Мишустина.
@@ -67,10 +60,11 @@
 - устроил, добавил то и то;
 - интегрировал то и то для того-то;
 - оркестрировал так и так;
+- инструкция запуска;
+- интерактивная документация, все нужные ссылки;
 - и т.д., но немного.
 
 ИДЕИ ДЛЯ ПЕТ-ПРОЕКТОВ
-
 - Tinder
 - Доставка еды
 - Бронирование
@@ -104,117 +98,7 @@ tg: @wobbbler
 ────────────────────────────────
 
 HARD SKILLS
-
 1. ОПЫТ
-   (будет дополнено)
-2. ТЕХНОЛОГИЧЕСКИЙ СТЕК
-
-Programming Languages & Tools
-
-- Java (LTS), ООП, Spring Framework
-- RESTful API, gRPC
-- Maven — сборка multimodule-проектов, управление зависимостями
-- Git / Git Bash
-
-Документация
-
-- SpringDoc OpenAPI, Swagger UI (интерактивная документация REST API)
-- JavaDoc
-
-Infrastructure & Design
-
-- Следование принципам проектирования: SOLID, KISS, DRY…, шаблоны GoF
-- Идентификация и избегание антипаттернов
-- 12-Factor App, 6 ограничений REST API
-- Паттерны Saga, Outbox для микросервисов
-
-Databases
-
-- PostgreSQL / H2
-- JDBC, Hibernate, JPA
-- Работа с реляционными данными, решение проблем, оптимизация запросов
-- Flyway — миграции БД
-
-Redis
-
-- (будет дополнено)
-
-MongoDB
-
-- (будет дополнено)
-
-ClickHouse
-
-- (будет дополнено)
-
-Caching
-
-- Caffeine — in-memory кэш одного инстанса
-- Redis — распределённый кэш
-- L1, L2 Hibernate Cache
-
-Security
-
-- Spring Security + JWT — идентификация, аутентификация, авторизация
-- Разделение ролей (roles) и прав (authorities)
-- OAuth 2.0, Keycloak
-
-Testing
-
-- JUnit 5, Mockito, Spring Boot Test
-- Изолированные unit-тесты, интеграционные тесты с @SpringBootTest
-- Testcontainers
-
-Message Broker
-
-- Apache Kafka
-- (будет дополнено)
-
-Логирование, метрики, трейсинг
-
-- SLF4J/Logback — JSON в stdout → Promtail → Loki → Grafana
-- Spring Boot Actuator + Micrometer → Prometheus → Grafana
-- OpenTelemetry → Tempo → Grafana
-
-Containerization
-
-- Docker, Docker Hub, Docker Compose + .env
-
-Service Discovery & Configuration
-
-- Spring Cloud (Netflix Eureka Server, Config Server с Git + Vault backend, Gateway, OpenFeign, LoadBalancer)
-
-Resilience
-
-- Spring Cloud Circuit Breaker / Resilience4j
-
-CI/CD
-
-- Spring Profiles
-- GitHub Actions
-- HashiCorp Vault
-
-Нагрузочное тестирование
-
-- (будет дополнено)
-
-Additional Tools
-
-- Lombok, MapStruct, Validation
-- Postman + k6 (JS-сценарии, проверка SLA под нагрузкой)
-- HikariCP
-
-1. ДОСТИЖЕНИЯ (S.T.A.R.)
-   (будет дополнено)
-
-────────────────────────────────
-
-ПРИМЕЧАНИЯ ПО СТЕКУ (ДЛЯ ДОРАБОТКИ)
-- возможно, добавить отдельную категорию DevOps / инфраструктура: работа с Linux/Windows терминалом, SSH и т.д.
-- можно смешать hard skills и soft skills, например: «Работал с Linux/Windows терминалом, SSH», «XXX задач на Codewars/LeetCode + ссылка», «Blind typing — XXX wpm», «Понимаю технический английский», «Языки: английский, русский, украинский», «Big O», «Алгоритмы и структуры данных».
-- эти пункты можно либо вынести в отдельную группу, либо распределить по стеку.
-
-────────────────────────────────
 
 ПРОЕКТЫ (PET-PROJECTS)
 
@@ -231,6 +115,104 @@ Additional Tools
   - интегрировал то и то для того-то;
   - оркестрировал так и так;
   - и т.д. (немного, по делу).
+
+────────────────────────────────
+
+2. ТЕХНОЛОГИЧЕСКИЙ СТЕК
+Programming Languages & Tools
+- Java (LTS), ООП, Spring Framework
+- RESTful API, gRPC
+- Maven — сборка multimodule-проектов, управление зависимостями
+- Git / Git Bash
+
+Документация
+- SpringDoc OpenAPI, Swagger UI (интерактивная документация REST API)
+- JavaDoc
+
+Infrastructure & Design
+- Следование принципам проектирования: SOLID, KISS, DRY…, шаблоны GoF
+- Идентификация и избегание антипаттернов
+- 12-Factor App, 6 ограничений REST API
+- Паттерны Saga, Outbox для микросервисов
+
+Databases
+- PostgreSQL / H2
+- JDBC, Hibernate, JPA
+- Работа с реляционными данными, решение проблем, оптимизация запросов
+- Flyway — миграции БД
+
+Redis
+-
+-
+-
+
+
+MongoDB
+- 
+-
+-
+
+ClickHouse
+-
+-
+-
+
+Caching
+- Caffeine — in-memory кэш одного инстанса
+- Redis — распределённый кэш
+- L1, L2 Hibernate Cache
+
+Security
+- Spring Security + JWT — идентификация, аутентификация, авторизация
+- Разделение ролей (roles) и прав (authorities)
+- OAuth 2.0, Keycloak
+
+Testing
+- JUnit 5, Mockito, Spring Boot Test
+- Изолированные unit-тесты, интеграционные тесты с @SpringBootTest
+- Testcontainers
+
+Apache Kafka:
+-
+-
+-
+
+Логирование, метрики, трейсинг
+- SLF4J/Logback — JSON в stdout → Promtail → Loki → Grafana
+- Spring Boot Actuator + Micrometer → Prometheus → Grafana
+- OpenTelemetry → Tempo → Grafana
+
+Containerization
+- Docker, Docker Hub, Docker Compose
+
+Service Discovery & Configuration
+- Spring Cloud (Netflix Eureka Server, Config Server с Git + Vault backend, Gateway, OpenFeign, LoadBalancer)
+
+Resilience
+- Spring Cloud Circuit Breaker / Resilience4j
+
+CI/CD
+- Spring Profiles
+- GitHub Actions
+- HashiCorp Vault
+
+Additional Tools
+
+- Lombok, MapStruct, Validation
+- Postman + k6 (JS-сценарии, проверка SLA под нагрузкой)
+- HikariCP
+
+1. ДОСТИЖЕНИЯ (S.T.A.R.)
+-
+-
+-
+
+────────────────────────────────
+
+ПРИМЕЧАНИЯ ПО СТЕКУ (ДЛЯ ДОРАБОТКИ)
+- возможно, добавить отдельную категорию DevOps / инфраструктура: работа с Linux/Windows терминалом, SSH и т.д.
+- можно смешать hard skills и soft skills, например: «Работал с Linux/Windows терминалом, SSH», «XXX задач на Codewars/LeetCode + ссылка», «Blind typing — XXX wpm», «Понимаю технический английский», «Языки: английский, русский, украинский», «Big O», «Алгоритмы и структуры данных».
+- эти пункты можно либо вынести в отдельную группу, либо распределить по стеку.
 
 ────────────────────────────────
 
