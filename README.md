@@ -150,17 +150,17 @@ Additional Tools
 DevOps:
 
 - Docker:
- - Docker Compose
- - Docker Hub
+  - Docker Compose
+  - Docker Hub
 - Kubernetes:
- - kubectl
- - Pod, Deployment, Service (DNS Service Discovery)
- - ConfigMap
- - Reloader (Stakater)
- - External Secrets Operator
- - HashiCorp Vault
- - Helm (charts)
- - Argo CD (GitOps)
+  - kubectl
+  - Pod, Deployment, Service (DNS Service Discovery)
+  - ConfigMap
+  - Reloader (Stakater)
+  - External Secrets Operator
+  - HashiCorp Vault
+  - Helm (charts)
+  - Argo CD (GitOps)
 
 Service Mesh & Resilience:
  - NGINX Ingress Controller
