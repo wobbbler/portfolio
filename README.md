@@ -121,7 +121,7 @@ HARD SKILLS
 2. ТЕХНОЛОГИЧЕСКИЙ СТЕК
 Programming Languages & Tools
 - Java (LTS), ООП, Spring Framework
-- RESTful API, gRPC
+- RESTful API, gRPC, GraphQL 
 - Maven — сборка multimodule-проектов, управление зависимостями
 - Git 
 
@@ -132,6 +132,7 @@ Programming Languages & Tools
 Infrastructure & Design
 - Следование принципам проектирования: SOLID, KISS, DRY…, шаблоны GoF
 - Идентификация и избегание антипаттернов
+- Clean Architecture 
 - 12-Factor App, 6 ограничений REST API
 
 
@@ -187,7 +188,6 @@ CI/CD
 - GitHub Actions
 
 Additional Tools
-
 - Lombok, MapStruct, Validation
 - Postman + k6 (JS-сценарии, проверка SLA под нагрузкой)
 - HikariCP
