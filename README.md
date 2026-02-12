@@ -178,7 +178,7 @@ Apache Kafka:
 
 Containerization and оркестрация
 - Docker, Docker Hub, Docker Compose
-- k8s (service discovery (через DNS), ConfigMap+Secret)
+- k8s (DNS Service Discovery, ConfigMap, External Secrets Operator + Vault)
 
 Resilience
 - Spring Cloud Circuit Breaker / Resilience4j
