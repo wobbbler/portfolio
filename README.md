@@ -144,6 +144,7 @@ Containerization & Orchestration
 - Kubernetes (DNS Service Discovery, ConfigMap + Reloader, External Secrets Operator + Vault)
 - Helm (чарты)
 - GitOps (Argo CD)
+- RBAC
 
 Service Mesh & Resilience
 - Ingress (NGINX Ingress Controller) как внешний
