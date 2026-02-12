@@ -121,7 +121,7 @@ HARD SKILLS
 2. ТЕХНОЛОГИЧЕСКИЙ СТЕК
 Programming Languages & Tools
 - Java (LTS), ООП, Spring Framework
-- RESTful API, gRPC, GraphQL 
+- REST API, GraphQL, WebFLux
 - Maven — сборка multimodule-проектов, управление зависимостями
 - Git 
 
@@ -132,7 +132,7 @@ Programming Languages & Tools
 Infrastructure & Design
 - Следование принципам проектирования: SOLID, KISS, DRY…, шаблоны GoF
 - Идентификация и избегание антипаттернов
-- Clean Architecture 
+- Clean Architecture && DDD
 - 12-Factor App, 6 ограничений REST API
 
 
@@ -167,6 +167,7 @@ Testing
 
 Apache Kafka:
 - Паттерны (Saga, Outbox)
+- Streams 
 - ...
 
 Логирование, метрики, трейсинг
@@ -176,11 +177,12 @@ Apache Kafka:
 
 Containerization and оркестрация
 - Docker, Docker Hub, Docker Compose
-- k8s (DNS Service Discovery, ConfigMap, External Secrets Operator + Vault)
+- k8s (DNS Service Discovery, ConfigMap + Reloader, External Secrets Operator + Vault)
 - Helm (чарты)
 
 Resilience
 - Spring Cloud Circuit Breaker / Resilience4j
+-  Spring Cloud Gateway
 - Ingress (NGINX Ingress Controller)
 
 CI/CD
