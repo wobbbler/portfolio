@@ -136,7 +136,6 @@ Infrastructure & Design
 - Clean Architecture && DDD
 - 12-Factor App, 6 ограничений REST API
 
-
 Databases
 - PostgreSQL / H2
 - JDBC, Hibernate, JPA
@@ -177,6 +176,7 @@ Apache Kafka:
 - Spring Boot Actuator + Micrometer → Prometheus → Grafana
 - OpenTelemetry → Tempo → Grafana
 - Grafana alerting
+- JFR и async-profiler
 
 Containerization and оркестрация
 - Docker, Docker Hub, Docker Compose
@@ -191,7 +191,7 @@ Resilience
 
 CI/CD
 - Spring Profiles
-- GitHub Actions
+- GitLab CI/CD
 
 Additional Tools
 - Lombok, MapStruct, Validation
