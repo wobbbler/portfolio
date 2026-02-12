@@ -151,7 +151,7 @@ DevOps:
   - Docker Compose
   - Docker Hub
 - Kubernetes:
-  - 
+  - minicube/kubectl
 
 Service Mesh & Resilience:
  - Spring Cloud Gateway
