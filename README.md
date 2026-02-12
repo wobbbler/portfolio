@@ -133,7 +133,7 @@ Infrastructure & Design
 - Следование принципам проектирования: SOLID, KISS, DRY…, шаблоны GoF
 - Идентификация и избегание антипаттернов
 - 12-Factor App, 6 ограничений REST API
-- Паттерны Saga, Outbox для микросервисов
+
 
 Databases
 - PostgreSQL / H2
@@ -143,14 +143,12 @@ Databases
 
 Redis
 -
--
--
+- ...
 
 
 MongoDB
 - 
--
--
+- ...
 
 Caching
 - Caffeine — in-memory кэш одного инстанса
@@ -167,9 +165,8 @@ Testing
 - Testcontainers
 
 Apache Kafka:
--
--
--
+- Паттерны (Saga, Outbox)
+- ...
 
 Логирование, метрики, трейсинг
 - SLF4J/Logback — JSON в stdout → Promtail → Loki → Grafana
