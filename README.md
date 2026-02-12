@@ -149,10 +149,10 @@ Additional Tools
 
 DevOps:
 
-Docker:
+- Docker:
  - Docker Compose
  - Docker Hub
-Kubernetes:
+- Kubernetes:
  - kubectl
  - Pod, Deployment, Service (DNS Service Discovery)
  - ConfigMap
