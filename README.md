@@ -152,11 +152,6 @@ MongoDB
 -
 -
 
-ClickHouse
--
--
--
-
 Caching
 - Caffeine — in-memory кэш одного инстанса
 - Redis — распределённый кэш
