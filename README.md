@@ -121,7 +121,8 @@ HARD SKILLS
 2. ТЕХНОЛОГИЧЕСКИЙ СТЕК
 Programming Languages & Tools
 - Java (LTS), ООП, Spring Framework
-- REST API, GraphQL, WebFLux
+- REST API, GraphQL, gRPC, WebFLux
+- API versioning
 - Maven — сборка multimodule-проектов, управление зависимостями
 - Git 
 
@@ -164,6 +165,7 @@ Testing
 - JUnit 5, Mockito, Spring Boot Test
 - Изолированные unit-тесты, интеграционные тесты с @SpringBootTest
 - Testcontainers
+- Spring Cloud Contract 
 
 Apache Kafka:
 - Паттерны (Saga, Outbox)
@@ -174,6 +176,7 @@ Apache Kafka:
 - SLF4J/Logback — JSON в stdout → Promtail → Loki → Grafana
 - Spring Boot Actuator + Micrometer → Prometheus → Grafana
 - OpenTelemetry → Tempo → Grafana
+- Grafana alerting
 
 Containerization and оркестрация
 - Docker, Docker Hub, Docker Compose
@@ -182,8 +185,9 @@ Containerization and оркестрация
 
 Resilience
 - Spring Cloud Circuit Breaker / Resilience4j
--  Spring Cloud Gateway
+- Spring Cloud Gateway
 - Ingress (NGINX Ingress Controller)
+- Service Mesh (Istio)
 
 CI/CD
 - Spring Profiles
