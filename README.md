@@ -123,7 +123,7 @@ Programming Languages & Tools
 - Java (LTS), ООП, Spring Framework
 - RESTful API, gRPC
 - Maven — сборка multimodule-проектов, управление зависимостями
-- Git / Git Bash
+- Git 
 
 Документация
 - SpringDoc OpenAPI, Swagger UI (интерактивная документация REST API)
@@ -178,7 +178,7 @@ Apache Kafka:
 
 Containerization and оркестрация
 - Docker, Docker Hub, Docker Compose
-- k8s (service discovery (через DNS), ConfigMap+Secret, OpenFeign)
+- k8s (service discovery (через DNS), ConfigMap+Secret)
 
 Resilience
 - Spring Cloud Circuit Breaker / Resilience4j
