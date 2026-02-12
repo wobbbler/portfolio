@@ -124,8 +124,8 @@ Messaging
 - Паттерны Saga, Outbox
 - Kafka Streams – (будет дополнено)
 
-Security
-- Spring Security + JWT (идентификация, аутентификация, авторизация)
+Spring security 
+- Basic, JWT(дентификация, аутентификация, авторизация)
 - OAuth 2.0, Keycloak
 
 Testing
