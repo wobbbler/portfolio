@@ -94,7 +94,7 @@ tg: @wobbbler
 
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
 Programming Languages & Tools
-- Java (LTS), ООП, Spring Framework 
+- Java (LTS), ООП/SOLID принципы, Spring Framework 
 - RESTful API
 - API versioning
 - Maven (multimodule, управление зависимостями)
@@ -104,28 +104,31 @@ Documentation
 - SpringDoc OpenAPI, Swagger UI
 - JavaDoc
 
-Design & Architecture
-- SOLID/GRASP, KISS, DRY, YAGNI, SoC, SLAP, GoF
-- Избегание антипаттернов
-- Clean Architecture, DDD, C4 model
-- 12‑Factor App, 6 ограничений REST
-
 Databases & Caching
 - PostgreSQL / H2
 - JDBC, Hibernate, JPA
 - Оптимизация запросов, работа с реляционными данными
 - liquibase (миграции)
-- Redis – (будет дополнено)
-- MongoDB – (будет дополнено)
+
+Redis
+-
+-
+-
+
+MongoDB
+-
+-
+-
+
 - Caffeine (in‑memory кэш)
   
-Messaging
-- Apache Kafka
+Apache Kafka
 - Паттерны Saga, Outbox
-- Kafka Streams – (будет дополнено)
+- Kafka Streams...
+- (будет дополнено)
 
 Spring security 
-- Basic, JWT(дентификация, аутентификация, авторизация)
+- Basic, JWT(идентификация, аутентификация, авторизация)
 - OAuth 2.0, Keycloak
 
 Testing
@@ -137,28 +140,25 @@ Monitoring:
 - SLF4J/Logback (JSON → Promtail → Loki → Grafana)
 - Spring Boot Actuator + Micrometer (→ Prometheus → Grafana)
 - Grafana alerting
-- JFR, async‑profiler
-
-Containerization & Orchestration
-- Docker, Docker Compose, Docker Hub
-- Kubernetes (DNS Service Discovery, ConfigMap + Reloader, External Secrets Operator + Vault)
-- Helm (чарты)
-- GitOps (Argo CD)
-- RBAC
-
-Service Mesh & Resilience
-- Ingress (NGINX Ingress Controller) как внешний
-- Spring Cloud Gateway на уровне приложения
-- Resilience4j
-
-CI/CD
-- Spring Profiles
-- GitHub Actions
 
 Additional Tools
 - Lombok, MapStruct, Validation
 - Postman, k6 (JS‑сценарии, проверка SLA)
+- JFR, async‑profiler
 - HikariCP
+
+DevOps:
+- Docker, Docker Compose, Docker Hub
+- Kubernetes (DNS Service Discovery, ConfigMap + Reloader, External Secrets Operator + Vault)
+- Helm (чарты)
+- GitOps (Argo CD)
+Service Mesh & Resilienc:
+- Ingress (NGINX Ingress Controller) 
+- Spring Cloud Gateway на уровне приложения
+- Resilience4j
+CI/CD:
+- Spring Profiles
+- GitHub Actions
 
 Other Skills / Дополнительные компетенции
 - Работа с Linux/Windows терминалом, SSH
