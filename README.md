@@ -147,7 +147,6 @@ Testing
 - JUnit 5, Mockito, Spring Boot Test
 - Unit / интеграционные тесты (@SpringBootTest)
 - Testcontainers
-- Spring Cloud Contract
 
 Monitoring:
 - SLF4J/Logback (JSON → Promtail → Loki → Grafana)
@@ -164,7 +163,7 @@ Containerization & Orchestration
 Service Mesh & Resilience
 - Ingress (NGINX Ingress Controller) как внешний
 - Spring Cloud Gateway на уровне приложения
-- Resilience4j / Spring Cloud Circuit Breaker
+- Resilience4j
 
 CI/CD
 - Spring Profiles
