@@ -155,7 +155,6 @@ MongoDB
 Caching
 - Caffeine — in-memory кэш одного инстанса
 - Redis — распределённый кэш
-- L1, L2 Hibernate Cache
 
 Security
 - Spring Security + JWT — идентификация, аутентификация, авторизация
@@ -177,19 +176,17 @@ Apache Kafka:
 - Spring Boot Actuator + Micrometer → Prometheus → Grafana
 - OpenTelemetry → Tempo → Grafana
 
-Containerization
+Containerization and оркестрация
 - Docker, Docker Hub, Docker Compose
-
-Service Discovery & Configuration
-- Spring Cloud (Netflix Eureka Server, Config Server с Git + Vault backend, Gateway, OpenFeign, LoadBalancer)
+- k8s (service discovery (через DNS), ConfigMap+Secret, OpenFeign)
 
 Resilience
 - Spring Cloud Circuit Breaker / Resilience4j
+- NGINX
 
 CI/CD
 - Spring Profiles
 - GitHub Actions
-- HashiCorp Vault
 
 Additional Tools
 
