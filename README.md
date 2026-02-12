@@ -182,7 +182,7 @@ Containerization and оркестрация
 
 Resilience
 - Spring Cloud Circuit Breaker / Resilience4j
-- NGINX внешний ingress 
+- Ingress (NGINX Ingress Controller)
 
 CI/CD
 - Spring Profiles
