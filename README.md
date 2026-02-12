@@ -108,7 +108,6 @@ tg: @wobbbler
 ────────────────────────────────
 
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
-
 Programming Languages & Tools
 - Java (LTS), ООП, Spring Framework 
 - RESTful API
@@ -150,10 +149,9 @@ Testing
 - Testcontainers
 - Spring Cloud Contract
 
-Monitoring & Observability
+Monitoring:
 - SLF4J/Logback (JSON → Promtail → Loki → Grafana)
 - Spring Boot Actuator + Micrometer (→ Prometheus → Grafana)
-- OpenTelemetry (→ Tempo → Grafana)
 - Grafana alerting
 - JFR, async‑profiler
 
@@ -161,11 +159,9 @@ Containerization & Orchestration
 - Docker, Docker Compose, Docker Hub
 - Kubernetes (DNS Service Discovery, ConfigMap + Reloader, External Secrets Operator + Vault)
 - Helm (чарты)
-- IaC (Terraform)
 - GitOps (Argo CD)
 
 Service Mesh & Resilience
-- Istio(mTLS)
 - Ingress (NGINX Ingress Controller) как внешний
 - Spring Cloud Gateway на уровне приложения
 - Resilience4j / Spring Cloud Circuit Breaker
@@ -189,16 +185,11 @@ Other Skills / Дополнительные компетенции
 
 ────────────────────────────────
 
-ДОСТИЖЕНИЯ (S.T.A.R.)
-- (будет дополнено)
-
-────────────────────────────────
-
 SOFT SKILLS
 - Scrum, работа в команде
 - Jira
 - Code review, созвоны, коммуникация
-- Понимание контекста, умение вникать в задачу
+- Понимание контекста, умение вникать в задачу, робочих процесов
 
 ────────────────────────────────
 
