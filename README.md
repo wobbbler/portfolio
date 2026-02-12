@@ -113,18 +113,18 @@ Databases & Caching
 Redis
 -
 -
--
+- (будет дополнено)
 
 MongoDB
 -
 -
--
+- (будет дополнено)
 
 - Caffeine (in‑memory кэш)
   
 Apache Kafka
-- Паттерны Saga, Outbox
-- Kafka Streams...
+-
+-
 - (будет дополнено)
 
 Spring security 
@@ -144,26 +144,16 @@ Monitoring:
 Additional Tools
 - Lombok, MapStruct, Validation
 - Postman, k6 (JS‑сценарии, проверка SLA)
-- JFR, async‑profiler
 - HikariCP
 
 DevOps:
-
 - Docker:
   - Docker Compose
   - Docker Hub
 - Kubernetes:
-  - kubectl
-  - Pod, Deployment, Service (DNS Service Discovery)
-  - ConfigMap
-  - Reloader (Stakater)
-  - External Secrets Operator
-  - HashiCorp Vault
-  - Helm (charts)
-  - Argo CD (GitOps)
+  - 
 
 Service Mesh & Resilience:
- - NGINX Ingress Controller
  - Spring Cloud Gateway
  - Resilience4j
 
