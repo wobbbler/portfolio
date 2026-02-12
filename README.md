@@ -159,7 +159,7 @@ Service Mesh & Resilience:
 
 CI/CD:
  - Spring Profiles
- - GitHub Actions
+ - Jenkins
 
 Other Skills / Дополнительные компетенции
 - Работа с Linux/Windows терминалом, SSH
