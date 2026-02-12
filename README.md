@@ -110,8 +110,8 @@ tg: @wobbbler
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
 
 Programming Languages & Tools
-- Java (LTS), ООП, Spring Framework (Core, Boot, Data, Cloud)
-- REST API, GraphQL, gRPC, WebFlux
+- Java (LTS), ООП, Spring Framework 
+- RESTful API
 - API versioning
 - Maven (multimodule, управление зависимостями)
 - Git
@@ -121,21 +121,20 @@ Documentation
 - JavaDoc
 
 Design & Architecture
-- SOLID, KISS, DRY, GoF
+- SOLID/GRASP , KISS, DRY, YAGNI, SoC, SLAP, GoF
 - Избегание антипаттернов
-- Clean Architecture, DDD
+- Clean Architecture, DDD, C4 model
 - 12‑Factor App, 6 ограничений REST
 
 Databases & Caching
 - PostgreSQL / H2
 - JDBC, Hibernate, JPA
 - Оптимизация запросов, работа с реляционными данными
-- Flyway (миграции)
+- liquibase (миграции)
 - Redis – (будет дополнено)
 - MongoDB – (будет дополнено)
 - Caffeine (in‑memory кэш)
-- Hibernate L1/L2 Cache
-
+  
 Messaging
 - Apache Kafka
 - Паттерны Saga, Outbox
@@ -143,7 +142,6 @@ Messaging
 
 Security
 - Spring Security + JWT (идентификация, аутентификация, авторизация)
-- Разделение ролей (roles) и прав (authorities)
 - OAuth 2.0, Keycloak
 
 Testing
@@ -168,13 +166,13 @@ Containerization & Orchestration
 
 Service Mesh & Resilience
 - Istio
-- Ingress (NGINX Ingress Controller)
-- Spring Cloud Gateway
+- Ingress (NGINX Ingress Controller) как внешний
+- Spring Cloud Gateway на уровне приложения
 - Resilience4j / Spring Cloud Circuit Breaker
 
 CI/CD
 - Spring Profiles
-- GitLab CI/CD
+- GitHub Actions
 
 Additional Tools
 - Lombok, MapStruct, Validation
