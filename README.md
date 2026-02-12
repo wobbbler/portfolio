@@ -121,7 +121,7 @@ Documentation
 - JavaDoc
 
 Design & Architecture
-- SOLID/GRASP , KISS, DRY, YAGNI, SoC, SLAP, GoF
+- SOLID/GRASP, KISS, DRY, YAGNI, SoC, SLAP, GoF
 - Избегание антипаттернов
 - Clean Architecture, DDD, C4 model
 - 12‑Factor App, 6 ограничений REST
@@ -165,7 +165,7 @@ Containerization & Orchestration
 - GitOps (Argo CD)
 
 Service Mesh & Resilience
-- Istio
+- Istio(mTLS)
 - Ingress (NGINX Ingress Controller) как внешний
 - Spring Cloud Gateway на уровне приложения
 - Resilience4j / Spring Cloud Circuit Breaker
