@@ -121,7 +121,7 @@ HARD SKILLS
 2. ТЕХНОЛОГИЧЕСКИЙ СТЕК
 Programming Languages & Tools
 - Java (LTS), ООП, Spring Framework
-- REST API, GraphQL, gRPC, WebFLux
+- REST API, GraphQL, gRPC, WebFlux
 - API versioning
 - Maven — сборка multimodule-проектов, управление зависимостями
 - Git 
@@ -182,6 +182,8 @@ Containerization and оркестрация
 - Docker, Docker Hub, Docker Compose
 - k8s (DNS Service Discovery, ConfigMap + Reloader, External Secrets Operator + Vault)
 - Helm (чарты)
+- IaC(Terraform)
+- GitOps(Argo CD)
 
 Resilience
 - Spring Cloud Circuit Breaker / Resilience4j
