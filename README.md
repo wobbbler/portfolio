@@ -148,17 +148,28 @@ Additional Tools
 - HikariCP
 
 DevOps:
-- Docker, Docker Compose, Docker Hub
-- Kubernetes (DNS Service Discovery, ConfigMap + Reloader, External Secrets Operator + Vault)
-- Helm (чарты)
-- GitOps (Argo CD)
-Service Mesh & Resilienc:
-- Ingress (NGINX Ingress Controller) 
-- Spring Cloud Gateway на уровне приложения
-- Resilience4j
+
+Docker:
+ - Docker Compose
+ - Docker Hub
+Kubernetes:
+ - kubectl
+ - Pod, Deployment, Service (DNS Service Discovery)
+ - ConfigMap
+ - Reloader (Stakater)
+ - External Secrets Operator
+ - HashiCorp Vault
+ - Helm (charts)
+ - Argo CD (GitOps)
+
+Service Mesh & Resilience:
+ - NGINX Ingress Controller
+ - Spring Cloud Gateway
+ - Resilience4j
+
 CI/CD:
-- Spring Profiles
-- GitHub Actions
+ - Spring Profiles
+ - GitHub Actions
 
 Other Skills / Дополнительные компетенции
 - Работа с Linux/Windows терминалом, SSH
