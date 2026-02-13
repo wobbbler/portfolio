@@ -11,6 +11,7 @@
 - Одноглазый змей
 - Уголок джависта
 - Сорокин Павел
+- Артём Шумейко
 - Посмотри на YouTube — там всё.
 
 ЧТО СДЕЛАТЬ
@@ -152,6 +153,8 @@ DevOps:
   - Docker Hub
 - Kubernetes:
   - minicube/kubectl
+  - registr
+  - vault
 
 Service Mesh & Resilience:
  - Spring Cloud Gateway
