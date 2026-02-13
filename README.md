@@ -97,7 +97,7 @@ tg: @wobbbler
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
 Programming Languages & Tools
 - Java (LTS), ООП/SOLID принципы, Spring Framework 
-- RESTful API
+- RESTful API, WebFlux
 - API versioning
 - Maven (multimodule, управление зависимостями)
 - Git
@@ -120,7 +120,7 @@ Redis
 
 MongoDB
 -
--
+- использовал с реактивным подходом потомучто там не блокирующие операции 
 - (будет дополнено)
 
 - Caffeine (in‑memory кэш)
