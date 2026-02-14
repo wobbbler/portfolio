@@ -165,7 +165,8 @@ DevOps:
   - создавать и понимать Deployment, Service, ingress, configMap/secret...
   - организация Namespace (dev/stage/prod)
   - настраивал Ingress с NGINX для доступа по доменному имени...
-  - PersistencVolume
+  - PersistentVolumeClaim
+  - и т.д с dashboard то что слева
 
 CI/CD:
  - Spring Profiles
