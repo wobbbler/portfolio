@@ -104,7 +104,7 @@ Programming Languages & Tools
 
 Documentation
 - SpringDoc OpenAPI, Swagger UI
-- contract first 
+- swagger contract first 
 - JavaDoc
 
 Databases & Caching
@@ -127,10 +127,10 @@ MongoDB
   
 Apache Kafka
 -
--
+- 
 - (будет дополнено)
 
-Spring security 
+Spring security ?
 - Basic, JWT(идентификация, аутентификация, авторизация)
 - OAuth 2.0, Keycloak
 
@@ -142,25 +142,30 @@ Testing
 Monitoring:
 - SLF4J/Logback (JSON → Promtail → Loki → Grafana)
 - Spring Boot Actuator + Micrometer (→ Prometheus → Grafana)
+- трейсинг ???
 - Grafana alerting
 
 Additional Tools
 - Lombok, MapStruct, Validation
-- Postman, k6 (JS‑сценарии, проверка SLA)
+- Postman, k6
 - HikariCP
-
-DevOps:
-- Docker:
-  - Docker Compose
-  - Docker Hub
-- Kubernetes:
-  - minicube/kubectl
-  - registr
-  - vault
 
 Service Mesh & Resilience:
  - Spring Cloud Gateway
  - Resilience4j
+   
+DevOps:
+- Docker:
+  - оптимизация сборки docker file
+  - Docker Compose
+  - Docker Hub
+- Kubernetes:
+  - разворачивание контейнеров в minicube
+  - робота через dashboard/kubectl
+  - создавать и понимать Deployment, Service, ingress, configMap/secret...
+  - организация Namespace (dev/stage/prod)
+  - настраивал Ingress с NGINX для доступа по доменному имени...
+  - PersistencVolume
 
 CI/CD:
  - Spring Profiles
@@ -168,6 +173,7 @@ CI/CD:
 
 Other Skills / Дополнительные компетенции
 - Работа с Linux/Windows терминалом, SSH
+- сети линукс
 - XXX задач на Codewars/LeetCode + ссылка
 - Blind typing — XXX wpm
 - Понимание технического английского
