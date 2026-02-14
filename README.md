@@ -13,6 +13,8 @@
 - Сорокин Павел
 - Артём Шумейко
 - Eugene Suleimanov
+- Максим Добрынин
+- Мир IT с Антоном Павленко
 - Посмотри на YouTube — там всё.
 
 ЧТО СДЕЛАТЬ
@@ -95,82 +97,87 @@ tg: @wobbbler
 ────────────────────────────────
 
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
-Programming Languages & Tools
-- Java (LTS), ООП/SOLID принципы, Spring Framework 
+Programming Languages & Tools: 
+- Java (LTS), ООП, Spring Framework
+- SOLID, GoF, архитектурные паттерны.
 - RESTful API, WebFlux
 - API versioning
 - Maven (multimodule, управление зависимостями)
 - Git
 
-Documentation
+Documentation: 
 - SpringDoc OpenAPI, Swagger UI
 - swagger contract first 
 - JavaDoc
 
-Databases & Caching
+Databases & Caching: 
 - PostgreSQL / H2
 - JDBC, Hibernate, JPA
 - Оптимизация запросов, работа с реляционными данными
 - liquibase (миграции)
+- HikariCP
 
-Redis
+Redis:
 -
 -
 - (будет дополнено)
 
-MongoDB
+
+??? куда его мб секцию для кеша придумать или сгрупировать его с redis-ом гдето
+- Caffeine (in‑memory кэш)
+  
+
+MongoDB:
 -
 - использовал с реактивным подходом потомучто там не блокирующие операции 
 - (будет дополнено)
 
-- Caffeine (in‑memory кэш)
-  
-Apache Kafka
+Apache Kafka:
 -
 - 
 - (будет дополнено)
 
-Spring security ?
+Spring security: ?
 - Basic, JWT(идентификация, аутентификация, авторизация)
 - OAuth 2.0, Keycloak
 
-Testing
+Testing:
 - JUnit 5, Mockito, Spring Boot Test
 - Unit / интеграционные тесты (@SpringBootTest)
 - Testcontainers
+- k6
+- Postman
 
-Monitoring:
-- SLF4J/Logback (JSON → Promtail → Loki → Grafana)
-- Spring Boot Actuator + Micrometer (→ Prometheus → Grafana)
-- трейсинг ???
-- Grafana alerting
+full observability cycle: 
+- SLF4J/Logback JSON → Promtail → Loki → Grafana
+- Spring Boot Actuator + Micrometer → Prometheus → Grafana
+- OpenTelemetry Java Agent → OpenTelemetry Collector → Tempo → Grafana
 
-Additional Tools
-- Lombok, MapStruct, Validation
-- Postman, k6
-- HikariCP
+Additional Tools: 
+- Lombok, MapStruct, Validation, Apache Commons Lang / Guava
 
-Service Mesh & Resilience:
- - Spring Cloud Gateway
+Resilience:  
  - Resilience4j
    
-DevOps:
+DevOps: ?
 - Docker:
   - оптимизация сборки docker file
+  - multi-stage builds
   - Docker Compose
   - Docker Hub
-- Kubernetes:
+- Kubernetes: 
   - разворачивание контейнеров в minicube
   - робота через dashboard/kubectl
   - создавать и понимать Deployment, Service, ingress, configMap/secret...
   - организация Namespace (dev/stage/prod)
   - настраивал Ingress с NGINX для доступа по доменному имени...
   - PersistentVolumeClaim
+  - Helm
   - и т.д с dashboard то что слева
 
-CI/CD:
+CI/CD: ?
  - Spring Profiles
- - Jenkins
+ - GitLab CI/CD
 
 Other Skills / Дополнительные компетенции
 - Работа с Linux/Windows терминалом, SSH
