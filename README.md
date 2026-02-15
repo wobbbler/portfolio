@@ -57,6 +57,12 @@
 ЯЗЫК РЕЗЮМЕ
 - Украинский (переведу позже). Технические термины остаются на английском.
 
+ДОПОЛНИТЕЛЬНЫЕ ЗАМЕТКИ ПО РЕЗЮМЕ
+- Вместо размытого «О себе» — сразу «Java Backend Developer». Горячая часть — сверху и слева.
+- Когда смотрят резюме, ставят плюсики. Чем они весомей и больше — тем лучше.
+
+(с) Ссылка на видео по soft skills: https://www.youtube.com/watch?v=JKICGa4J-qc — помещена в НЕ РЕЗЮМЕ.
+
 ────────────────────────────────
 
 В РЕЗЮМЕ (ЧЕРНОВИК)
@@ -105,12 +111,6 @@ Programming Languages & Tools:
 - Maven (multimodule, управление зависимостями)
 - Git
 
-Reactive Stack: ?
-- WebFlux
-- Reactor
-- R2DBC
-- MongoDB Reactive
-
 Documentation: 
 - SpringDoc OpenAPI, Swagger UI
 - swagger contract first 
@@ -138,7 +138,7 @@ Apache Kafka:
 - kafka streams
 - (будет дополнено)
 
-Spring security: ?
+Spring security: 
 - Basic, JWT(идентификация, аутентификация, авторизация)
 - OAuth 2.0, Keycloak
 
@@ -160,26 +160,24 @@ Additional Tools:
 Resilience:  
  - Resilience4j
    
-DevOps: ?
-- Docker:
-  - оптимизация сборки docker file
-  - multi-stage builds
-  - Docker Compose
-  - Docker Hub
-- Kubernetes: 
-  - разворачивание контейнеров в minicube
-  - робота через dashboard/kubectl
-  - создавать и понимать Deployment, Service, ingress, configMap/secret...
-  - организация Namespace (dev/stage/prod)
-  - настраивал Ingress с NGINX для доступа по доменному имени...
-  - PersistentVolumeClaim
-  - Helm
-  - и т.д с dashboard то что слева
-- Api gateway:
-  - Spring Cloud Gateway
-  - NGINX 
-- Cloud Native:
-  - опыт работы с облаком (AWS: EKS, RDS; Yandex Cloud; GCP)
+DevOps:
+- Docker:  
+  - оптимизация Dockerfile (multi-stage builds)  
+  - Docker Compose  
+  - Docker Hub  
+- Kubernetes:  
+  - развертывание приложений в Minikube  
+  - управление через kubectl и Kubernetes Dashboard  
+  - создание и настройка Deployment, Service, Ingress, ConfigMap, Secret  
+  - организация Namespace (dev/stage/prod)  
+  - настройка Ingress с NGINX для доступа по доменному имени  
+  - работа с PersistentVolumeClaim  
+  - Helm  
+- API Gateway:  
+  - Spring Cloud Gateway  
+  - NGINX  
+- Cloud Native:  
+  - опыт работы с облачными платформами (AWS, GCP)
 
 CI/CD: 
  - Spring Profiles
@@ -204,10 +202,3 @@ SOFT SKILLS
 - Понимание контекста, умение вникать в задачу, робочих процесов
 
 ────────────────────────────────
-
-ДОПОЛНИТЕЛЬНЫЕ ЗАМЕТКИ ПО РЕЗЮМЕ
-- Вместо размытого «О себе» — сразу «Java Backend Developer». Горячая часть — сверху и слева.
-- Когда смотрят резюме, ставят плюсики. Чем они весомей и больше — тем лучше.
-
-────────────────────────────────
-(с) Ссылка на видео по soft skills: https://www.youtube.com/watch?v=JKICGa4J-qc — помещена в НЕ РЕЗЮМЕ.
