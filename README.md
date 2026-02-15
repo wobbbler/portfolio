@@ -1,84 +1,13 @@
-НЕ В РЕЗЮМЕ
+online-cv https://github.com/sharu725/online-cv потом сюда мигрируешь, всё должно быть коротко, сжато, но ёмко.
 
 ────────────────────────────────
 
-ПОДГОТОВКА К СОБЕСЕДОВАНИЮ
-- Отрепетируй все вопросы и ответы. Будь уверен, не трать время на «бэ-мэ».
-- К собеседованию надо готовиться.
-
-БЛОГЕРЫ
-- Влад Мишустин
-- Одноглазый змей
-- Уголок джависта
-- Сорокин Павел
-- Артём Шумейко
-- Eugene Suleimanov
-- Максим Добрынин
-- Мир IT с Антоном Павленко
-- Посмотри на YouTube — там всё.
-
-ЧТО СДЕЛАТЬ
-- Сравни своё резюме с другими, пойми, что учить / добавить.
-- https://www.youtube.com/watch?v=VwoD3FsJoWo — видео: резюме = реклама продукта, а не рассказ о себе.
-
-ВАЖНЫЕ ПРИНЦИПЫ
-- Правдивость.
-- Релевантность (только под вакансию).
-- Конкретика (цифры, факты).
-- Грамотность (без ошибок).
-- Удобочитаемость (чёткая структура, единый шрифт).
-
-ЧТО НЕ НУЖНО В РЕЗЮМЕ
-- Фото (если не требуется явно).
-- Личные данные (семейное положение, ИНН и пр.) — всем всё равно.
-
-СТРУКТУРА И ВОСПРИЯТИЕ
-- Лаконично, аккуратно, без ошибок.
-- 1 страница.
-- Горячие точки: сверху и слева. Низ не читают.
-- Пустое место — только обоснованно.
-- Резюме за 30 секунд должно показать, что ты подходишь.
-
-ТРИ «ПРИВРАТНИКА»
-1. HR / рекрутер — ключевые слова из вакансии.
-2. Тимлид — глубина понимания технологий, реальный опыт.
-3. Будущие коллеги — нестандартные темы (личные проекты, open-source, IT-хобби).
-
-НАВЫКИ — С ДОКАЗАТЕЛЬСТВАМИ
-- Не перечисляй всё подряд.
-- Упор на проекты и роль.
-- Будь готов ответить за каждый пункт.
-- Пиши только то, в чём уверен.
-
-ССЫЛКА НА ПОРТФОЛИО / CV
-- https://t.ly/Fa94o — ссылка на CV-формат (портфолио).
-- В резюме — лаконично, ведёт на портфолио и обратно.
-
-ЯЗЫК РЕЗЮМЕ
-- Украинский (переведу позже). Технические термины остаются на английском.
-
-ДОПОЛНИТЕЛЬНЫЕ ЗАМЕТКИ ПО РЕЗЮМЕ
-- Вместо размытого «О себе» — сразу «Java Backend Developer». Горячая часть — сверху и слева.
-- Когда смотрят резюме, ставят плюсики. Чем они весомей и больше — тем лучше.
-
-(с) Ссылка на видео по soft skills: https://www.youtube.com/watch?v=JKICGa4J-qc — помещена в НЕ РЕЗЮМЕ.
-
-
+NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler |
+Я Java Backend Developer, разрабатываю отказоустойчивый и масштабируемый backend на микросервисах... (переделаешь, это представление себя: кто ты, что делаешь, что умеешь)
 
 ────────────────────────────────
 
-В РЕЗЮМЕ (ЧЕРНОВИК)
-online-cv https://github.com/sharu725/online-cv потом сюда мигрируешь 
-всё должно быть коротко сжато но ёмко.
-
-────────────────────────────────
-
-NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler | 
-Я Java Backend Developer разрабатываю отказоустойчывый и маштобируюему backend на микросервисах... (переделаешь, это представления себя. кто ты, что делаешь, что умеешь)
-
-────────────────────────────────
-
-**ОПЫТ:**
+ОПЫТ:
 ОФОРМЛЕНИЕ ПРОЕКТА В РЕПОЗИТОРИИ
 В README опиши:
 - что реализовал (главное);
@@ -98,19 +27,24 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler |
   - и т.д. (немного, по делу).
 
 ОПЫТ (ПЕТ-ПРОЕКТЫ)
-- 1 пет проект
-- 2 пет проект
-- 3 пет проект
+- 1 пет-проект
+- 2 пет-проект
+- 3 пет-проект
+
 ────────────────────────────────
-**ТЕХНОЛОГИЧЕСКИЙ СТЕК**
-Programming Languages & Tools: 
-Java (LTS), Spring Framework, понимание SOLID, GoF и паттернов микросервисов().
+
+ТЕХНОЛОГИЧЕСКИЙ СТЕК
+
+Programming Languages & Tools:
+Java (LTS), Spring Framework, понимание SOLID, GoF и паттернов микросервисов.
 RESTful API, Maven (multimodule), Git.
 
-Security: Spring Security (JWT, OAuth2, Basic), Keycloak, CORS/CSRF, централизованная валидация токенов в микросервисах (API Gateway).
-дополнишь с сельского джависта
+Security:
+Spring Security (JWT, OAuth2, Basic), Keycloak, CORS/CSRF, централизованная валидация токенов в микросервисах (API Gateway).
+(дополнишь с канала «Сельский джавист»)
 
-DB & Caching: PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, HikariCP, Caffeine for in memory. Уверенная работа с реляционными данными, оптимизация запросов через... explain и т.д
+DB & Caching:
+PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, HikariCP, Caffeine for in-memory. Уверенная работа с реляционными данными, оптимизация запросов через... explain и т.д.
 
 Redis:
 -
@@ -118,35 +52,35 @@ Redis:
 
 MongoDB:
 -
-- использовал с реактивным подходом потомучто там не блокирующие операции 
+- использовал с реактивным подходом, потому что там неблокирующие операции
 - (будет дополнено)
 
 Apache Kafka:
-- 
+-
 - kafka streams
 - (будет дополнено)
 
-Resilience4: (ретраи и т.д чо там...)
+Resilience4j: (retries и т.д., что там...)
 
-full Observability cycle: 
+full Observability cycle:
 - логи (SLF4J/Logback -> Promtail -> Loki)
 - метрики (Actuator -> Micrometer -> Prometheus)
 - трейсинг (OpenTelemetry -> Collector -> Tempo)
 — всё в Grafana.
 
-### DevOps
-- **Docker:**  
-  – multi-stage сборки, оптимизация Dockerfile  
-  – Docker Compose, публикация образов в Docker Hub  
-- **Kubernetes:**  
-  – развертывание, управление через kubectl и Kubernetes Dashboard  
-  – создание и настройка Deployment, Service, Ingress, ConfigMap, Secret  
-  – настройка Ingress с NGINX, работа с PersistentVolumeClaim  
-  – пакетный менеджер Helm  
-- **API Gateway**: Spring Cloud Gateway, NGINX  
-- **Cloud Native**: опыт работы с AWS, GCP
+DevOps:
+- Docker:
+  – multi-stage сборки, оптимизация Dockerfile
+  – Docker Compose, публикация образов в Docker Hub
+- Kubernetes:
+  – развертывание, управление через kubectl и Kubernetes Dashboard
+  – создание и настройка Deployment, Service, Ingress, ConfigMap, Secret
+  – настройка Ingress с NGINX, работа с PersistentVolumeClaim
+  – пакетный менеджер Helm
+- API Gateway: Spring Cloud Gateway, NGINX
+- Cloud Native: опыт работы с AWS, GCP
 
-CI/CD
+CI/CD:
 - Spring Profiles, GitLab CI/CD (...)
 
 Testing:
@@ -156,16 +90,16 @@ Testing:
 - Postman
 - k6
 
-Additional Tools: 
+Additional Tools:
 - Lombok, MapStruct, Validation, Apache Commons Lang / Guava
 
-Documentation: 
-- JavaDoc, SpringDoc OpenAPI, Swagger UI/contract first 
+Documentation:
+- JavaDoc, SpringDoc OpenAPI, Swagger UI/contract first
 
-Other Skills / Дополнительные компетенции
-- IDE: IntelliJ IDEA, VS codet
+Other Skills / Дополнительные компетенции:
+- IDE: IntelliJ IDEA, VS Code
 - Уверенная работа с Linux/Windows терминалом, SSH
-- сети линукс
+- сети, Linux
 - XXX задач на Codewars/LeetCode + ссылка
 - Big O, алгоритмы и структуры данных
 - Blind typing — XXX wpm
