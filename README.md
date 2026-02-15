@@ -63,21 +63,22 @@
 
 (с) Ссылка на видео по soft skills: https://www.youtube.com/watch?v=JKICGa4J-qc — помещена в НЕ РЕЗЮМЕ.
 
+
+
 ────────────────────────────────
 
 В РЕЗЮМЕ (ЧЕРНОВИК)
+online-cv https://github.com/sharu725/online-cv потом сюда мигрируешь 
+всё должно быть коротко сжато но ёмко.
 
 ────────────────────────────────
 
-NIKITA Y.
-Java Backend Developer
-
-wobbbler9@gmail.com
-tg: @wobbbler
-Портфолио / CV: https://t.ly/Fa94o
+NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler | 
+Я Java Backend Developer разрабатываю отказоустойчывый и маштобируюему backend на микросервисах... (переделаешь, это представления себя. кто ты, что делаешь, что умеешь)
 
 ────────────────────────────────
 
+**ОПЫТ:**
 ОФОРМЛЕНИЕ ПРОЕКТА В РЕПОЗИТОРИИ
 В README опиши:
 - что реализовал (главное);
@@ -101,28 +102,15 @@ tg: @wobbbler
 - 2 пет проект
 - 3 пет проект
 ────────────────────────────────
-
-ТЕХНОЛОГИЧЕСКИЙ СТЕК
+**ТЕХНОЛОГИЧЕСКИЙ СТЕК**
 Programming Languages & Tools: 
-- Java (LTS), ООП, Spring Framework
-- SOLID, GoF, архитектурные паттерны, паттерны микросервисов.
-- RESTful API, 
-- API versioning
-- Maven (multimodule, управление зависимостями)
-- Git
+Java (LTS), Spring Framework, понимание SOLID, GoF и паттернов микросервисов().
+RESTful API, Maven (multimodule), Git.
 
-Documentation: 
-- SpringDoc OpenAPI, Swagger UI
-- swagger contract first 
-- JavaDoc
+Security: Spring Security (JWT, OAuth2, Basic), Keycloak, CORS/CSRF, централизованная валидация токенов в микросервисах (API Gateway).
+дополнишь с сельского джависта
 
-Databases & Caching: 
-- PostgreSQL / H2
-- JDBC, Hibernate, JPA
-- Оптимизация запросов, работа с реляционными данными
-- liquibase (миграции)
-- HikariCP
-- Caffeine (in‑memory кэш)
+DB & Caching: PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, HikariCP, Caffeine for in memory. Уверенная работа с реляционными данными, оптимизация запросов через... explain и т.д
 
 Redis:
 -
@@ -138,9 +126,28 @@ Apache Kafka:
 - kafka streams
 - (будет дополнено)
 
-Spring security: 
-- Basic, JWT(идентификация, аутентификация, авторизация)
-- OAuth 2.0/OpenID connect, Keycloak
+Resilience4: (ретраи и т.д чо там...)
+
+full Observability cycle: 
+- логи (SLF4J/Logback -> Promtail -> Loki)
+- метрики (Actuator -> Micrometer -> Prometheus)
+- трейсинг (OpenTelemetry -> Collector -> Tempo)
+— всё в Grafana.
+
+### DevOps
+- **Docker:**  
+  – multi-stage сборки, оптимизация Dockerfile  
+  – Docker Compose, публикация образов в Docker Hub  
+- **Kubernetes:**  
+  – развертывание, управление через kubectl и Kubernetes Dashboard  
+  – создание и настройка Deployment, Service, Ingress, ConfigMap, Secret  
+  – настройка Ingress с NGINX, работа с PersistentVolumeClaim  
+  – пакетный менеджер Helm  
+- **API Gateway**: Spring Cloud Gateway, NGINX  
+- **Cloud Native**: опыт работы с AWS, GCP
+
+CI/CD
+- Spring Profiles, GitLab CI/CD (...)
 
 Testing:
 - JUnit 5, Mockito, Spring Boot Test
@@ -149,56 +156,20 @@ Testing:
 - Postman
 - k6
 
-full observability cycle: 
-- SLF4J/Logback JSON → Promtail → Loki → Grafana
-- Spring Boot Actuator + Micrometer → Prometheus → Grafana
-- OpenTelemetry Java Agent → OpenTelemetry Collector → Tempo → Grafana
-
 Additional Tools: 
 - Lombok, MapStruct, Validation, Apache Commons Lang / Guava
 
-Resilience:  
- - Resilience4j
-   
-DevOps:
-- Docker:  
-  - оптимизация Dockerfile (multi-stage builds)  
-  - Docker Compose  
-  - Docker Hub  
-- Kubernetes:  
-  - развертывание приложений в Minikube  
-  - управление через kubectl и Kubernetes Dashboard  
-  - создание и настройка Deployment, Service, Ingress, ConfigMap, Secret  
-  - организация Namespace (dev/stage/prod)  
-  - настройка Ingress с NGINX для доступа по доменному имени  
-  - работа с PersistentVolumeClaim  
-  - Helm  
-- API Gateway:  
-  - Spring Cloud Gateway  
-  - NGINX  
-- Cloud Native:  
-  - опыт работы с облачными платформами (AWS, GCP)
-
-CI/CD: 
- - Spring Profiles
- - GitLab CI/CD 
+Documentation: 
+- JavaDoc, SpringDoc OpenAPI, Swagger UI/contract first 
 
 Other Skills / Дополнительные компетенции
 - IDE: IntelliJ IDEA, VS codet
 - Уверенная работа с Linux/Windows терминалом, SSH
 - сети линукс
 - XXX задач на Codewars/LeetCode + ссылка
+- Big O, алгоритмы и структуры данных
 - Blind typing — XXX wpm
 - Понимание технического английского
 - Языки: английский, русский, украинский
-- Big O, алгоритмы и структуры данных
-
-────────────────────────────────
-
-SOFT SKILLS
-- Scrum, работа в команде
-- Jira
-- Code review, созвоны, коммуникация
-- Понимание контекста, умение вникать в задачу, робочих процесов
 
 ────────────────────────────────
