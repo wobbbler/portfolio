@@ -175,7 +175,7 @@ DevOps: ?
 
 CI/CD: ?
  - Spring Profiles
- - GitLab CI/CD или другой инструмент неважно 
+ - GitLab CI/CD 
 
 Other Skills / Дополнительные компетенции
 - Работа с Linux/Windows терминалом, SSH
