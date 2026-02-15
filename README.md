@@ -100,7 +100,8 @@ tg: @wobbbler
 Programming Languages & Tools: 
 - Java (LTS), ООП, Spring Framework
 - SOLID, GoF, архитектурные паттерны.
-- RESTful API, WebFlux
+- RESTful API, 
+???WebFlux
 - API versioning
 - Maven (multimodule, управление зависимостями)
 - Git
