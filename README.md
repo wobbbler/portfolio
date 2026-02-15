@@ -173,6 +173,8 @@ DevOps: ?
   - PersistentVolumeClaim
   - Helm
   - и т.д с dashboard то что слева
+- Cloud Native:
+  - опыт работы с облаком (AWS: EKS, RDS; Yandex Cloud; GCP)
 
 CI/CD: ?
  - Spring Profiles
