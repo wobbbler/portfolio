@@ -140,7 +140,7 @@ Apache Kafka:
 
 Spring security: 
 - Basic, JWT(идентификация, аутентификация, авторизация)
-- OAuth 2.0, Keycloak
+- OAuth 2.0/OpenID connect, Keycloak
 
 Testing:
 - JUnit 5, Mockito, Spring Boot Test
