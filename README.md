@@ -119,7 +119,6 @@ Databases & Caching:
 
 Redis:
 -
--
 - (будет дополнено)
 
 
@@ -134,7 +133,6 @@ MongoDB:
 
 Apache Kafka:
 -
-- 
 - (будет дополнено)
 
 Spring security: ?
