@@ -99,12 +99,17 @@ tg: @wobbbler
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
 Programming Languages & Tools: 
 - Java (LTS), ООП, Spring Framework
-- SOLID, GoF, архитектурные паттерны.
+- SOLID, GoF, архитектурные паттерны, паттерны микросервисов.
 - RESTful API, 
-???WebFlux
 - API versioning
 - Maven (multimodule, управление зависимостями)
 - Git
+
+Reactive Stack: ?
+- WebFlux
+- Reactor
+- R2DBC
+- MongoDB Reactive
 
 Documentation: 
 - SpringDoc OpenAPI, Swagger UI
@@ -117,15 +122,11 @@ Databases & Caching:
 - Оптимизация запросов, работа с реляционными данными
 - liquibase (миграции)
 - HikariCP
+- Caffeine (in‑memory кэш)
 
 Redis:
 -
 - (будет дополнено)
-
-
-??? куда его мб секцию для кеша придумать или сгрупировать его с redis-ом гдето
-- Caffeine (in‑memory кэш)
-  
 
 MongoDB:
 -
@@ -133,7 +134,8 @@ MongoDB:
 - (будет дополнено)
 
 Apache Kafka:
--
+- 
+- kafka streams
 - (будет дополнено)
 
 Spring security: ?
@@ -173,15 +175,19 @@ DevOps: ?
   - PersistentVolumeClaim
   - Helm
   - и т.д с dashboard то что слева
+- Api gateway:
+  - Spring Cloud Gateway
+  - NGINX 
 - Cloud Native:
   - опыт работы с облаком (AWS: EKS, RDS; Yandex Cloud; GCP)
 
-CI/CD: ?
+CI/CD: 
  - Spring Profiles
  - GitLab CI/CD 
 
 Other Skills / Дополнительные компетенции
-- Работа с Linux/Windows терминалом, SSH
+- IDE: IntelliJ IDEA, VS codet
+- Уверенная работа с Linux/Windows терминалом, SSH
 - сети линукс
 - XXX задач на Codewars/LeetCode + ссылка
 - Blind typing — XXX wpm
