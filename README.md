@@ -145,8 +145,8 @@ Testing:
 - JUnit 5, Mockito, Spring Boot Test
 - Unit / интеграционные тесты (@SpringBootTest)
 - Testcontainers
-- k6
 - Postman
+- k6
 
 full observability cycle: 
 - SLF4J/Logback JSON → Promtail → Loki → Grafana
