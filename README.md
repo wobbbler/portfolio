@@ -90,7 +90,7 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 - кратко, без воды.
 
 СТРУКТУРА ОПИСАНИЯ В РЕЗЮМЕ:
-- Название / тематика (FoodDelivery, BookingPlatform, BankSystem)
+- Название / тематика (FoodDelivery, BookingPlatform, BankSystem...)
 - Стек: (ключевые технологии)
 - Реализовано:
   - сделал …;
@@ -98,31 +98,23 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
   - интегрировал …;
   - оркестрировал …;
   - и т.д. (немного, по делу).
-
-ОПЫТ (ПЕТ-ПРОЕКТЫ)
-- 1 пет-проект
-- 2 пет-проект
-- 3 пет-проект
-
 ---
 
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
-
 **Programming Languages & Tools:**
-Java (LTS), Spring Framework, следование и понимание SOLID, GoF и паттернов микросервисов, REST API, Maven, Git.
+Java (LTS), Spring Framework, REST API, Maven, Git. следование и понимание SOLID, GoF и паттернов микросервисов, 
 
 **Spring Security:**
 (JWT, OAuth2, Basic), Keycloak, CORS/CSRF, централизованная валидация токенов в микросервисах (API Gateway).
 (дополнишь с канала «Уголок сельского джависта»)
 
 **DB & Caching:**
-PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. Уверенная работа с реляционными данными, оптимизация запросов через...( explain и т.д. )
+PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. Уверенная работа с реляционными данными и транзакциями(ACID), оптимизация запросов.
 
 **Redis:**
 - (будет дополнено)
 
 **Apache Kafka:**
-- kafka streams
 - (будет дополнено)
 
 **Resilience4j:** (retries и т.д., что там...)
@@ -131,7 +123,7 @@ PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. 
 - логи (SLF4J/Logback -> Promtail -> Loki)
 - метрики (Actuator -> Micrometer -> Prometheus)
 - трейсинг (OpenTelemetry -> Collector -> Tempo)
-— всё в Grafana.
+— всё в Grafana + alerting
 
 **DevOps:**
 - **Docker:**
@@ -142,10 +134,9 @@ PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. 
   – создание и настройка Deployment, Service, Ingress, ConfigMap, Secret...
   – настройка Ingress с NGINX, работа с PersistentVolumeClaim, Network Policies
   – пакетный менеджер Helm
-  - GitOps (ArgoCD)
   - Kubernetes Operators
+  - GitOps (ArgoCD)
 - **API Gateway:** Spring Cloud Gateway, NGINX
-- **Cloud Native:** опыт работы с AWS(...)
 
 **CI/CD:**
 - Spring Profiles, GitHub Actions (...)
@@ -161,7 +152,7 @@ PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. 
 - Lombok, MapStruct, Validation, Apache Commons Lang / Guava
 - JavaDoc, SpringDoc OpenAPI, Swagger UI/contract first
 
-**Other Skills / Дополнительные компетенции:**
+**Other Skills:**
 - IDE: IntelliJ IDEA, VS Code
 - Уверенная работа с Linux терминалом, SSH
 - XXX задач на Codewars/LeetCode + ссылка
