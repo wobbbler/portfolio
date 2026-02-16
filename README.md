@@ -108,60 +108,60 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
 
-Programming Languages & Tools:
-Java (LTS), Spring Framework, следование и понимание SOLID, GoF и паттернов микросервисов.
-REST API, Maven, Git.
+**Programming Languages & Tools:**
+Java (LTS), Spring Framework, следование и понимание SOLID, GoF и паттернов микросервисов, REST API, Maven, Git.
 
-Security:
-Spring Security (JWT, OAuth2, Basic), Keycloak, CORS/CSRF, централизованная валидация токенов в микросервисах (API Gateway).
+**Spring Security:**
+(JWT, OAuth2, Basic), Keycloak, CORS/CSRF, централизованная валидация токенов в микросервисах (API Gateway).
 (дополнишь с канала «Уголок сельского джависта»)
 
-DB & Caching:
-PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, HikariCP, Caffeine for in-memory сaching. Уверенная работа с реляционными данными, оптимизация запросов через... explain и т.д.
+**DB & Caching:**
+PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. Уверенная работа с реляционными данными, оптимизация запросов через...( explain и т.д. )
 
-Redis:
+**Redis:**
 - (будет дополнено)
 
-Apache Kafka:
+**Apache Kafka:**
 - kafka streams
 - (будет дополнено)
 
-Resilience4j: (retries и т.д., что там...)
+**Resilience4j:** (retries и т.д., что там...)
 
-full Observability cycle:
+**full Observability cycle:**
 - логи (SLF4J/Logback -> Promtail -> Loki)
 - метрики (Actuator -> Micrometer -> Prometheus)
 - трейсинг (OpenTelemetry -> Collector -> Tempo)
 — всё в Grafana.
 
-DevOps:
-- Docker:
+**DevOps:**
+- **Docker:**
   – multi-stage сборки, оптимизация Dockerfile
   – Docker Compose, публикация образов в Docker Hub
-- Kubernetes:
+- **Kubernetes:**
   – развертывание, управление через kubectl и Kubernetes Dashboard
   – создание и настройка Deployment, Service, Ingress, ConfigMap, Secret...
-  – настройка Ingress с NGINX, работа с PersistentVolumeClaim
+  – настройка Ingress с NGINX, работа с PersistentVolumeClaim, Network Policies
   – пакетный менеджер Helm
-  GitOps, Kubernetes Operators, Network Policies ???
-- API Gateway: Spring Cloud Gateway, NGINX
-- Cloud Native: опыт работы с AWS ???
+  - GitOps (ArgoCD)
+  - Kubernetes Operators
+- **API Gateway:** Spring Cloud Gateway, NGINX
+- **Cloud Native:** опыт работы с AWS(...)
 
-CI/CD:
+**CI/CD:**
 - Spring Profiles, GitHub Actions (...)
 
-Testing:
+**Testing:**
 - JUnit 5, Mockito, Spring Boot Test
 - Unit / интеграционные тесты (@SpringBootTest)
 - Testcontainers
 - Postman
 - k6
 
-Additional Tools and documentation:
+**Additional Tools and documentation:**
 - Lombok, MapStruct, Validation, Apache Commons Lang / Guava
 - JavaDoc, SpringDoc OpenAPI, Swagger UI/contract first
 
-Other Skills / Дополнительные компетенции:
+**Other Skills / Дополнительные компетенции:**
 - IDE: IntelliJ IDEA, VS Code
 - Уверенная работа с Linux терминалом, SSH
 - XXX задач на Codewars/LeetCode + ссылка
