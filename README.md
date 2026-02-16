@@ -148,7 +148,7 @@ DevOps:
 - Cloud Native: опыт работы с AWS ???
 
 CI/CD:
-- Spring Profiles, GitLab CI/CD (...)
+- Spring Profiles, GitHub Actions (...)
 
 Testing:
 - JUnit 5, Mockito, Spring Boot Test
