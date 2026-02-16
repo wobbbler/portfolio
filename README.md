@@ -39,23 +39,18 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler |
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
 
 Programming Languages & Tools:
-Java (LTS), Spring Framework, понимание SOLID, GoF и паттернов микросервисов.
-RESTful API, Maven (multimodule), Git.
+Java (LTS), Spring Framework, следование и понимание SOLID, GoF и паттернов микросервисов.
+REST API, Maven, Git.
 
 Security:
 Spring Security (JWT, OAuth2, Basic), Keycloak, CORS/CSRF, централизованная валидация токенов в микросервисах (API Gateway).
-(дополнишь с канала «Сельский джавист»)
+(дополнишь с канала «Уголок сельского джависта»)
 
 DB & Caching:
-PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, HikariCP, Caffeine for in-memory. Уверенная работа с реляционными данными, оптимизация запросов через... explain и т.д.
+PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, HikariCP, Caffeine for in-memory сaching. Уверенная работа с реляционными данными, оптимизация запросов через... explain и т.д.
 
 Redis:
 -
-- (будет дополнено)
-
-MongoDB:
--
-- использовал с реактивным подходом, потому что там неблокирующие операции
 - (будет дополнено)
 
 Apache Kafka:
@@ -77,11 +72,12 @@ DevOps:
   – Docker Compose, публикация образов в Docker Hub
 - Kubernetes:
   – развертывание, управление через kubectl и Kubernetes Dashboard
-  – создание и настройка Deployment, Service, Ingress, ConfigMap, Secret
+  – создание и настройка Deployment, Service, Ingress, ConfigMap, Secret...
   – настройка Ingress с NGINX, работа с PersistentVolumeClaim
   – пакетный менеджер Helm
+  GitOps, Kubernetes Operators, Network Policies ???
 - API Gateway: Spring Cloud Gateway, NGINX
-- Cloud Native: опыт работы с AWS, GCP
+- Cloud Native: опыт работы с AWS ???
 
 CI/CD:
 - Spring Profiles, GitLab CI/CD (...)
@@ -101,12 +97,9 @@ Documentation:
 
 Other Skills / Дополнительные компетенции:
 - IDE: IntelliJ IDEA, VS Code
-- Уверенная работа с Linux/Windows терминалом, SSH
-- сети, Linux
+- Уверенная работа с Linux терминалом, SSH
 - XXX задач на Codewars/LeetCode + ссылка
 - Big O, алгоритмы и структуры данных
 - Blind typing — XXX wpm
-- Понимание технического английского
-- Языки: английский, русский, украинский
-
+- Языки: русский, украинский, технический английский
 ────────────────────────────────
