@@ -139,7 +139,7 @@ PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. 
 - **API Gateway:** Spring Cloud Gateway, NGINX
 
 **CI/CD:**
-- Spring Profiles, GitHub Actions (...)
+- Spring Profiles, GitHub Actions
 
 **Testing:**
 - JUnit 5, Mockito, Spring Boot Test
