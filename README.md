@@ -131,8 +131,8 @@ PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. 
   – Docker Compose, публикация образов в Docker Hub
 - **Kubernetes:**
   – развертывание, управление через kubectl и Kubernetes Dashboard
-  – создание и настройка Deployment, Service, Ingress, ConfigMap, Secret...
-  – настройка Ingress с NGINX, работа с PersistentVolumeClaim, Network Policies
+  – создание и настройка Deployment, Service, Ingress, ConfigMap, Secret, PersistentVolumeClaim, Network Policies
+  – настройка Ingress с NGINX
   – пакетный менеджер Helm
   - Kubernetes Operators
   - GitOps (ArgoCD)
