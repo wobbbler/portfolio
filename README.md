@@ -1,11 +1,12 @@
 online-cv https://github.com/sharu725/online-cv потом сюда мигрируешь, всё должно быть коротко, сжато, но ёмко.
 
-────────────────────────────────
+---
 
-NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler |
-Я Java Backend Developer, разрабатываю отказоустойчивый и масштабируемый backend на микросервисах... (переделаешь, это представление себя: кто ты, что делаешь, что умеешь)
+NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 
-────────────────────────────────
+Я Java backend developer разрабатываю высоконагруженные, отказоустойчивые и маштабируемые системы на микросервисной архитектуре. Следую принципам чистой архитектуры и постоянно изучаю новые технологии.
+
+---
 
 ОПЫТ:
 
@@ -34,7 +35,7 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler |
 - 2 пет-проект
 - 3 пет-проект
 
-────────────────────────────────
+---
 
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
 
@@ -50,11 +51,9 @@ DB & Caching:
 PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, HikariCP, Caffeine for in-memory сaching. Уверенная работа с реляционными данными, оптимизация запросов через... explain и т.д.
 
 Redis:
--
 - (будет дополнено)
 
 Apache Kafka:
--
 - kafka streams
 - (будет дополнено)
 
@@ -89,10 +88,8 @@ Testing:
 - Postman
 - k6
 
-Additional Tools:
+Additional Tools and documentation:
 - Lombok, MapStruct, Validation, Apache Commons Lang / Guava
-
-Documentation:
 - JavaDoc, SpringDoc OpenAPI, Swagger UI/contract first
 
 Other Skills / Дополнительные компетенции:
@@ -102,4 +99,4 @@ Other Skills / Дополнительные компетенции:
 - Big O, алгоритмы и структуры данных
 - Blind typing — XXX wpm
 - Языки: русский, украинский, технический английский
-────────────────────────────────
+---
