@@ -123,7 +123,11 @@ PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. 
 - Очередь сообщений
  
 **Apache Kafka:**
-- робота и написание consumer producer, достигание идемпотентности и 
+- kafka core
+- Producer/Consumer API(идемпотентность, стратегии доставки сообщений)
+- Управление offset'ами
+- Сериализация/Десериализация (JSON, Avro + Schema Registry)
+- Обработка ошибок
 
 **full Observability cycle:**
 - логи (SLF4J/Logback -> Promtail -> Loki)
@@ -158,7 +162,7 @@ PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. 
 
 **Additional Tools and documentation:**
 - Lombok, MapStruct, Validation, Apache Commons Lang / Guava
-- JavaDoc, SpringDoc OpenAPI, Swagger UI/contract first
+- JavaDoc, SpringDoc OpenAPI, Swagger UI/contract first, AsyncAPI for  асинхронных API kafk-и
 
 **Other Skills:**
 - IDE: IntelliJ IDEA, VS Code
