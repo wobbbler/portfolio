@@ -115,18 +115,23 @@ Java (LTS), Spring Framework, REST API, Maven, Git. следование и по
 PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. Уверенная работа с реляционными данными и транзакциями(ACID), оптимизация запросов.
 
 **Redis:**
-- (будет дополнено)
+- робота с java-клиентом(Lettuce)
+- Кэширование
+- Хранение сессий
+- Распределенные блокировки
+- Счётчики и лимитеры
+- Очередь сообщений
 
 **Apache Kafka:**
-- (будет дополнено)
-
-**Resilience4j:** (retries и т.д., что там...)
+(...)
 
 **full Observability cycle:**
 - логи (SLF4J/Logback -> Promtail -> Loki)
 - метрики (Actuator -> Micrometer -> Prometheus)
 - трейсинг (OpenTelemetry -> Collector -> Tempo)
 — всё в Grafana + alerting
+
+**Resilience:** Resilience4j(CircuitBreaker, Retry, RateLimiter, Bulkhead, TimeLimiter)
 
 **DevOps:**
 - **Docker:**
@@ -137,7 +142,7 @@ PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. 
   – создание и настройка Deployment, Service, Ingress, ConfigMap, Secret, PersistentVolumeClaim, Network Policies
   – настройка Ingress с NGINX
   – пакетный менеджер Helm
-  - Kubernetes Operators
+  - Kubernetes Operators(...)
   - GitOps (ArgoCD)
 - **API Gateway:** Spring Cloud Gateway, NGINX
 
