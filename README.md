@@ -121,9 +121,9 @@ PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. 
 - Распределенные блокировки
 - Счётчики и лимитеры
 - Очередь сообщений
-
+ 
 **Apache Kafka:**
-(...)
+- робота и написание consumer producer, достигание идемпотентности и 
 
 **full Observability cycle:**
 - логи (SLF4J/Logback -> Promtail -> Loki)
