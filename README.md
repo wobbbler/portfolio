@@ -114,21 +114,30 @@ Java (LTS), Spring Framework, REST API, Maven, Git. следование и по
 **DB & Caching:**
 PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. Уверенная работа с реляционными данными и транзакциями(ACID), оптимизация запросов.
 
-**Redis:**
-- робота с java-клиентом(Lettuce)
-- Кэширование
-- Хранение сессий
-- Распределенные блокировки
-- Счётчики и лимитеры
-- Очередь сообщений
- 
-**Apache Kafka:**
-- kafka core
-- Producer/Consumer API(идемпотентность, стратегии доставки сообщений)
-- Управление offset'ами
-- Сериализация/Десериализация (JSON, Avro + Schema Registry)
-- Обработка ошибок
 
+Apache Kafka (Компактно)
+
+1. Топологии и партиционирование — ключи, расчет партиций, порядок сообщений
+2. Producer API — идемпотентность, acks, ретраи, batch, сжатие
+3. Consumer API — группы, ребалансировка, таймауты (poll, session)
+4. Offset management — авто/ручной коммит, гарантии доставки (at-least-once, exactly-once)
+5. Serialization — JSON, Avro + Schema Registry
+6. Error handling — Dead Letter Queue, retry-топики, poison pills
+7. Monitoring — lag, kafka-consumer-groups, Kafka UI, Cruise Control
+8. Kafka Connect — коннекторы (Debezium, S3, JDBC)
+
+---
+
+Redis (Компактно)
+
+1. Структуры данных — Strings, Lists, Sets, Hashes, Sorted Sets, Bitmaps, HyperLogLog
+2. Persistency — RDB (снэпшоты), AOF (лог), компромиссы
+3. High Availability — Sentinel (failover), Cluster (шардинг)
+4. Транзакции и Lua — MULTI/EXEC, EVAL (атомарные скрипты)
+5. Pub/Sub — каналы, реальное время (без персистентности)
+6. Memory management — политики eviction (LRU, TTL), maxmemory, MEMORY команды
+7. Распределенные блокировки — Redlock, таймауты
+8. Клиенты — пул соединений, pipeline, выбор драйвера
 **full Observability cycle:**
 - логи (SLF4J/Logback -> Promtail -> Loki)
 - метрики (Actuator -> Micrometer -> Prometheus)
