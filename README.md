@@ -104,19 +104,17 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
 **Programming Languages & Tools:**
-Java (LTS), Spring Framework, REST API, Maven, Git. следование и понимание SOLID, GoF и паттернов микросервисов, 
+Java (LTS), Spring Framework, REST API, Maven, Git. следование и понимание SOLID, GoF и паттернов микросервисов(...)
 
 **Spring Security:**
 (JWT, OAuth2, Basic), Keycloak, CORS/CSRF, централизованная валидация токенов в микросервисах (API Gateway).
 (дополнишь с канала «Уголок сельского джависта»)
 
 **DB & Caching:**
-PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. Уверенная работа с реляционными данными и транзакциями(ACID), оптимизация запросов.
+PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. Уверенная работа с реляционными данными и транзакциями(ACID), оптимизация запросов с помощью (...)
 
 
 Apache Kafka 
-
-
 1. Топологии и партиционирование — ключи, расчет партиций, порядок сообщений
 2. Producer API — идемпотентность, acks, ретраи, batch, сжатие
 3. Consumer API — группы, ребалансировка, таймауты (poll, session)
@@ -129,7 +127,6 @@ Apache Kafka
 ---
 
 Redis
-
 1. Структуры данных — Strings, Lists, Sets, Hashes, Sorted Sets, Bitmaps, HyperLogLog
 2. Persistency — RDB (снэпшоты), AOF (лог), компромиссы
 3. High Availability — Sentinel (failover), Cluster (шардинг)
