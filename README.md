@@ -123,7 +123,7 @@ Apache Kafka (Компактно)
 5. Serialization — JSON, Avro + Schema Registry
 6. Error handling — Dead Letter Queue, retry-топики, poison pills
 7. Monitoring — lag, kafka-consumer-groups, Kafka UI, Cruise Control
-8. Kafka Connect — коннекторы (Debezium, S3, JDBC)
+8. Kafka Connect — коннекторы (Debezium, JDBC)
 
 ---
 
