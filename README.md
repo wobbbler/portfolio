@@ -75,8 +75,7 @@ online-cv https://github.com/sharu725/online-cv потом сюда мигрир
 
 NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 
-Я Java backend developer разрабатываю высоконагруженные, отказоустойчивые и маштабируемые системы на микросервисной архитектуре. Следую принципам чистой архитектуры и постоянно изучаю новые технологии.
-
+Я Java backend developer разрабатываю высоконагруженные, отказоустойчивые и маштабируемые системы на микросервисной архитектуре. Следую принципам чистой архитектуры и постоянно изучаю новые технологии, и совершенствую в том в чём я хорошо знаю 
 ---
 
 ОПЫТ:
@@ -138,6 +137,7 @@ Redis (Компактно)
 6. Memory management — политики eviction (LRU, TTL), maxmemory, MEMORY команды
 7. Распределенные блокировки — Redlock, таймауты
 8. Клиенты — пул соединений, pipeline, выбор драйвера
+
 **full Observability cycle:**
 - логи (SLF4J/Logback -> Promtail -> Loki)
 - метрики (Actuator -> Micrometer -> Prometheus)
