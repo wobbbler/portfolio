@@ -110,8 +110,8 @@ Java (LTS), Spring Framework, REST API, Maven, Git. следование и по
 (JWT, OAuth2, Basic), Keycloak, CORS/CSRF, централизованная валидация токенов в микросервисах (API Gateway).
 (дополнишь с канала «Уголок сельского джависта»)
 
-**DB & Caching:**
-PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase, Caffeine for in-memory сaching. Уверенная работа с реляционными данными и транзакциями(ACID), оптимизация запросов с помощью (...)
+**DB:**
+PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase. Уверенная работа с реляционными данными и транзакциями(ACID), оптимизация запросов с помощью (...)
 
 
 Apache Kafka 
