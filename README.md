@@ -130,11 +130,10 @@ Redis
 1. Структуры данных — Strings, Lists, Sets, Hashes, Sorted Sets, Bitmaps, HyperLogLog
 2. Persistency — RDB (снэпшоты), AOF (лог), компромиссы
 3. High Availability — Sentinel (failover), Cluster (шардинг)
-4. Транзакции и Lua — MULTI/EXEC, EVAL (атомарные скрипты)
-5. Pub/Sub — каналы, реальное время (без персистентности)
-6. Memory management — политики eviction (LRU, TTL), maxmemory, MEMORY команды
-7. Распределенные блокировки — Redlock, таймауты
-8. Клиенты — пул соединений, pipeline, выбор драйвера
+4. Pub/Sub — каналы, реальное время (без персистентности)
+5. Memory management — политики eviction (LRU, TTL), maxmemory, MEMORY команды
+6. Распределенные блокировки — Redlock, таймауты
+7. Клиенты — пул соединений, pipeline, выбор драйвера
 
 **full Observability cycle:**
 - логи (SLF4J/Logback -> Promtail -> Loki)
