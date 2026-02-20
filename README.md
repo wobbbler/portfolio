@@ -124,8 +124,6 @@ Apache Kafka
 7. Monitoring — lag, kafka-consumer-groups, Kafka UI, Cruise Control
 8. Kafka Connect — коннекторы (Debezium, JDBC)
 
----
-
 Redis
 1. Структуры данных — Strings, Lists, Sets, Hashes, Sorted Sets, Bitmaps, HyperLogLog
 2. Persistency — RDB (снэпшоты), AOF (лог), компромиссы
