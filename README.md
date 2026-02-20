@@ -104,7 +104,7 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
 **Programming Languages & Tools:**
-Java (LTS), Spring Framework, REST API, Maven, Git. следование и понимание SOLID, GoF и паттернов микросервисов(...)
+Java (LTS), Spring Framework, REST API, Maven, Git. следование и понимание SOLID, GoF, антипаттернов и паттернов микросервисов(...)
 
 **Spring Security:**
 (JWT, OAuth2, Basic), Keycloak, CORS/CSRF, централизованная валидация токенов в микросервисах (API Gateway).
