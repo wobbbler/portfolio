@@ -104,7 +104,7 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
 **Programming Languages & Tools:**
-Java (LTS), Spring Framework, REST API, Maven, Git, GraalVM Native Image.
+Java (LTS), Spring Framework, REST API, Maven, Git
 следование и понимание SOLID, GoF, антипаттернов и паттернов микросервисов(...)
 
 **Spring Security:**
@@ -142,21 +142,17 @@ Redis
 - трейсинг (OpenTelemetry -> Collector -> Tempo)
 — всё в Grafana + alerting
 
-**Resilience:** Resilience4j(CircuitBreaker, Retry, RateLimiter, Bulkhead, TimeLimiter)
-
 **DevOps:**
 - **Docker:**
-  – multi-stage сборки, оптимизация Dockerfile
-  – Docker Compose, публикация образов в Docker Hub
+  – multi-stage сборки, оптимизация Dockerfile, Docker Compose, Docker Hub
 - **Kubernetes:**
-  – развертывание, управление через kubectl и Kubernetes Dashboard
-  – создание и настройка Deployment, Service, Ingress, ConfigMap, Secret, PersistentVolumeClaim, Network Policies
-  – настройка Ingress с NGINX
+  – развертывание, управление через kubectl
+  – создание и настройка Deployment, Service, ConfigMap, Secret, PersistentVolumeClaim, Network Policies
+  – настройка Ingress с NGINX который отвечает за инфраструктуру
   – пакетный менеджер Helm
-  - Kubernetes Operators(...)
   - GitOps (ArgoCD)
-  - Kubernetes Event-driven Autoscaling (KEDA)
-- **API Gateway:** Spring Cloud Gateway, NGINX
+  - Kubernetes Operators(...)
+- **API Gateway:** Spring Cloud Gateway для прикладной логики.
 
 **CI/CD:**
 - Spring Profiles, GitHub Actions
