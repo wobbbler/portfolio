@@ -105,7 +105,7 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
 **Programming Languages & Tools:**
 Java (LTS), Spring Framework, REST API, Maven, Git
-следование и понимание SOLID, GoF, антипаттернов и паттернов микросервисов(...)
+следование и понимание SOLID, GoF(...), антипаттернов и паттернов микросервисов(...)
 
 **Spring Security:**
 (JWT, OAuth2, Basic), Keycloak, CORS/CSRF, 
@@ -128,13 +128,14 @@ Apache Kafka
 8. Kafka Connect — коннекторы (Debezium, JDBC)
 
 Redis
-1. Структуры данных — Strings, Lists, Sets, Hashes, Sorted Sets, Bitmaps, HyperLogLog
+1. Структуры данных — Strings, Lists, Sets, Hashes, Sorted Sets, Bitmaps
 2. Persistency — RDB (снэпшоты), AOF (лог), компромиссы
 3. High Availability — Sentinel (failover), Cluster (шардинг)
 4. Pub/Sub — каналы, реальное время (без персистентности)
 5. Memory management — политики eviction (LRU, TTL), maxmemory, MEMORY команды
-6. Распределенные блокировки — Redlock, таймауты
+6. Распределенные блокировки
 7. Клиенты — пул соединений, pipeline, выбор драйвера
+8. blacklist через Redis
 
 **full Observability cycle:**
 - логи (SLF4J/Logback -> Vector -> Loki)
@@ -178,3 +179,4 @@ Redis
 ---
 
 технолгический стек вынеси кудато в низ в cv и other skilss а главное твой опыт
+тогда не будет прямых точек для удара зато будет опыт 
