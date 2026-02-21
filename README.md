@@ -139,9 +139,9 @@ Redis
 - blacklist через Redis
 
 **full Observability cycle:**
-- логи (SLF4J/Logback -> Vector -> Loki)
+- логи (SLF4J/Logback -> OpenTelemetry Collector -> Loki)
 - метрики (Actuator -> Micrometer -> Prometheus)
-- трейсинг (OpenTelemetry -> Collector -> Tempo)
+- трейсинг (OpenTelemetry (Java agent) → Collector → Tempo)
 — всё в Grafana + alerting
 
 **DevOps:**
