@@ -104,24 +104,26 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
 **Programming Languages & Tools:**
-Java (LTS), Spring Framework, REST API, Maven, Git
+Java (LTS), Spring Framework, REST API, HATEOAS, Maven, Git
 
 Design & Architecture:
-понимание антипаттернов, следование SOLID, GoF(Singleton, Factory Method / Abstract Factory, Builder. Proxy, Decorator, Adapter. Strategy, Template Method, Observer, Chain of Responsibility), и паттернов микросервисов(Saga, CQRS)
+понимание антипаттернов, следование SOLID, GoF( порождающие (Singleton, Factory Method, Abstract Factory, Builder), структурные (Proxy, Decorator, Adapter), поведенческие (Strategy, Template Method, Observer, Chain of Responsibility)), и паттернов микросервисов(Saga, CQRS)
 
 **Spring Security:**
 (JWT, OAuth2, Basic), Keycloak, CORS/CSRF, 
-централизованная валидация токенов в микросервисах (API Gateway).
+написание фильтров безопасности. централизованная валидация токенов в микросервисах (API Gateway).
 (дополнишь с канала «Уголок сельского джависта»)
 
 **DB:**
 PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase. 
 Уверенная работа с реляционными данными и транзакциями(ACID), оптимизация запросов с помощью (индексов, Explain)
+понимание как работает пул соединений (HikariCP)
 
 Apache Kafka 
 - Топологии и партиционирование — ключи, расчет партиций, порядок сообщений
 - Producer API — идемпотентность, acks, ретраи, batch, сжатие
 - Consumer API — группы, ребалансировка, таймауты (poll, session)
+- Kafka Streams / KSQL
 - Offset management — авто/ручной коммит, гарантии доставки (at-least-once, exactly-once)
 - Serialization — JSON, Avro + Schema Registry
 - Error handling — Dead Letter Queue, retry-топики, poison pills
@@ -139,7 +141,7 @@ Redis
 - blacklist через Redis
 
 **full Observability cycle:**
-- логи (SLF4J/Logback -> OpenTelemetry Collector -> Loki)
+- логи (SLF4J/Logback + MDC в формате JSON -> OpenTelemetry Collector -> Loki)
 - метрики (Actuator -> Micrometer -> Prometheus)
 - трейсинг (OpenTelemetry (Java agent) → Collector → Tempo)
 — всё в Grafana + alerting
@@ -157,10 +159,10 @@ Redis
 - **API Gateway:** Spring Cloud Gateway для управления трафиком внутри микросервисов, и прикладной бизнес-логикой и безопасностью
 
 **CI/CD:**
-- Spring Profiles, GitHub Actions
+- Spring Profiles, GitHub Actions(...)
 
 **Testing:**
-- JUnit 5, Mockito, Spring Boot Test
+- JUnit 5, Mockito, WireMock, JaCoCo, Spring Boot Test
 - Unit / интеграционные тесты (@SpringBootTest)
 - Testcontainers
 - Postman
@@ -175,7 +177,6 @@ Redis
 - Уверенная работа с Linux терминалом, SSH
 - XXX задач на Codewars/LeetCode + ссылка
 - Big O, алгоритмы и структуры данных
-- Blind typing — XXX wpm
 - Языки: русский, украинский, технический английский
 ---
 
