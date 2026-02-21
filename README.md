@@ -104,7 +104,7 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
 **Programming Languages & Tools:**
-Java (21), Spring Boot 3.x REST API, Maven, Git
+Java 21(там стрим апи, многопоточка, garbage и тд), Spring Boot 3.x REST API, Maven, Git
 
 Design & Architecture:
 понимание антипаттернов, 
