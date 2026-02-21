@@ -107,7 +107,10 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 Java (21), Spring Boot 3.x REST API, Maven, Git
 
 Design & Architecture:
-понимание антипаттернов, следование SOLID, GoF( порождающие (Singleton, Factory Method, Abstract Factory, Builder), структурные (Proxy, Decorator, Adapter), поведенческие (Strategy, Template Method, Observer, Chain of Responsibility)), и паттернов микросервисов(Saga, CQRS, Service Discovery, Circuit Breaker, Database per Service, Event Sourcing)
+понимание антипаттернов, 
+следование SOLID, 
+GoF( порождающие (Singleton, Factory Method, Abstract Factory, Builder), структурные (Proxy, Decorator, Adapter), поведенческие (Strategy, Template Method, Observer, Chain of Responsibility)), 
+и паттернов микросервисов(Saga, CQRS, Service Discovery, Circuit Breaker, Database per Service, Event Sourcing)
 
 **Spring Security:**
 (JWT, OAuth2, Basic), Keycloak, CORS/CSRF, 
@@ -117,20 +120,20 @@ Design & Architecture:
 **DB:**
 PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase. 
 Уверенная работа с реляционными данными и транзакциями(ACID), оптимизация запросов с помощью (индексов, Explain)
-понимание как работает пул соединений (HikariCP), Hibernate кэш L1/2
+понимание как работает: пул соединений (HikariCP), Hibernate кэш L1/2
 
-Apache Kafka (исправленная версия):
+Apache Kafka:
     Топологии и партиционирование — ключи, расчет партиций, порядок сообщений
     Producer API — идемпотентность, транзакционные продюсеры, acks, ретраи, batch, сжатие
     Consumer API — группы, ребалансировка, таймауты (poll, session), exactly-once семантика (isolation.level=read_committed)
     Security — SSL/TLS, SASL, ACL
-    Kafka Streams
-    KSQL
     Offset management — авто/ручной коммит, гарантии доставки (at-least-once, exactly-once)
     Serialization — JSON, Avro + Schema Registry
     Error handling — Dead Letter Queue, retry-топики, poison pills
     Monitoring — lag, kafka-consumer-groups, Kafka UI, Cruise Control, Kafka Lag Exporter, Burrow
     Kafka Connect — коннекторы (Debezium, JDBC)
+    Kafka Streams
+    KSQL
 
     
 Redis
@@ -165,7 +168,7 @@ full Observability cycle:
 - **API Gateway:** Spring Cloud Gateway для управления трафиком внутри микросервисов, и прикладной бизнес-логикой и безопасностью
 
 **CI/CD:**
-- Spring Profiles, GitHub Actions(...)
+- Spring Profiles, GitHub Actions(CI-пайплайны, Кэшировать зависимости, Публиковать артефакты, Автоматизировать релизы, Выполнять деплой (CD), Работать с секретами и переменными, Запускать матричные сборки, Отлаживать и оптимизировать workflows)
 
 **Testing:**
 - JUnit 5, Mockito, WireMock, JaCoCo, Spring Boot Test
