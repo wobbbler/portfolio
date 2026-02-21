@@ -104,10 +104,10 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
 **Programming Languages & Tools:**
-Java (LTS), Spring Framework, REST API, HATEOAS, Maven, Git
+Java (21), Spring Boot 3.x REST API, Maven, Git
 
 Design & Architecture:
-понимание антипаттернов, следование SOLID, GoF( порождающие (Singleton, Factory Method, Abstract Factory, Builder), структурные (Proxy, Decorator, Adapter), поведенческие (Strategy, Template Method, Observer, Chain of Responsibility)), и паттернов микросервисов(Saga, CQRS)
+понимание антипаттернов, следование SOLID, GoF( порождающие (Singleton, Factory Method, Abstract Factory, Builder), структурные (Proxy, Decorator, Adapter), поведенческие (Strategy, Template Method, Observer, Chain of Responsibility)), и паттернов микросервисов(Saga, CQRS, Service Discovery, Circuit Breaker, Database per Service, Event Sourcing)
 
 **Spring Security:**
 (JWT, OAuth2, Basic), Keycloak, CORS/CSRF, 
@@ -117,19 +117,22 @@ Design & Architecture:
 **DB:**
 PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase. 
 Уверенная работа с реляционными данными и транзакциями(ACID), оптимизация запросов с помощью (индексов, Explain)
-понимание как работает пул соединений (HikariCP)
+понимание как работает пул соединений (HikariCP), Hibernate кэш L1/2
 
-Apache Kafka 
-- Топологии и партиционирование — ключи, расчет партиций, порядок сообщений
-- Producer API — идемпотентность, acks, ретраи, batch, сжатие
-- Consumer API — группы, ребалансировка, таймауты (poll, session)
-- Kafka Streams / KSQL
-- Offset management — авто/ручной коммит, гарантии доставки (at-least-once, exactly-once)
-- Serialization — JSON, Avro + Schema Registry
-- Error handling — Dead Letter Queue, retry-топики, poison pills
-- Monitoring — lag, kafka-consumer-groups, Kafka UI, Cruise Control
-- Kafka Connect — коннекторы (Debezium, JDBC)
+Apache Kafka (исправленная версия):
+    Топологии и партиционирование — ключи, расчет партиций, порядок сообщений
+    Producer API — идемпотентность, транзакционные продюсеры, acks, ретраи, batch, сжатие
+    Consumer API — группы, ребалансировка, таймауты (poll, session), exactly-once семантика (isolation.level=read_committed)
+    Security — SSL/TLS, SASL, ACL
+    Kafka Streams
+    KSQL
+    Offset management — авто/ручной коммит, гарантии доставки (at-least-once, exactly-once)
+    Serialization — JSON, Avro + Schema Registry
+    Error handling — Dead Letter Queue, retry-топики, poison pills
+    Monitoring — lag, kafka-consumer-groups, Kafka UI, Cruise Control, Kafka Lag Exporter, Burrow
+    Kafka Connect — коннекторы (Debezium, JDBC)
 
+    
 Redis
 - Структуры данных — Strings, Lists, Sets, Hashes, Sorted Sets, Bitmaps
 - Persistency — RDB (снэпшоты), AOF (лог), компромиссы
@@ -139,23 +142,26 @@ Redis
 - Распределенные блокировки
 - Клиенты — пул соединений, pipeline, выбор драйвера
 - blacklist через Redis
+- Redis Stack (модули RediSearch, RedisJSON)
 
-**full Observability cycle:**
-- логи (SLF4J/Logback + MDC в формате JSON -> OpenTelemetry Collector -> Loki)
-- метрики (Actuator -> Micrometer -> Prometheus)
-- трейсинг (OpenTelemetry (Java agent) → Collector → Tempo)
-— всё в Grafana + alerting
+full Observability cycle:
+    логи: SLF4J/Logback + MDC (traceId) в JSON → OpenTelemetry Collector → Loki
+    метрики: Actuator, Micrometer, Kubernetes (kube-state-metrics, metrics-server, Node Exporter) → Prometheus
+    трейсинг: OpenTelemetry Java agent → Collector → Tempo (семплинг)
+    корреляция: traceId в MDC связывает логи и трейсы
+    — всё в Grafana + alerting
 
 **DevOps:**
 - **Docker:**
   – multi-stage сборки, оптимизация Dockerfile, Docker Compose, Docker Hub
 - **Kubernetes:**
   – развертывание, управление через kubectl
-  – создание и настройка Deployment, Service, ConfigMap, Secret, PersistentVolumeClaim, Network Policies
+  – создание и настройка Deployment, Service, ConfigMap, Secret, PV/PVC, Network Policies
   – настройка Ingress с NGINX (Базовая маршрутизация, Работа с трафиком (аннотации), Безопасность и TLS, Canary deployments, Стейкинг сессий, Rate Limiting)
   – пакетный менеджер Helm
   - GitOps (ArgoCD)
   - Kubernetes Operators(Cert-Manager, использование готовых\написание своих)
+  - Service Mesh: Istio  
 - **API Gateway:** Spring Cloud Gateway для управления трафиком внутри микросервисов, и прикладной бизнес-логикой и безопасностью
 
 **CI/CD:**
@@ -169,7 +175,7 @@ Redis
 - k6
 
 **Additional Tools and documentation:**
-- Lombok, MapStruct, Validation, Apache Commons Lang / Guava
+- Lombok, MapStruct, Validation, Apache Commons Lang / Guava, SonarQube, OpenAPI Generator
 - JavaDoc, SpringDoc OpenAPI, Swagger UI/contract first, AsyncAPI for асинхронных API kafk-и
 
 **Other Skills:**
