@@ -104,7 +104,7 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
 **Programming Languages & Tools:**
-Java (LTS), Spring Framework, REST API, Maven, Git. 
+Java (LTS), Spring Framework, REST API, Maven, Git, GraalVM Native Image.
 следование и понимание SOLID, GoF, антипаттернов и паттернов микросервисов(...)
 
 **Spring Security:**
@@ -137,7 +137,7 @@ Redis
 7. Клиенты — пул соединений, pipeline, выбор драйвера
 
 **full Observability cycle:**
-- логи (SLF4J/Logback -> Promtail -> Loki)
+- логи (SLF4J/Logback -> Vector -> Loki)
 - метрики (Actuator -> Micrometer -> Prometheus)
 - трейсинг (OpenTelemetry -> Collector -> Tempo)
 — всё в Grafana + alerting
@@ -155,6 +155,7 @@ Redis
   – пакетный менеджер Helm
   - Kubernetes Operators(...)
   - GitOps (ArgoCD)
+  - Kubernetes Event-driven Autoscaling (KEDA)
 - **API Gateway:** Spring Cloud Gateway, NGINX
 
 **CI/CD:**
