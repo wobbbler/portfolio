@@ -105,7 +105,9 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 ТЕХНОЛОГИЧЕСКИЙ СТЕК
 **Programming Languages & Tools:**
 Java (LTS), Spring Framework, REST API, Maven, Git
-следование и понимание SOLID, GoF(...), антипаттернов и паттернов микросервисов(...)
+
+Design & Architecture:
+понимание антипаттернов, следование SOLID, GoF(Singleton, Factory Method / Abstract Factory, Builder. Proxy, Decorator, Adapter. Strategy, Template Method, Observer, Chain of Responsibility), и паттернов микросервисов(Saga, CQRS)
 
 **Spring Security:**
 (JWT, OAuth2, Basic), Keycloak, CORS/CSRF, 
@@ -114,28 +116,27 @@ Java (LTS), Spring Framework, REST API, Maven, Git
 
 **DB:**
 PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase. 
-Уверенная работа с реляционными данными и транзакциями(ACID), оптимизация запросов с помощью (...)
-
+Уверенная работа с реляционными данными и транзакциями(ACID), оптимизация запросов с помощью (индексов, Explain)
 
 Apache Kafka 
-1. Топологии и партиционирование — ключи, расчет партиций, порядок сообщений
-2. Producer API — идемпотентность, acks, ретраи, batch, сжатие
-3. Consumer API — группы, ребалансировка, таймауты (poll, session)
-4. Offset management — авто/ручной коммит, гарантии доставки (at-least-once, exactly-once)
-5. Serialization — JSON, Avro + Schema Registry
-6. Error handling — Dead Letter Queue, retry-топики, poison pills
-7. Monitoring — lag, kafka-consumer-groups, Kafka UI, Cruise Control
-8. Kafka Connect — коннекторы (Debezium, JDBC)
+- Топологии и партиционирование — ключи, расчет партиций, порядок сообщений
+- Producer API — идемпотентность, acks, ретраи, batch, сжатие
+- Consumer API — группы, ребалансировка, таймауты (poll, session)
+- Offset management — авто/ручной коммит, гарантии доставки (at-least-once, exactly-once)
+- Serialization — JSON, Avro + Schema Registry
+- Error handling — Dead Letter Queue, retry-топики, poison pills
+- Monitoring — lag, kafka-consumer-groups, Kafka UI, Cruise Control
+- Kafka Connect — коннекторы (Debezium, JDBC)
 
 Redis
-1. Структуры данных — Strings, Lists, Sets, Hashes, Sorted Sets, Bitmaps
-2. Persistency — RDB (снэпшоты), AOF (лог), компромиссы
-3. High Availability — Sentinel (failover), Cluster (шардинг)
-4. Pub/Sub — каналы, реальное время (без персистентности)
-5. Memory management — политики eviction (LRU, TTL), maxmemory, MEMORY команды
-6. Распределенные блокировки
-7. Клиенты — пул соединений, pipeline, выбор драйвера
-8. blacklist через Redis
+- Структуры данных — Strings, Lists, Sets, Hashes, Sorted Sets, Bitmaps
+- Persistency — RDB (снэпшоты), AOF (лог), компромиссы
+- High Availability — Sentinel (failover), Cluster (шардинг)
+- Pub/Sub — каналы, реальное время (без персистентности)
+- Memory management — политики eviction (LRU, TTL), maxmemory, MEMORY команды
+- Распределенные блокировки
+- Клиенты — пул соединений, pipeline, выбор драйвера
+- blacklist через Redis
 
 **full Observability cycle:**
 - логи (SLF4J/Logback -> Vector -> Loki)
@@ -149,11 +150,11 @@ Redis
 - **Kubernetes:**
   – развертывание, управление через kubectl
   – создание и настройка Deployment, Service, ConfigMap, Secret, PersistentVolumeClaim, Network Policies
-  – настройка Ingress с NGINX который отвечает за инфраструктуру
+  – настройка Ingress с NGINX (Базовая маршрутизация, Работа с трафиком (аннотации), Безопасность и TLS, Canary deployments, Стейкинг сессий, Rate Limiting)
   – пакетный менеджер Helm
   - GitOps (ArgoCD)
-  - Kubernetes Operators(...)
-- **API Gateway:** Spring Cloud Gateway для прикладной логики.
+  - Kubernetes Operators(Cert-Manager, использование готовых\написание своих)
+- **API Gateway:** Spring Cloud Gateway для управления трафиком внутри микросервисов, и прикладной бизнес-логикой и безопасностью
 
 **CI/CD:**
 - Spring Profiles, GitHub Actions
@@ -167,7 +168,7 @@ Redis
 
 **Additional Tools and documentation:**
 - Lombok, MapStruct, Validation, Apache Commons Lang / Guava
-- JavaDoc, SpringDoc OpenAPI, Swagger UI/contract first, AsyncAPI for  асинхронных API kafk-и
+- JavaDoc, SpringDoc OpenAPI, Swagger UI/contract first, AsyncAPI for асинхронных API kafk-и
 
 **Other Skills:**
 - IDE: IntelliJ IDEA, VS Code
