@@ -153,11 +153,11 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 - Redis Stack (модули RediSearch, RedisJSON)
 
 **Full Observability cycle:**
-- логи: SLF4J/Logback + MDC (traceId) в JSON → OpenTelemetry Collector → Loki
-- метрики: Actuator, Micrometer, Kubernetes (kube-state-metrics, metrics-server, Node Exporter) → Prometheus
-- трейсинг: OpenTelemetry Java agent → Collector → Tempo (семплинг)
-- корреляция: traceId в MDC связывает логи и трейсы
-- всё в Grafana + alerting
+- **логи:** SLF4J/Logback + MDC (traceId) в JSON → Filebeat → Logstash → Elasticsearch  
+- **метрики:** Actuator / Micrometer, Kubernetes (kube-state-metrics, metrics-server, Node Exporter) → Metricbeat → Elasticsearch  
+- **трейсинг:** Elastic APM Java agent → Elastic APM Server → Elasticsearch  
+- **корреляция:** traceId в MDC связывает логи и трейсы в Kibana  
+- **визуализация и алертинг:** Kibana + Kibana Alerting / ElastAlert
 
 **DevOps:**
 - **Docker:**
@@ -165,12 +165,13 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 - **Kubernetes:**
   - развертывание, управление через kubectl
   - создание и настройка Deployment, Service, ConfigMap, Secret, PV/PVC, Network Policies
-  - настройка Ingress с NGINX (...)
+  - настройка Ingress с traefic (...)
   - пакетный менеджер Helm
   - GitOps (ArgoCD)
   - Kubernetes Operators (Cert-Manager, использование готовых / написание своих)
   - Service Mesh: Istio
 - **API Gateway:** Spring Cloud Gateway (...)
+- vault: ...
 
 **CI/CD:**
 - Spring Profiles
@@ -181,7 +182,7 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 - Unit / интеграционные тесты (@SpringBootTest)
 - Testcontainers
 - Postman
-- k6
+- wrk2
 
 **Additional Tools and documentation:**
 - Lombok, MapStruct, Validation, Apache Commons Lang / Guava, SonarQube, OpenAPI Generator
