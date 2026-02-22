@@ -102,73 +102,76 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
   - и т.д. (немного, по делу).
 ---
 
-ТЕХНОЛОГИЧЕСКИЙ СТЕК
-**Programming Languages & Tools:**
-Java 21, Spring Boot 3.x REST API, Maven, Git
 
-Design & Architecture:
-понимание антипаттернов, 
-следование SOLID, 
-GoF( порождающие (Singleton, Factory Method, Abstract Factory, Builder), структурные (Proxy, Decorator, Adapter), поведенческие (Strategy, Template Method, Observer, Chain of Responsibility)), 
-и паттернов микросервисов(Saga, CQRS, Service Discovery, Circuit Breaker, Database per Service, Event Sourcing)
+**ТЕХНОЛОГИЧЕСКИЙ СТЕК**
+**Programming Languages & Tools:**
+- Java 21, Spring Boot 3.x REST API, Maven, Git
+
+**Design & Architecture:**
+- понимание антипаттернов
+- следование: SOLID
+- GoF: порождающие (Singleton, Factory Method, Abstract Factory, Builder), структурные (Proxy, Decorator, Adapter), поведенческие (Strategy, Template Method, Observer, Chain of Responsibility)
+- паттерны микросервисов: Saga, CQRS, API Gateway
 
 **Spring Security:**
-(JWT, OAuth2, Basic), Keycloak, CORS/CSRF, 
-написание фильтров безопасности. централизованная валидация токенов в микросервисах (API Gateway).
-(дополнишь с канала «Уголок сельского джависта»)
+- JWT, OAuth2, Basic
+- Keycloak
+- CORS/CSRF
+- написание фильтров безопасности
+- централизованная валидация токенов в микросервисах (Spring API Gateway)
+- (дополнишь с канала «Уголок сельского джависта»)
 
 **DB:**
-PostgreSQL/H2, Hibernate/JPA, JDBC, Liquibase. 
-Уверенная работа с реляционными данными и транзакциями(ACID), оптимизация запросов с помощью (индексов, Explain)
-понимание как работает: пул соединений (HikariCP), Hibernate кэш L1/2
+- PostgreSQL / H2
+- Hibernate / JPA, JDBC, Liquibase
+- уверенная работа с реляционными данными и транзакциями (ACID)
+- оптимизация запросов с помощью индексов, EXPLAIN
+- понимание как работает: пул соединений (HikariCP), Hibernate кэш L1/L2
 
-Apache Kafka:
-    Топологии и партиционирование — ключи, расчет партиций, порядок сообщений
-    Producer API — идемпотентность, транзакционные продюсеры, acks, ретраи, batch, сжатие
-    Consumer API — группы, ребалансировка, таймауты (poll, session), exactly-once семантика (isolation.level=read_committed)
-    Security — SSL/TLS, SASL, ACL
-    Offset management — авто/ручной коммит, гарантии доставки (at-least-once, exactly-once)
-    Serialization — JSON, Avro + Schema Registry
-    Error handling — Dead Letter Queue, retry-топики, poison pills
-    Monitoring — lag, kafka-consumer-groups, Kafka UI, Cruise Control, Kafka Lag Exporter, Burrow
-    Kafka Connect — коннекторы (Debezium, JDBC)
-    Kafka Streams
-    KSQL
+**Apache Kafka:**
+- Топологии и партиционирование — ключи, расчет партиций, порядок сообщений
+- Producer API — идемпотентность, транзакционные продюсеры, acks, ретраи, batch, сжатие
+- Consumer API — группы, ребалансировка, таймауты (poll, session), exactly-once семантика (isolation.level=read_committed)
+- Offset management — авто/ручной коммит, гарантии доставки (at-least-once, exactly-once)
+- Serialization — JSON, Avro + Schema Registry
+- Error handling — Dead Letter Queue, retry-топики, poison pills
+- Kafka Connect — коннекторы (Debezium, JDBC)
+- Kafka Streams
 
-    
-Redis
+**Redis:**
 - Структуры данных — Strings, Lists, Sets, Hashes, Sorted Sets, Bitmaps
 - Persistency — RDB (снэпшоты), AOF (лог), компромиссы
 - High Availability — Sentinel (failover), Cluster (шардинг)
 - Pub/Sub — каналы, реальное время (без персистентности)
 - Memory management — политики eviction (LRU, TTL), maxmemory, MEMORY команды
 - Распределенные блокировки
-- Клиенты — пул соединений, pipeline, выбор драйвера
+- Клиенты (Lettuce), пул соединений, pipeline, выбор драйвера
 - blacklist через Redis
 - Redis Stack (модули RediSearch, RedisJSON)
 
-full Observability cycle:
-    логи: SLF4J/Logback + MDC (traceId) в JSON → OpenTelemetry Collector → Loki
-    метрики: Actuator, Micrometer, Kubernetes (kube-state-metrics, metrics-server, Node Exporter) → Prometheus
-    трейсинг: OpenTelemetry Java agent → Collector → Tempo (семплинг)
-    корреляция: traceId в MDC связывает логи и трейсы
-    — всё в Grafana + alerting
+**Full Observability cycle:**
+- логи: SLF4J/Logback + MDC (traceId) в JSON → OpenTelemetry Collector → Loki
+- метрики: Actuator, Micrometer, Kubernetes (kube-state-metrics, metrics-server, Node Exporter) → Prometheus
+- трейсинг: OpenTelemetry Java agent → Collector → Tempo (семплинг)
+- корреляция: traceId в MDC связывает логи и трейсы
+- всё в Grafana + alerting
 
 **DevOps:**
 - **Docker:**
-  – multi-stage сборки, оптимизация Dockerfile, Docker Compose, Docker Hub
+  - multi-stage сборки, оптимизация Dockerfile, Docker Compose, Docker Hub
 - **Kubernetes:**
-  – развертывание, управление через kubectl
-  – создание и настройка Deployment, Service, ConfigMap, Secret, PV/PVC, Network Policies
-  – настройка Ingress с NGINX (Базовая маршрутизация, Работа с трафиком (аннотации), Безопасность и TLS, Canary deployments, Стейкинг сессий, Rate Limiting)
-  – пакетный менеджер Helm
+  - развертывание, управление через kubectl
+  - создание и настройка Deployment, Service, ConfigMap, Secret, PV/PVC, Network Policies
+  - настройка Ingress с NGINX (Базовая маршрутизация, Работа с трафиком (аннотации), Безопасность и TLS, Canary deployments, Стейкинг сессий, Rate Limiting)
+  - пакетный менеджер Helm
   - GitOps (ArgoCD)
-  - Kubernetes Operators(Cert-Manager, использование готовых\написание своих)
-  - Service Mesh: Istio  
-- **API Gateway:** Spring Cloud Gateway для управления трафиком внутри микросервисов, и прикладной бизнес-логикой и безопасностью
+  - Kubernetes Operators (Cert-Manager, использование готовых / написание своих)
+  - Service Mesh: Istio
+- **API Gateway:** Spring Cloud Gateway (управление трафиком внутри микросервисов, прикладная бизнес-логика и безопасность)
 
 **CI/CD:**
-- Spring Profiles, GitHub Actions(CI-пайплайны, Кэшировать зависимости, Публиковать артефакты, Автоматизировать релизы, Выполнять деплой (CD), Работать с секретами и переменными, Запускать матричные сборки, Отлаживать и оптимизировать workflows)
+- Spring Profiles
+- GitHub Actions (CI-пайплайны, кэшировать зависимости, публиковать артефакты, автоматизировать релизы, выполнять деплой (CD), работать с секретами и переменными, запускать матричные сборки, отлаживать и оптимизировать workflows)
 
 **Testing:**
 - JUnit 5, Mockito, WireMock, JaCoCo, Spring Boot Test
@@ -179,7 +182,7 @@ full Observability cycle:
 
 **Additional Tools and documentation:**
 - Lombok, MapStruct, Validation, Apache Commons Lang / Guava, SonarQube, OpenAPI Generator
-- JavaDoc, SpringDoc OpenAPI, Swagger UI/contract first, AsyncAPI for асинхронных API kafk-и
+- JavaDoc, SpringDoc OpenAPI, Swagger UI / contract first, AsyncAPI для асинхронных API (Kafka)
 
 **Other Skills:**
 - IDE: IntelliJ IDEA, VS Code
