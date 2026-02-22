@@ -110,7 +110,10 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 **Design & Architecture:**
 - понимание антипаттернов
 - следование: SOLID
-- GoF: порождающие (Singleton, Factory Method, Abstract Factory, Builder), структурные (Proxy, Decorator, Adapter), поведенческие (Strategy, Template Method, Observer, Chain of Responsibility)
+- GoF:
+  - порождающие (Singleton, Factory Method, Abstract Factory, Builder)
+  - структурные (Proxy, Decorator, Adapter)
+  - поведенческие (Strategy, Template Method, Observer, Chain of Responsibility)
 - паттерны микросервисов: Saga, CQRS, API Gateway
 
 **Spring Security:**
@@ -162,16 +165,16 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 - **Kubernetes:**
   - развертывание, управление через kubectl
   - создание и настройка Deployment, Service, ConfigMap, Secret, PV/PVC, Network Policies
-  - настройка Ingress с NGINX (Базовая маршрутизация, Работа с трафиком (аннотации), Безопасность и TLS, Canary deployments, Стейкинг сессий, Rate Limiting)
+  - настройка Ingress с NGINX (...)
   - пакетный менеджер Helm
   - GitOps (ArgoCD)
   - Kubernetes Operators (Cert-Manager, использование готовых / написание своих)
   - Service Mesh: Istio
-- **API Gateway:** Spring Cloud Gateway (управление трафиком внутри микросервисов, прикладная бизнес-логика и безопасность)
+- **API Gateway:** Spring Cloud Gateway (...)
 
 **CI/CD:**
 - Spring Profiles
-- GitHub Actions (CI-пайплайны, кэшировать зависимости, публиковать артефакты, автоматизировать релизы, выполнять деплой (CD), работать с секретами и переменными, запускать матричные сборки, отлаживать и оптимизировать workflows)
+- GitHub Actions (...)
 
 **Testing:**
 - JUnit 5, Mockito, WireMock, JaCoCo, Spring Boot Test
