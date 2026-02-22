@@ -80,7 +80,7 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 
 ОПЫТ:
 
-грубо говоря твой опыт разделяется на 2 группы: петы, и стек поэтому чтобы не повторяться стек это стек, а пет проекты описывай более обобщённо, как вступление сверху только про проект. а вот внутри репозитория всё как надо расписывай
+грубо говоря твой опыт разделяется на 2 группы: петы, и стек поэтому чтобы не повторяться стек это стек, а пет проекты описывай более обобщённо, как вступление сверху только про проект. а вот внутри репозитория всё как надо расписывай типо чо он как он что выдерживает и т.д по красоте 
 
 ОФОРМЛЕНИЕ ПРОЕКТА В РЕПОЗИТОРИИ
 можно вообще в github project
@@ -100,9 +100,9 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
   - интегрировал …;
   - оркестрировал …;
   - и т.д. (немного, по делу).
+
+
 ---
-
-
 **ТЕХНОЛОГИЧЕСКИЙ СТЕК**
 **Programming Languages & Tools:**
 - Java 21, Spring Boot 3.x REST API, Maven, Git
@@ -114,10 +114,11 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
   - порождающие (Singleton, Factory Method, Abstract Factory, Builder)
   - структурные (Proxy, Decorator, Adapter)
   - поведенческие (Strategy, Template Method, Observer, Chain of Responsibility)
-- паттерны микросервисов: Saga, CQRS, API Gateway
+- Domain-Driven Design: Bounded Context, Aggregate, Value Object, Domain Events
+- паттерны микросервисов: Saga, CQRS + Event Sourcing, API Gateway
 
 **Spring Security:**
-- JWT, OAuth2, Basic
+- JWT/OAuth2, Basic Auth
 - Keycloak
 - CORS/CSRF
 - написание фильтров безопасности
@@ -157,21 +158,21 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 - **метрики:** Actuator / Micrometer, Kubernetes (kube-state-metrics, metrics-server, Node Exporter) → Metricbeat → Elasticsearch  
 - **трейсинг:** Elastic APM Java agent → Elastic APM Server → Elasticsearch  
 - **корреляция:** traceId в MDC связывает логи и трейсы в Kibana  
-- **визуализация и алертинг:** Kibana + Kibana Alerting / ElastAlert
+- **визуализация и алертинг:** Kibana + Kibana Alerting 
 
 **DevOps:**
 - **Docker:**
   - multi-stage сборки, оптимизация Dockerfile, Docker Compose, Docker Hub
 - **Kubernetes:**
   - развертывание, управление через kubectl
-  - создание и настройка Deployment, Service, ConfigMap, Secret, PV/PVC, Network Policies
-  - настройка Ingress с traefic (...)
+  - создание и настройка Deployment, Service, ConfigMap, PV/PVC, Network Policies
+  - настройка Ingress с Traefik (...)
   - пакетный менеджер Helm
   - GitOps (ArgoCD)
-  - Kubernetes Operators (Cert-Manager, использование готовых / написание своих)
+  - Kubernetes Operators (Cert-Manager, использование готовых / написание своих, External Secrets)
   - Service Mesh: Istio
 - **API Gateway:** Spring Cloud Gateway (...)
-- vault: ...
+- **secret manager**:k8s Secret, HashiCorp Vault(...) 
 
 **CI/CD:**
 - Spring Profiles
@@ -186,13 +187,14 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 
 **Additional Tools and documentation:**
 - Lombok, MapStruct, Validation, Apache Commons Lang / Guava, SonarQube, OpenAPI Generator
-- JavaDoc, SpringDoc OpenAPI, Swagger UI / contract first, AsyncAPI для асинхронных API (Kafka)
+- JavaDoc, SpringDoc OpenAPI, Swagger UI / contract first
 
 **Other Skills:**
 - IDE: IntelliJ IDEA, VS Code
 - Уверенная работа с Linux терминалом, SSH
 - XXX задач на Codewars/LeetCode + ссылка
 - Big O, алгоритмы и структуры данных
+- blind typing XX wpm
 - Языки: русский, украинский, технический английский
 ---
 
