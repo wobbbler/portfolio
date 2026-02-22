@@ -105,11 +105,11 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 ---
 **ТЕХНОЛОГИЧЕСКИЙ СТЕК**
 **Programming Languages & Tools:**
-- Java 21, Spring Boot 3.x REST API, Maven, Git
+- Java 21, Spring Boot 3.x REST API/gRPC, Maven, Git
 
 **Design & Architecture:**
 - понимание антипаттернов
-- следование: SOLID
+- Применяю: SOLID
 - GoF:
   - порождающие (Singleton, Factory Method, Abstract Factory, Builder)
   - структурные (Proxy, Decorator, Adapter)
