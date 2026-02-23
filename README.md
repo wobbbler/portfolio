@@ -1,4 +1,4 @@
-NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
+Nikita Y. | wobbbler9@gmail.com | tg: @wobbbler
 
 Я Java backend developer разрабатываю высоконагруженные, отказоустойчивые и маштабируемые системы на микросервисной архитектуре. Следую принципам чистой архитектуры и постоянно изучаю новые технологии, и совершенствуюсь в изученом 
 ---
@@ -18,7 +18,7 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
   - структурные (Proxy, Decorator, Adapter)
   - поведенческие (Strategy, Template Method, Observer, Chain of Responsibility)
 - Domain-Driven Design: Bounded Context, Aggregate, Value Object, Domain Events
-- паттерны микросервисов: Saga, CQRS + Event Sourcing, API Gateway
+- паттерны микросервисов: Saga, CQRS + Event Sourcing, API Gateway, Outbox 
 
 **Spring Security:**
 - JWT/OAuth2, Basic Auth
@@ -57,11 +57,12 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 - Redis Stack (модули RediSearch, RedisJSON)
 
 **Full Observability cycle:**
-- **логи:** SLF4J/Logback + MDC (traceId) в JSON → Filebeat → Logstash → Elasticsearch  
-- **метрики:** Actuator / Micrometer, Kubernetes (kube-state-metrics, metrics-server, Node Exporter) → Metricbeat → Elasticsearch  
-- **трейсинг:** Elastic APM Java agent → Elastic APM Server → Elasticsearch  
-- **корреляция:** traceId в MDC связывает логи и трейсы в Kibana  
-- **визуализация и алертинг:** Kibana + Kibana Alerting 
+- **логи:** SLF4J/Logback + MDC (traceId) в JSON → Promtail → Loki
+- **метрики:** Prometheus (kube-state-metrics, node-exporter, приложения через Micrometer)
+- **трейсинг:** Tempo 
+- **корреляция:** через Grafana Explore, связь логов, метрик и трейсов по лейблам
+- **визуализация и алертинг:** Grafana/Alerting
+
 
 **DevOps:**
 - **Docker:**
@@ -69,12 +70,10 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 - **Kubernetes:**
   - развертывание, управление через kubectl
   - обьекты k8s: Deployment, Service, ConfigMap, PV/PVC, Network Policies
-  - настройка Ingress с Traefik (...)
-  - пакетный менеджер Helm
+  - пакетный менеджер Helm + Kustomize 
   - GitOps (ArgoCD)
   - Kubernetes Operators (Cert-Manager, использование готовых / написание своих, External Secrets...)
-  - Service Mesh: Istio
-- **API Gateway:** Spring Cloud Gateway (...)
+  - Service Mesh: Istio для полноценного управления трафика
 - **secret manager**:k8s Secret, HashiCorp Vault(...) 
 
 **CI/CD:**
@@ -86,11 +85,11 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 - Unit / интеграционные тесты (@SpringBootTest)
 - Testcontainers
 - Postman
-- wrk2
+- wrk2, k6
 
 **Additional Tools and documentation:**
 - Lombok, MapStruct, Validation, Apache Commons Lang / Guava, SonarQube, OpenAPI Generator
-- JavaDoc, SpringDoc OpenAPI, Swagger UI / contract first
+- JavaDoc, SpringDoc OpenAPI, Swagger UI / contract first, AsyncAPI для документации событий Kafka  
 
 **Other Skills:**
 - IDE: IntelliJ IDEA, VS Code, NVIM
