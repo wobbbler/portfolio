@@ -74,7 +74,8 @@ Nikita Y. | wobbbler9@gmail.com | tg: @wobbbler
   - GitOps (ArgoCD)
   - Kubernetes Operators (Cert-Manager, использование готовых / написание своих, External Secrets...)
   - Service Mesh: Istio для полноценного управления трафика
-- **secret manager**:k8s Secret, HashiCorp Vault(...) 
+- **secret manager**:k8s Secret, HashiCorp Vault(...)
+- Уверенная работа с **Linux**
 
 **CI/CD:**
 - Spring Profiles
@@ -93,7 +94,6 @@ Nikita Y. | wobbbler9@gmail.com | tg: @wobbbler
 
 **Other Skills:**
 - IDE: IntelliJ IDEA, VS Code, NVIM
-- Уверенная работа с Linux
 - XXX задач на Codewars/LeetCode + ссылка
 - Big O, алгоритмы и структуры данных
 - blind typing XX wpm
