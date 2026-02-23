@@ -13,10 +13,7 @@ Nikita Y. | wobbbler9@gmail.com | tg: @wobbbler
 **Design & Architecture:**
 - понимание антипаттернов
 - Применяю: SOLID
-- GoF:
-  - порождающие (Singleton, Factory Method, Abstract Factory, Builder)
-  - структурные (Proxy, Decorator, Adapter)
-  - поведенческие (Strategy, Template Method, Observer, Chain of Responsibility)
+- GoF: порождающие, структурные, поведенческие
 - Domain-Driven Design: Bounded Context, Aggregate, Value Object, Domain Events
 - паттерны микросервисов: Saga, CQRS + Event Sourcing, API Gateway, Outbox 
 
