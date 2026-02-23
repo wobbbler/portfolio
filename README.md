@@ -59,6 +59,7 @@ Nikita Y. | wobbbler9@gmail.com | tg: @wobbbler
 - **трейсинг:** Tempo 
 - **корреляция:** через Grafana Explore, связь логов, метрик и трейсов по лейблам
 - **визуализация и алертинг:** Grafana/Alerting
+- JVM-инструменты (GraalVM, JFR). 
 
 
 **DevOps:**
