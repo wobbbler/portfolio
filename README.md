@@ -85,6 +85,9 @@ Nikita Y. | wobbbler9@gmail.com | tg: @wobbbler
 - Testcontainers
 - Postman
 - wrk2, k6
+- ArchUnit
+- Pact
+- Chaos Mesh
 
 **Additional Tools and documentation:**
 - Lombok, MapStruct, Validation, Apache Commons Lang / Guava, SonarQube, OpenAPI Generator
