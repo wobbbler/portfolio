@@ -105,7 +105,7 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 ---
 **ТЕХНОЛОГИЧЕСКИЙ СТЕК**
 **Programming Languages & Tools:**
-- Java 21, Spring Boot 3.x REST API/gRPC, Maven, Git
+- Java 21, Spring Boot 3.x REST API, Maven, Git
 
 **Design & Architecture:**
 - понимание антипаттернов
@@ -129,7 +129,7 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
 - PostgreSQL / H2
 - Hibernate / JPA, JDBC, Liquibase
 - уверенная работа с реляционными данными и транзакциями (ACID)
-- оптимизация запросов с помощью индексов, EXPLAIN
+- оптимизация запросов с помощью: индексов, EXPLAIN
 - понимание как работает: пул соединений (HikariCP), Hibernate кэш L1/L2
 
 **Apache Kafka:**
@@ -165,11 +165,11 @@ NIKITA Y. | wobbbler9@gmail.com | tg: @wobbbler
   - multi-stage сборки, оптимизация Dockerfile, Docker Compose, Docker Hub
 - **Kubernetes:**
   - развертывание, управление через kubectl
-  - создание и настройка Deployment, Service, ConfigMap, PV/PVC, Network Policies
+  - обьекты k8s: Deployment, Service, ConfigMap, PV/PVC, Network Policies
   - настройка Ingress с Traefik (...)
   - пакетный менеджер Helm
   - GitOps (ArgoCD)
-  - Kubernetes Operators (Cert-Manager, использование готовых / написание своих, External Secrets)
+  - Kubernetes Operators (Cert-Manager, использование готовых / написание своих, External Secrets...)
   - Service Mesh: Istio
 - **API Gateway:** Spring Cloud Gateway (...)
 - **secret manager**:k8s Secret, HashiCorp Vault(...) 
