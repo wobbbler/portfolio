@@ -78,7 +78,7 @@ Nikita Y. | wobbbler9@gmail.com | tg: @wobbbler
 
 **CI/CD:**
 - Spring Profiles
-- GitHub Actions 
+- GitHub Actions (...)
 
 **Testing:**
 - JUnit 5, Mockito, WireMock, JaCoCo, Spring Boot Test
