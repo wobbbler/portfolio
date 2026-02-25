@@ -87,6 +87,8 @@ Nikita Y. | wobbbler9@gmail.com | tg: @wobbbler
 - Pact
 - Chaos Mesh
 
+**Resilience4j**: CircuitBreaker, Retry, TimeLimiter, RateLimiter, Bulkhead. fallback-методы.
+
 **Additional Tools and documentation:**
 - Lombok, MapStruct, Validation, Apache Commons Lang / Guava, SonarQube, OpenAPI Generator, API Versioning
 - JavaDoc, SpringDoc OpenAPI, Swagger UI / contract first, AsyncAPI для документации событий Kafka  
