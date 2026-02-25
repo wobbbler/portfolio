@@ -12,10 +12,8 @@ Nikita Y. | wobbbler9@gmail.com | tg: @wobbbler
 
 **Design & Architecture:**
 - понимание антипаттернов
-- Применяю: SOLID
-- GoF: порождающие, структурные, поведенческие
-- Domain-Driven Design: Bounded Context, Aggregate, Value Object, Domain Events
-- паттерны микросервисов: Saga, CQRS + Event Sourcing, API Gateway, Outbox 
+- Применяю: SOLID. GoF: порождающие, структурные, поведенческие. Domain-Driven Design(DDD)
+- паттерны микросервисов: API Gateway, Database per Service, Способы коммуникации: синхронная через REST, асинхронная через Message Broker, Saga, CQRS
 
 **Spring Security:**
 - JWT/OAuth2, Basic Auth
@@ -90,7 +88,7 @@ Nikita Y. | wobbbler9@gmail.com | tg: @wobbbler
 - Chaos Mesh
 
 **Additional Tools and documentation:**
-- Lombok, MapStruct, Validation, Apache Commons Lang / Guava, SonarQube, OpenAPI Generator
+- Lombok, MapStruct, Validation, Apache Commons Lang / Guava, SonarQube, OpenAPI Generator, API Versioning
 - JavaDoc, SpringDoc OpenAPI, Swagger UI / contract first, AsyncAPI для документации событий Kafka  
 
 **Other Skills:**
