@@ -44,7 +44,6 @@ Java backend developer
 - Kafka Streams
 - когда освоишь напишешь более общими понятиями 
 
-
 **Redis:**
 - Структуры данных — Strings, Lists, Sets, Hashes, Sorted Sets, Bitmaps
 - Persistency — RDB (снэпшоты), AOF (лог), компромиссы
@@ -56,15 +55,6 @@ Java backend developer
 - blacklist через Redis
 - Redis Stack (модули RediSearch, RedisJSON)
 - - когда освоишь напишешь более общими понятиями 
-
-**Full Observability cycle:**
-- **логи:** SLF4J/Logback + MDC (traceId) в JSON → Promtail → Loki
-- **метрики:** Prometheus (kube-state-metrics, node-exporter, приложения через Micrometer)
-- **трейсинг:** Tempo 
-- **корреляция:** через Grafana Explore, связь логов, метрик и трейсов по лейблам
-- **визуализация и алертинг:** Grafana/Alerting
-- JVM-инструменты (GraalVM, JFR). 
-
 
 **DevOps:**
 - **Docker:**
