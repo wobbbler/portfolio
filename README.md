@@ -73,7 +73,7 @@ Java backend developer
   - Kubernetes Operators (Cert-Manager, использование готовых / написание своих, External Secrets...)
   - Service Mesh: Istio для полноценного управления трафика
 - **secret manager**:k8s Secret, HashiCorp Vault(...)
-- Уверенная работа с **Linux**
+- Уверенная работа с **Linux**(...)
 
 **CI/CD:**
 - Spring Profiles
