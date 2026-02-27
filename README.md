@@ -25,6 +25,7 @@ Java backend developer
 - (дополнишь с канала «Уголок сельского джависта»)
 
 **DB:**
+- NoSQL: mongoDB
 - MSSQL / H2
 - Hibernate / JPA, JDBC, Liquibase
 - уверенная работа с реляционными данными и транзакциями (ACID)
@@ -79,20 +80,17 @@ Java backend developer
 - GitHub Actions (...)
 
 **Testing:**
-- JUnit 5, Mockito, WireMock, JaCoCo, Spring Boot Test
+- JUnit 5, Mockito, WireMock, Spring Boot Test
 - Unit / интеграционные тесты (@SpringBootTest)
 - Testcontainers
 - Postman
-- wrk2, k6
-- ArchUnit
-- Pact
-- Chaos Mesh
+- k6  
 
 **для отказоустойчивости**
 - **Resilience4j**: CircuitBreaker, Retry, TimeLimiter, RateLimiter, Bulkhead. fallback-методы.
 
 **Additional Tools and documentation:**
-- Lombok, MapStruct, Validation, Apache Commons Lang / Guava, SonarQube, OpenAPI Generator, API Versioning
+- Lombok, Validation, Apache Commons Lang / Guava, SonarQube, OpenAPI Generator, API Versioning
 - JavaDoc, SpringDoc OpenAPI, Swagger UI / contract first, AsyncAPI для документации событий Kafka  
 
 **Other Skills:**
