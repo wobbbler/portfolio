@@ -9,28 +9,30 @@ Java backend developer
 ---
 **ТЕХНОЛОГИЧЕСКИЙ СТЕК**
 **Programming Languages & Tools:**
-- Java 21, Spring Boot 3.x, REST API, Maven, Git
+- Java, Spring, Maven, Git
 
 **Design & Architecture:**
+- REST API
 - понимание антипаттернов
 - Применяю: SOLID. GoF: порождающие, структурные, поведенческие. Domain-Driven Design(DDD)
-- паттерны микросервисов: API Gateway, Database per Service, Способы коммуникации: синхронная через REST, асинхронная через Message Broker, Saga, CQRS
+- паттерны микросервисов: API Gateway, Database per Service, Способы коммуникации: синхронная через REST, асинхронная через Message Broker. Saga, CQRS
 
 **Spring Security:**
-- JWT/OAuth2, Basic Auth
-- Keycloak
-- CORS/CSRF
-- написание фильтров безопасности
-- централизованная валидация токенов в микросервисах (Spring API Gateway)
-- (дополнишь с канала «Уголок сельского джависта»)
+...
 
 **DB:**
-- NoSQL: mongoDB
 - MSSQL / H2
 - Hibernate / JPA, JDBC, Liquibase
 - уверенная работа с реляционными данными и транзакциями (ACID)
 - оптимизация запросов с помощью: индексов, EXPLAIN
 - понимание как работает: пул соединений (HikariCP), Hibernate кэш L1/L2
+
+**NoSQL:**
+- mongoDB:
+  - ...
+- redis
+  - ...
+  - когда освоишь напишешь более общими понятиями 
 
 **Apache Kafka:**
 - Топологии и партиционирование — ключи, расчет партиций, порядок сообщений
@@ -41,6 +43,8 @@ Java backend developer
 - Error handling — Dead Letter Queue, retry-топики, poison pills
 - Kafka Connect — коннекторы (Debezium, JDBC)
 - Kafka Streams
+- когда освоишь напишешь более общими понятиями 
+
 
 **Redis:**
 - Структуры данных — Strings, Lists, Sets, Hashes, Sorted Sets, Bitmaps
@@ -52,6 +56,7 @@ Java backend developer
 - Клиенты (Lettuce), пул соединений, pipeline, выбор драйвера
 - blacklist через Redis
 - Redis Stack (модули RediSearch, RedisJSON)
+- - когда освоишь напишешь более общими понятиями 
 
 **Full Observability cycle:**
 - **логи:** SLF4J/Logback + MDC (traceId) в JSON → Promtail → Loki
@@ -87,11 +92,10 @@ Java backend developer
 - k6  
 
 **для отказоустойчивости**
-- **Resilience4j**: CircuitBreaker, Retry, TimeLimiter, RateLimiter, Bulkhead. fallback-методы.
+- **Resilience4j**: ...
 
 **Additional Tools and documentation:**
-- Lombok, Validation, Apache Commons Lang / Guava, SonarQube, OpenAPI Generator, API Versioning
-- JavaDoc, SpringDoc OpenAPI, Swagger UI / contract first, AsyncAPI для документации событий Kafka  
+Lombok, Validation, JavaDoc, SpringDoc OpenAPI & Swagger UI, OpenAPI Generator & Contract First, API Versioning, AsyncAPI
 
 **Other Skills:**
 - IDE: IntelliJ IDEA, VS Code, NVIM
