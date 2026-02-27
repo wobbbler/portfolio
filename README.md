@@ -25,7 +25,7 @@ Java backend developer
 - (дополнишь с канала «Уголок сельского джависта»)
 
 **DB:**
-- PostgreSQL / H2
+- MSSQL / H2
 - Hibernate / JPA, JDBC, Liquibase
 - уверенная работа с реляционными данными и транзакциями (ACID)
 - оптимизация запросов с помощью: индексов, EXPLAIN
