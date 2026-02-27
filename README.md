@@ -31,7 +31,8 @@ Java backend developer
   - ...
 - redis
   - ...
-  - когда освоишь напишешь более общими понятиями 
+  - когда освоишь напишешь более общими понятиями
+- ElasticSearch
 
 **Apache Kafka:**
 - Топологии и партиционирование — ключи, расчет партиций, порядок сообщений
@@ -54,7 +55,7 @@ Java backend developer
 - Клиенты (Lettuce), пул соединений, pipeline, выбор драйвера
 - blacklist через Redis
 - Redis Stack (модули RediSearch, RedisJSON)
-- - когда освоишь напишешь более общими понятиями 
+- когда освоишь напишешь более общими понятиями 
 
 **DevOps:**
 - **Docker:**
@@ -67,7 +68,7 @@ Java backend developer
   - Kubernetes Operators (Cert-Manager, использование готовых / написание своих, External Secrets...)
   - Service Mesh: Istio для полноценного управления трафика
 - **secret manager**:k8s Secret, HashiCorp Vault(...)
-- Уверенная работа с **Linux**(...)
+- Уверенная работа с **терминалом\****Linux**(...)
 
 **CI/CD:**
 - Spring Profiles
