@@ -21,7 +21,7 @@ Java backend developer
 ...
 
 **DB:**
-- JDBC, Hibernate / JPA, Liquibase, H2
+- JDBC, Hibernate / JPA, Liquibase
 - уверенная работа с реляционными данными и транзакциями (ACID)
 - оптимизация запросов с помощью: индексов, EXPLAIN
 - понимание как работает: пул соединений (HikariCP), Hibernate кэш L1/L2
