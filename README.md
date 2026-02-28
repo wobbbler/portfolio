@@ -53,17 +53,18 @@ Java backend developer
   - multi-stage сборки, оптимизация Dockerfile, Docker Compose, Docker Hub
 - **Kubernetes:**
   - развертывание, управление через kubectl
-  - обьекты k8s: Deployment, Service, ConfigMap, PV/PVC, Network Policies
+  - обьекты k8s: Deployment, Service, ConfigMap
   - пакетный менеджер Helm + Kustomize 
   - GitOps (ArgoCD)
-  - Kubernetes Operators (Cert-Manager, использование готовых / написание своих, External Secrets...)
   - Service Mesh: Istio для полноценного управления трафика
-- **secret manager**:k8s Secret, HashiCorp Vault(...)
-- Уверенная работа с **терминалом\****Linux**(...)
+- **secret manager**:k8s Secret, HashiCorp Vault
+- **Observability** - Prometheus + Grafana + Jaeger
+- Уверенная работа с терминалом **Linux**
+- Cloud — опыт с AWS
 
 **CI/CD:**
 - Spring Profiles
-- GitHub Actions (...)
+- GitHub Actions
 
 **Testing:**
 - JUnit 5, Mockito, WireMock, Spring Boot Test
@@ -72,8 +73,7 @@ Java backend developer
 - Postman
 - k6  
 
-**для отказоустойчивости**
-- **Resilience4j**: ...
+**для отказоустойчивости** - **Resilience4j**
 
 **Additional Tools and documentation:**
 Lombok, Validation, JavaDoc, SpringDoc OpenAPI & Swagger UI, OpenAPI Generator & Contract First, API Versioning, AsyncAPI
