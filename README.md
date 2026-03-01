@@ -24,7 +24,6 @@ Java backend developer
 - Hibernate / JPA, Liquibase
 - уверенная работа с реляционными данными и транзакциями (ACID), оптимизация запросов с помощью: индексов, EXPLAIN
 
-
 **Apache Kafka:**
 - Топологии и партиционирование — ключи, расчет партиций, порядок сообщений
 - Producer API — идемпотентность, транзакционные продюсеры, acks, ретраи, batch, сжатие
@@ -61,10 +60,9 @@ Java backend developer
 - **Observability** - Prometheus + Grafana + Jaeger
 - Уверенная работа с терминалом **Linux**
 - Cloud — опыт с AWS
-
-**CI/CD:**
-- Spring Profiles
-- GitHub Actions
+- **CI/CD:**
+  - Spring Profiles
+  - GitHub Actions
 
 **Testing:**
 - JUnit 5, Mockito, WireMock, Spring Boot Test
