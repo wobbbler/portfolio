@@ -21,7 +21,7 @@ Java backend developer
 ...
 
 **DB:**
-- Hibernate / JPA, Liquibase
+- Hibernate / JPA, Liquibase, H2
 - уверенная работа с реляционными данными и транзакциями (ACID), оптимизация запросов с помощью: индексов, EXPLAIN
 
 **Apache Kafka:**
@@ -50,7 +50,7 @@ Java backend developer
 **DevOps:**
 - **Docker:**
   - multi-stage сборки, оптимизация Dockerfile, Docker Compose, Docker Hub
-- **Kubernetes:**
+- **Kubernetes:** ???
   - развертывание, управление через kubectl
   - обьекты k8s: Deployment, Service, ConfigMap
   - пакетный менеджер Helm + Kustomize 
@@ -59,25 +59,21 @@ Java backend developer
 - **secret manager**:k8s Secret, HashiCorp Vault
 - **Observability** - Prometheus + Grafana + Jaeger
 - Уверенная работа с терминалом **Linux**
-- Cloud — опыт с AWS
-- **CI/CD:**
+- **CI/CD:** ???
   - Spring Profiles
   - GitHub Actions
 
 **Testing:**
-- JUnit 5, Mockito, WireMock, Spring Boot Test
+- JUnit 5, Mockito, Spring Boot Test
 - Unit / интеграционные тесты (@SpringBootTest)
 - Testcontainers
-- Postman
-- k6  
-
-**для отказоустойчивости** - **Resilience4j**
-
+- Postman, k6, JaCoCo
+  
 **Additional Tools and documentation:**
-Lombok, Validation, JavaDoc, SpringDoc OpenAPI & Swagger UI, OpenAPI Generator & Contract First, API Versioning, AsyncAPI
+Lombok, Validation, JavaDoc, OpenAPI & Contract First
 
 **Other Skills:**
-- IDE: IntelliJ IDEA, VS Code, NVIM
+- IDE: IntelliJ IDEA, VS Code
 - XXX задач на Codewars/LeetCode + ссылка
 - Big O, алгоритмы и структуры данных
 - blind typing XX wpm
